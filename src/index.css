@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-sandstone: #FAF5EE;
+  --color-warm-white: #FFF9F0;
+  --color-cream: #F5EDE0;
+  --color-maroon: #7B2D26;
+  --color-maroon-dark: #5C1F1A;
+  --color-maroon-light: #9B3D34;
+  --color-gold: #C9A84C;
+  --color-gold-light: #D4BA6A;
+  --color-gold-dark: #A88B3A;
+  --color-charcoal: #2D2A26;
+  --color-charcoal-light: #4A4540;
+  --color-stone: #8B7E6E;
+  --color-stone-light: #B5A898;
+  --color-border: #E8DFD0;
+  --color-overlay: rgba(45, 42, 38, 0.75);
+
+  /* Fonts */
+  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Shadows */
+  --shadow-card: 0 2px 16px rgba(45, 42, 38, 0.08);
+  --shadow-card-hover: 0 8px 32px rgba(45, 42, 38, 0.15);
+  --shadow-modal: 0 24px 64px rgba(45, 42, 38, 0.25);
+  --shadow-panel: -8px 0 32px rgba(45, 42, 38, 0.15);
+
+  /* Animations */
+  --animate-fade-in: fade-in 0.4s ease-out;
+  --animate-slide-up: slide-up 0.5s ease-out;
+  --animate-slide-in-right: slide-in-right 0.35s ease-out;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-in-right {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-charcoal);
+  background-color: var(--color-sandstone);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-stone-light);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-stone);
+}
+
+/* Utility classes */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, var(--color-gold), var(--color-gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-gradient-maroon {
+  background: linear-gradient(135deg, var(--color-maroon), var(--color-maroon-dark));
+}
+
+.bg-gradient-gold {
+  background: linear-gradient(135deg, var(--color-gold), var(--color-gold-dark));
+}
+
+.glass-panel {
+  background: rgba(255, 249, 240, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
