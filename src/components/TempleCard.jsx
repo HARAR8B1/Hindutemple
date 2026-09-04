@@ -27,12 +27,16 @@ export default function TempleCard({ temple, onClick }) {
       aria-label={`${t('card.viewDetails')}: ${localized.name}`}
     >
       {/* Image */}
-      <div className="relative h-52 sm:h-56 overflow-hidden">
+      <div className="relative h-52 sm:h-56 overflow-hidden bg-sandstone">
         <img
-          src={localized.image}
+          src={localized.image || '/images/temple-fallback.jpg'}
           alt={localized.name}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
           loading="lazy"
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = '/images/temple-fallback.jpg';
+          }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 

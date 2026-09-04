@@ -5,8 +5,8 @@ const AdminContext = createContext(null);
 const STORAGE_KEY = 'iraivanai_admin_settings';
 
 const defaultSettings = {
-  heroImageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Brihadeshwara_Temple%2C_Thanjavur%2C_Tamil_Nadu.jpg/1920px-Brihadeshwara_Temple%2C_Thanjavur%2C_Tamil_Nadu.jpg',
-  youtubeUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+  heroImageUrl: '/images/hero-bg.png',
+  youtubeUrl: 'https://www.youtube.com/watch?v=kYJyb8hO0QY',
   facebookUrl: 'https://www.facebook.com',
   instagramUrl: 'https://www.instagram.com',
   youtubeChannelUrl: 'https://www.youtube.com',
@@ -16,7 +16,17 @@ function loadSettings() {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored) {
-      return { ...defaultSettings, ...JSON.parse(stored) };
+      const parsed = JSON.parse(stored);
+      // Migrate old broken URLs or older defaults to new sacred artwork
+      if (
+        !parsed.heroImageUrl ||
+        parsed.heroImageUrl.includes('wikimedia.org') ||
+        parsed.heroImageUrl.includes('Brihadeshwara_Temple') ||
+        parsed.heroImageUrl === '/images/hero-temple.jpg'
+      ) {
+        parsed.heroImageUrl = defaultSettings.heroImageUrl;
+      }
+      return { ...defaultSettings, ...parsed };
     }
   } catch {
     // localStorage not available or corrupted

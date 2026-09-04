@@ -19,8 +19,8 @@
   --color-overlay: rgba(45, 42, 38, 0.75);
 
   /* Fonts */
-  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Playfair Display', 'Mukta Malar', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', 'Mukta Malar', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
   /* Shadows */
   --shadow-card: 0 2px 16px rgba(45, 42, 38, 0.08);

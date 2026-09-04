@@ -22,7 +22,11 @@ import { fetchStatus } from '../services/api';
 const adminSchema = z.object({
   heroImageUrl: z
     .string()
-    .url('Please enter a valid URL for the hero image'),
+    .min(1, 'Please enter an image URL or local path')
+    .refine(
+      (val) => val.startsWith('/') || val.startsWith('http://') || val.startsWith('https://'),
+      'Please enter a valid web URL (https://...) or local path (/...)'
+    ),
   youtubeUrl: z
     .string()
     .url('Please enter a valid YouTube video or embed URL'),
@@ -94,11 +98,11 @@ export default function AdminPanel({ isOpen, onClose }) {
 
   const handleResetToDefault = () => {
     const defaultData = {
-      heroImageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Brihadeshwara_Temple%2C_Thanjavur%2C_Tamil_Nadu.jpg/1920px-Brihadeshwara_Temple%2C_Thanjavur%2C_Tamil_Nadu.jpg',
+      heroImageUrl: '/images/hero-bg.png',
       youtubeUrl: 'https://www.youtube.com/watch?v=kYJyb8hO0QY',
       facebookUrl: 'https://www.facebook.com',
       instagramUrl: 'https://www.instagram.com',
+      youtubeChannelUrl: 'https://www.youtube.com',
     };
     reset(defaultData);
     updateSettings(defaultData);

@@ -69,11 +69,15 @@ export default function TempleModal({ temple, onClose }) {
         </button>
 
         {/* Hero Image */}
-        <div className="relative h-64 sm:h-80 md:h-96">
+        <div className="relative h-64 sm:h-80 md:h-96 bg-charcoal">
           <img
-            src={localized.image}
+            src={localized.image || '/images/temple-fallback.jpg'}
             alt={localized.name}
             className="w-full h-full object-cover"
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              e.currentTarget.src = '/images/temple-fallback.jpg';
+            }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-charcoal/90 via-charcoal/40 to-transparent" />
 

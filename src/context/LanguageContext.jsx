@@ -21,7 +21,7 @@ export function LanguageProvider({ children }) {
     } catch {
       // Ignore storage access errors
     }
-    return 'en';
+    return 'ta';
   });
 
   const setLanguage = (newLang) => {

@@ -21,9 +21,13 @@ export default function TempleGrid({ onSelectTemple }) {
         temple.name.toLowerCase().includes(query) ||
         temple.city.toLowerCase().includes(query) ||
         temple.state.toLowerCase().includes(query) ||
+        (temple.category && temple.category.toLowerCase().includes(query)) ||
+        (temple.designation && temple.designation.toLowerCase().includes(query)) ||
         (loc.name && loc.name.toLowerCase().includes(query)) ||
         (loc.city && loc.city.toLowerCase().includes(query)) ||
-        (loc.state && loc.state.toLowerCase().includes(query));
+        (loc.state && loc.state.toLowerCase().includes(query)) ||
+        (loc.category && loc.category.toLowerCase().includes(query)) ||
+        (loc.designation && loc.designation.toLowerCase().includes(query));
 
       const matchesState =
         selectedState === 'All States' || temple.state === selectedState;
