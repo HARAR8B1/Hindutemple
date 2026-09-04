@@ -18,7 +18,10 @@
  * @property {Object} translations - Localized strings for 'ta' and 'hi'
  */
 
+import jyotirlingas from './jyotirlingas';
+
 const temples = [
+  ...jyotirlingas,
   {
     id: 'brihadeeswarar',
     name: 'Brihadeeswarar Temple',

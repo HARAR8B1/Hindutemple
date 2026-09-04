@@ -5,6 +5,9 @@ export const states = [
   'All States',
   'Andhra Pradesh',
   'Gujarat',
+  'Jharkhand',
+  'Madhya Pradesh',
+  'Maharashtra',
   'Odisha',
   'Tamil Nadu',
   'Uttar Pradesh',
@@ -26,6 +29,21 @@ export const localizedStates = {
     en: 'Gujarat',
     ta: 'குஜராத்',
     hi: 'गुजरात',
+  },
+  'Jharkhand': {
+    en: 'Jharkhand',
+    ta: 'ஜார்க்கண்ட்',
+    hi: 'झारखंड',
+  },
+  'Madhya Pradesh': {
+    en: 'Madhya Pradesh',
+    ta: 'மத்தியப் பிரதேசம்',
+    hi: 'मध्य प्रदेश',
+  },
+  'Maharashtra': {
+    en: 'Maharashtra',
+    ta: 'மகாராஷ்டிரம்',
+    hi: 'महाराष्ट्र',
   },
   'Odisha': {
     en: 'Odisha',
