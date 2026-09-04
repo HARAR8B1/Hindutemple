@@ -6,7 +6,7 @@ const STORAGE_KEY = 'iraivanai_admin_settings';
 
 const defaultSettings = {
   heroImageUrl: '/images/hero-bg.png',
-  youtubeUrl: 'https://www.youtube.com/watch?v=kYJyb8hO0QY',
+  youtubeUrl: 'https://www.youtube.com/watch?v=4ZmNhljyYzU&t=845s',
   facebookUrl: 'https://www.facebook.com',
   instagramUrl: 'https://www.instagram.com',
   youtubeChannelUrl: 'https://www.youtube.com',
@@ -25,6 +25,9 @@ function loadSettings() {
         parsed.heroImageUrl === '/images/hero-temple.jpg'
       ) {
         parsed.heroImageUrl = defaultSettings.heroImageUrl;
+      }
+      if (!parsed.youtubeUrl || parsed.youtubeUrl === 'https://www.youtube.com/watch?v=kYJyb8hO0QY') {
+        parsed.youtubeUrl = defaultSettings.youtubeUrl;
       }
       return { ...defaultSettings, ...parsed };
     }
