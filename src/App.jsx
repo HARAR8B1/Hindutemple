@@ -7,6 +7,7 @@ import YouTubePlayer from './components/YouTubePlayer';
 import DivyaDesamSection from './components/DivyaDesamSection';
 import ShivaTemplesSection from './components/ShivaTemplesSection';
 import GaneshTemplesSection from './components/GaneshTemplesSection';
+import MuruganTemplesSection from './components/MuruganTemplesSection';
 import TempleCollectionsSection from './components/TempleCollectionsSection';
 import SacredCollectionsSection from './components/SacredCollectionsSection';
 import TempleGrid from './components/TempleGrid';
@@ -78,8 +79,11 @@ function MainLayout() {
         {/* Sacred Ganesh Temples */}
         <GaneshTemplesSection onSelectTemple={setSelectedTemple} />
 
+        {/* Sacred Murugan Temples */}
+        <MuruganTemplesSection onSelectTemple={setSelectedTemple} />
+
         {/* Temple Collections by deity, goddess, city, and state */}
-        <TempleCollectionsSection />
+        <TempleCollectionsSection onSelectTemple={setSelectedTemple} />
 
         {/* Pancha Bhoota and Pancha Kedar sacred collections */}
         <SacredCollectionsSection onSelectTemple={setSelectedTemple} />

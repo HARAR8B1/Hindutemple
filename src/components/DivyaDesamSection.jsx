@@ -9,7 +9,7 @@ export default function DivyaDesamSection({ onSelectTemple }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const divyaDesamTemples = divyaDesams;
-  const visibleTemples = isExpanded ? divyaDesamTemples : divyaDesamTemples.slice(0, 8);
+  const visibleTemples = isExpanded ? divyaDesamTemples : [];
 
   return (
     <section id="divya-desam" className="py-16 md:py-24 bg-warm-white">
@@ -42,15 +42,17 @@ export default function DivyaDesamSection({ onSelectTemple }) {
               </button>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {visibleTemples.map((temple) => (
-                <TempleCard
-                  key={temple.id}
-                  temple={temple}
-                  onClick={onSelectTemple}
-                />
-              ))}
-            </div>
+            {isExpanded && (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {visibleTemples.map((temple) => (
+                  <TempleCard
+                    key={temple.id}
+                    temple={temple}
+                    onClick={onSelectTemple}
+                  />
+                ))}
+              </div>
+            )}
           </>
         ) : (
           <div className="text-center py-12">

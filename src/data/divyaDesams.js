@@ -110,16 +110,16 @@ const entries = [
 ];
 
 const divyaImageSet = [
-  'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1505761671935-60e792d5a0a6?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=900&q=80',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Thanjavur_Brihadeeswarar_Temple.jpg/800px-Thanjavur_Brihadeeswarar_Temple.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Meenakshi_Amman_Temple%2C_Madurai.jpg/800px-Meenakshi_Amman_Temple%2C_Madurai.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Srirangam_Temple_Gopuram.jpg/800px-Srirangam_Temple_Gopuram.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Kanchi_Kailasanathar_temple.jpg/800px-Kanchi_Kailasanathar_temple.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Tirumala_Temple_Gopuram.jpg/800px-Tirumala_Temple_Gopuram.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Padmanabhaswamy_temple.jpg/800px-Padmanabhaswamy_temple.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Arulmigu_Sri_Ranganathaswamy_Temple_%2C_Srirangam.jpg/800px-Arulmigu_Sri_Ranganathaswamy_Temple_%2C_Srirangam.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Madurai_Meenakshi_Temple.jpg/800px-Madurai_Meenakshi_Temple.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Sri_Kalahasti_Temple.jpg/800px-Sri_Kalahasti_Temple.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Temple_%28Brihadeeswarar%29_-_Panoramio.jpg/800px-Temple_%28Brihadeeswarar%29_-_Panoramio.jpg',
 ];
 
 const divyaDesams = entries.map(([name, templeName, city, state], index) => ({

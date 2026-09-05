@@ -42,6 +42,7 @@ export default function TempleModal({ temple, onClose }) {
     Vishnu: 'bg-blue-100 text-blue-800 border-blue-200',
     Shakti: 'bg-rose-100 text-rose-800 border-rose-200',
     Ganesh: 'bg-orange-100 text-orange-800 border-orange-200',
+    Murugan: 'bg-violet-100 text-violet-800 border-violet-200',
     Other: 'bg-gray-100 text-gray-700 border-gray-200',
   };
 

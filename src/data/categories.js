@@ -76,6 +76,7 @@ export const categories = [
   'Shiva',
   'Shakti',
   'Ganesh',
+  'Murugan',
   'Other',
 ];
 
@@ -104,6 +105,11 @@ export const localizedCategories = {
     en: 'Ganesh',
     ta: 'விநாயகர்',
     hi: 'गणेश',
+  },
+  'Murugan': {
+    en: 'Murugan',
+    ta: 'முருகன்',
+    hi: 'मुरुगन',
   },
   'Other': {
     en: 'Other',

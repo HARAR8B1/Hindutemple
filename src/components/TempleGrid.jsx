@@ -2,12 +2,13 @@ import { useState, useMemo } from 'react';
 import { ExternalLink, Search, Filter, X } from 'lucide-react';
 import temples from '../data/temples';
 import ganeshTemples from '../data/ganeshTemples';
+import muruganTemples from '../data/muruganTemples';
 import { states, categories, localizedStates, localizedCategories } from '../data/categories';
 import TempleCard from './TempleCard';
 import { useLanguage } from '../context/LanguageContext';
 
 const templeCatalog = [...new Map(
-  [...temples, ...ganeshTemples].map((temple) => [temple.id, temple])
+  [...temples, ...ganeshTemples, ...muruganTemples].map((temple) => [temple.id, temple])
 ).values()];
 
 export default function TempleGrid({ onSelectTemple }) {

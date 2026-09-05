@@ -16,20 +16,20 @@ export default function Hero({ onExplore }) {
       <div className="absolute inset-0 bg-charcoal overflow-hidden">
         {/* Ambient blurred backdrop to harmonize widescreen edges */}
         <img
-          src={settings.heroImageUrl || '/images/hero-bg.png'}
+          src={settings.heroImageUrl || '/images/hero-temple.jpg'}
           alt=""
           aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover blur-2xl opacity-40 scale-125"
         />
         {/* Main sacred artwork right behind Stories Carved in Stone */}
         <img
-          src={settings.heroImageUrl || '/images/hero-bg.png'}
-          alt="Lord Shiva, Lord Vishnu, Lord Brahma, and Lord Ganesha"
+          src={settings.heroImageUrl || '/images/hero-temple.jpg'}
+          alt="Sacred temple architecture"
           className="w-full h-full object-cover object-top sm:object-center opacity-75"
           loading="eager"
           onError={(e) => {
             e.currentTarget.onerror = null;
-            e.currentTarget.src = '/images/hero-bg.png';
+            e.currentTarget.src = '/images/hero-temple.jpg';
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal/80 via-charcoal/40 to-charcoal/95" />

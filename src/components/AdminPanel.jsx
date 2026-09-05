@@ -98,8 +98,8 @@ export default function AdminPanel({ isOpen, onClose }) {
 
   const handleResetToDefault = () => {
     const defaultData = {
-      heroImageUrl: '/images/hero-bg.png',
-      youtubeUrl: 'https://www.youtube.com/watch?v=kYJyb8hO0QY',
+      heroImageUrl: '/images/hero-temple.jpg',
+      youtubeUrl: 'https://www.youtube.com/watch?v=4ZmNhljyYzU&t=845s',
       facebookUrl: 'https://www.facebook.com',
       instagramUrl: 'https://www.instagram.com',
       youtubeChannelUrl: 'https://www.youtube.com',

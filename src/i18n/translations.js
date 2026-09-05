@@ -51,6 +51,11 @@ export const translations = {
       title: 'Sacred Ganesh Temples',
       subtitle: 'Revered South Indian shrines where Lord Vinayaka is worshipped in distinctive and cherished forms.',
     },
+    muruganTemples: {
+      badge: 'Murugan Heritage',
+      title: 'Sacred Murugan Temples',
+      subtitle: 'Celebrated hill and coastal abodes of Lord Subramanya, revered for courage, wisdom, and divine grace.',
+    },
     archive: {
       badge: 'Sacred Index',
       title: 'Explore the Temple Archive',
@@ -126,7 +131,8 @@ export const translations = {
       Vishnu: 'Vishnu',
       Shiva: 'Shiva',
       Shakti: 'Shakti',
-        Ganesh: 'Ganesh',
+      Ganesh: 'Ganesh',
+      Murugan: 'Murugan',
       Other: 'Other',
     },
     states: {
@@ -190,6 +196,11 @@ export const translations = {
       badge: 'விநாயகர் திருத்தலப் பாரம்பரியம்',
       title: 'புகழ்பெற்ற விநாயகர் திருக்கோயில்கள்',
       subtitle: 'தனித்துவமான திருவுருவங்களிலும் தொன்மையான மரபுகளிலும் விநாயகர் அருள்பாலிக்கும் தென்னிந்திய திருத்தலங்கள்.',
+    },
+    muruganTemples: {
+      badge: 'முருகன் திருத்தலப் பாரம்பரியம்',
+      title: 'புகழ்பெற்ற முருகன் திருக்கோயில்கள்',
+      subtitle: 'சக்தி, ஞானம், அருள்வழி ஆகியவற்றிற்கு புகழ்பெற்ற முருகனின் மலை மற்றும் கடலோரத் தலங்கள்.',
     },
     archive: {
       badge: 'திருத்தலப் பட்டியல்',
@@ -267,6 +278,7 @@ export const translations = {
       Shiva: 'சிவன்',
       Shakti: 'சக்தி',
         Ganesh: 'விநாயகர்',
+      Murugan: 'முருகன்',
       Other: 'மற்றவை',
     },
     states: {
@@ -330,6 +342,11 @@ export const translations = {
       badge: 'विनायक विरासत',
       title: 'प्रसिद्ध गणेश मंदिर',
       subtitle: 'दक्षिण भारत के श्रद्धेय तीर्थ, जहाँ भगवान विनायक की विशिष्ट और पूजनीय रूपों में आराधना होती है।',
+    },
+    muruganTemples: {
+      badge: 'मुरुगन विरासत',
+      title: 'प्रसिद्ध मुरुगन मंदिर',
+      subtitle: 'भगवान स्कंद के पावन पर्वत और तटवर्ती धाम, जो साहस, ज्ञान और कृपा के लिए पूजे जाते हैं।',
     },
     archive: {
       badge: 'पवित्र सूची',
@@ -407,6 +424,7 @@ export const translations = {
       Shiva: 'शिव',
       Shakti: 'शक्ति',
         Ganesh: 'गणेश',
+      Murugan: 'मुरुगन',
       Other: 'अन्य',
     },
     states: {

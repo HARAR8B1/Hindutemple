@@ -2,17 +2,20 @@ import { useMemo, useState } from 'react';
 import { ChevronDown, MapPin, Sparkles, Landmark, Building2 } from 'lucide-react';
 import temples from '../data/temples';
 import ganeshTemples from '../data/ganeshTemples';
+import muruganTemples from '../data/muruganTemples';
 import divyaDesams from '../data/divyaDesams';
+import TempleCard from './TempleCard';
 
 const templeCatalog = [...new Map(
-  [...temples, ...ganeshTemples, ...divyaDesams].map((temple) => [temple.id, temple])
+  [...temples, ...ganeshTemples, ...muruganTemples, ...divyaDesams].map((temple) => [temple.id, temple])
 ).values()];
 
 const deityGroups = [
   { key: 'Shiva', label: 'Shiva', icon: Sparkles },
   { key: 'Vishnu', label: 'Vishnu', icon: Landmark },
-  { key: 'Shakti', label: 'Shakti', icon: Sparkles },
   { key: 'Ganesh', label: 'Ganesh', icon: Landmark },
+  { key: 'Murugan', label: 'Murugan', icon: Landmark },
+  { key: 'Other', label: 'Other Sacred Forms', icon: Sparkles },
 ];
 
 const goddessGroups = [
@@ -20,13 +23,14 @@ const goddessGroups = [
   { key: 'Other', label: 'Other Sacred Forms', icon: Landmark },
 ];
 
-export default function TempleCollectionsSection() {
+export default function TempleCollectionsSection({ onSelectTemple }) {
   const [expanded, setExpanded] = useState({
     deities: true,
     goddesses: true,
     cities: true,
     states: true,
   });
+  const [selectedGroups, setSelectedGroups] = useState({});
 
   const groupedData = useMemo(() => {
     const cityMap = new Map();
@@ -37,14 +41,21 @@ export default function TempleCollectionsSection() {
       stateMap.set(temple.state, (stateMap.get(temple.state) || 0) + 1);
     });
 
+    const deityCounts = Object.fromEntries(
+      deityGroups.map((group) => [group.key, templeCatalog.filter((temple) => temple.category === group.key).length])
+    );
+    const goddessCounts = Object.fromEntries(
+      goddessGroups.map((group) => [group.key, templeCatalog.filter((temple) => temple.category === group.key).length])
+    );
+
     return {
       deities: deityGroups.map((group) => ({
         ...group,
-        count: templeCatalog.filter((temple) => temple.category === group.key).length,
+        count: deityCounts[group.key] || 0,
       })),
       goddesses: goddessGroups.map((group) => ({
         ...group,
-        count: templeCatalog.filter((temple) => temple.category === group.key).length,
+        count: goddessCounts[group.key] || 0,
       })),
       cities: [...cityMap.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8).map(([city, count]) => ({ label: city, count })),
       states: [...stateMap.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8).map(([state, count]) => ({ label: state, count })),
@@ -55,22 +66,68 @@ export default function TempleCollectionsSection() {
     setExpanded((prev) => ({ ...prev, [key]: !prev[key] }));
   };
 
-  const renderCollectionCard = (item) => (
-    <div
-      key={item.label || item.key}
-      className="rounded-2xl border border-border bg-warm-white p-4 shadow-sm"
-    >
-      <div className="flex items-center justify-between gap-3">
-        <div>
-          <p className="text-xs uppercase tracking-[0.15em] text-stone">Collection</p>
-          <h3 className="font-display text-xl font-bold text-charcoal mt-1">{item.label || item.key}</h3>
-        </div>
-        <span className="inline-flex min-w-[44px] items-center justify-center rounded-full bg-gold/20 px-2.5 py-1 text-sm font-semibold text-charcoal">
-          {item.count}
-        </span>
+  const toggleSelection = (groupType, itemKey) => {
+    const selectionKey = `${groupType}:${itemKey}`;
+    setSelectedGroups((prev) => ({
+      ...prev,
+      [selectionKey]: !prev[selectionKey],
+    }));
+  };
+
+  const getMatches = (groupType, item) => {
+    const itemKey = item.key || item.label;
+
+    if (groupType === 'deities' || groupType === 'goddesses') {
+      return templeCatalog.filter((temple) => temple.category === itemKey);
+    }
+
+    if (groupType === 'cities') {
+      return templeCatalog.filter((temple) => temple.city === item.label);
+    }
+
+    if (groupType === 'states') {
+      return templeCatalog.filter((temple) => temple.state === item.label);
+    }
+
+    return [];
+  };
+
+  const renderCollectionCard = (groupType, item) => {
+    const itemKey = item.key || item.label;
+    const isSelected = !!selectedGroups[`${groupType}:${itemKey}`];
+    const matches = getMatches(groupType, item);
+
+    return (
+      <div
+        key={itemKey}
+        className="rounded-2xl border border-border bg-warm-white p-4 shadow-sm"
+      >
+        <button
+          type="button"
+          onClick={() => toggleSelection(groupType, itemKey)}
+          className="w-full text-left"
+        >
+          <div className="flex items-center justify-between gap-3">
+            <div>
+              <p className="text-xs uppercase tracking-[0.15em] text-stone">Collection</p>
+              <h3 className="font-display text-xl font-bold text-charcoal mt-1">{item.label || item.key}</h3>
+            </div>
+            <span className="inline-flex min-w-[44px] items-center justify-center rounded-full bg-gold/20 px-2.5 py-1 text-sm font-semibold text-charcoal">
+              {item.count}
+            </span>
+          </div>
+        </button>
+
+        {isSelected && matches.length > 0 && (
+          <div className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            {matches.map((temple) => (
+              <TempleCard key={temple.id} temple={temple} onClick={onSelectTemple} />
+            ))}
+          </div>
+        )}
       </div>
-    </div>
-  );
+    );
+  };
 
   return (
     <section id="temple-collections" className="py-16 md:py-24 bg-cream">
@@ -88,6 +145,14 @@ export default function TempleCollectionsSection() {
           <p className="text-stone mt-4 max-w-3xl mx-auto leading-relaxed text-sm sm:text-base">
             Browse temple heritage by deity, goddess traditions, prominent cities, and regional states.
           </p>
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-2 text-xs font-medium uppercase tracking-[0.18em] text-maroon">
+            <span className="inline-flex items-center justify-center rounded-full border border-maroon/20 bg-maroon/5 px-4 py-2">
+              Source: visittemples.com
+            </span>
+            <span className="inline-flex items-center justify-center rounded-full border border-gold/40 bg-gold/10 px-4 py-2 text-gold-dark">
+              Data grouped from catalog records
+            </span>
+          </div>
         </div>
 
         <div className="space-y-6">
@@ -102,7 +167,7 @@ export default function TempleCollectionsSection() {
             </button>
             {expanded.deities && (
               <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-                {groupedData.deities.map((item) => renderCollectionCard(item))}
+                {groupedData.deities.map((item) => renderCollectionCard('deities', item))}
               </div>
             )}
           </div>
@@ -118,7 +183,7 @@ export default function TempleCollectionsSection() {
             </button>
             {expanded.goddesses && (
               <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-                {groupedData.goddesses.map((item) => renderCollectionCard(item))}
+                {groupedData.goddesses.map((item) => renderCollectionCard('goddesses', item))}
               </div>
             )}
           </div>
@@ -134,7 +199,7 @@ export default function TempleCollectionsSection() {
             </button>
             {expanded.cities && (
               <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-                {groupedData.cities.map((item) => renderCollectionCard(item))}
+                {groupedData.cities.map((item) => renderCollectionCard('cities', item))}
               </div>
             )}
           </div>
@@ -150,7 +215,7 @@ export default function TempleCollectionsSection() {
             </button>
             {expanded.states && (
               <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-                {groupedData.states.map((item) => renderCollectionCard(item))}
+                {groupedData.states.map((item) => renderCollectionCard('states', item))}
               </div>
             )}
           </div>

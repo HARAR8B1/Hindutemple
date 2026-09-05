@@ -5,7 +5,7 @@ const AdminContext = createContext(null);
 const STORAGE_KEY = 'iraivanai_admin_settings';
 
 const defaultSettings = {
-  heroImageUrl: '/images/hero-bg.png',
+  heroImageUrl: '/images/hero-temple.jpg',
   youtubeUrl: 'https://www.youtube.com/watch?v=4ZmNhljyYzU&t=845s',
   facebookUrl: 'https://www.facebook.com',
   instagramUrl: 'https://www.instagram.com',
@@ -22,7 +22,7 @@ function loadSettings() {
         !parsed.heroImageUrl ||
         parsed.heroImageUrl.includes('wikimedia.org') ||
         parsed.heroImageUrl.includes('Brihadeshwara_Temple') ||
-        parsed.heroImageUrl === '/images/hero-temple.jpg'
+        parsed.heroImageUrl === '/images/hero-bg.png'
       ) {
         parsed.heroImageUrl = defaultSettings.heroImageUrl;
       }
