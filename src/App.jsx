@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import YouTubePlayer from './components/YouTubePlayer';
 import DivyaDesamSection from './components/DivyaDesamSection';
 import ShivaTemplesSection from './components/ShivaTemplesSection';
+import GaneshTemplesSection from './components/GaneshTemplesSection';
 import TempleGrid from './components/TempleGrid';
 import AboutSection from './components/AboutSection';
 import Footer from './components/Footer';
@@ -71,6 +72,9 @@ function MainLayout() {
 
         {/* Famous Shiva Temples / Jyotirlingas */}
         <ShivaTemplesSection onSelectTemple={setSelectedTemple} />
+
+        {/* Sacred Ganesh Temples */}
+        <GaneshTemplesSection onSelectTemple={setSelectedTemple} />
 
         {/* Searchable and Filterable Temple Archive Grid */}
         <TempleGrid onSelectTemple={setSelectedTemple} />

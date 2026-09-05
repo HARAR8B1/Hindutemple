@@ -8,7 +8,7 @@
  * @property {string} state        - Indian state
  * @property {string} image        - URL of the temple image
  * @property {string} period       - Historical period / dynasty / approximate era
- * @property {string} category     - "Vishnu" | "Shiva" | "Shakti" | "Other"
+ * @property {string} category     - "Vishnu" | "Shiva" | "Shakti" | "Ganesh" | "Other"
  * @property {string} designation  - Special designation
  * @property {string} history      - Brief history paragraph
  * @property {string} timings      - Opening/closing timings

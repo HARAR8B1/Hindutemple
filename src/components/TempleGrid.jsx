@@ -1,9 +1,14 @@
 import { useState, useMemo } from 'react';
-import { Search, Filter, X } from 'lucide-react';
+import { ExternalLink, Search, Filter, X } from 'lucide-react';
 import temples from '../data/temples';
+import ganeshTemples from '../data/ganeshTemples';
 import { states, categories, localizedStates, localizedCategories } from '../data/categories';
 import TempleCard from './TempleCard';
 import { useLanguage } from '../context/LanguageContext';
+
+const templeCatalog = [...new Map(
+  [...temples, ...ganeshTemples].map((temple) => [temple.id, temple])
+).values()];
 
 export default function TempleGrid({ onSelectTemple }) {
   const { t, language, getLocalizedTemple } = useLanguage();
@@ -12,7 +17,7 @@ export default function TempleGrid({ onSelectTemple }) {
   const [selectedCategory, setSelectedCategory] = useState('All Categories');
 
   const filteredTemples = useMemo(() => {
-    return temples.filter((temple) => {
+    return templeCatalog.filter((temple) => {
       const loc = getLocalizedTemple(temple);
       const query = searchQuery.trim().toLowerCase();
 
@@ -63,6 +68,15 @@ export default function TempleGrid({ onSelectTemple }) {
           <p className="text-stone mt-4 max-w-xl mx-auto text-sm sm:text-base">
             {t('archive.subtitle')}
           </p>
+          <a
+            href="https://temple.dinamalar.com/searchresult.php"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 mt-5 text-sm font-semibold text-maroon hover:text-maroon-dark transition-colors"
+          >
+            {t('archive.dinamalarLink')}
+            <ExternalLink size={15} />
+          </a>
         </div>
 
         {/* Search & Filters Card */}

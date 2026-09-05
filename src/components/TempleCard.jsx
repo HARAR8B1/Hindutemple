@@ -9,6 +9,7 @@ export default function TempleCard({ temple, onClick }) {
     Shiva: 'bg-amber-100 text-amber-800',
     Vishnu: 'bg-blue-100 text-blue-800',
     Shakti: 'bg-rose-100 text-rose-800',
+    Ganesh: 'bg-orange-100 text-orange-800',
     Other: 'bg-gray-100 text-gray-700',
   };
 

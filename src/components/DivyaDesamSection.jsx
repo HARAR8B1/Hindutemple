@@ -1,4 +1,4 @@
-import temples from '../data/temples';
+import divyaDesams from '../data/divyaDesams';
 import TempleCard from './TempleCard';
 import { Landmark } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
@@ -6,12 +6,7 @@ import { useLanguage } from '../context/LanguageContext';
 export default function DivyaDesamSection({ onSelectTemple }) {
   const { t } = useLanguage();
 
-  const divyaDesamTemples = temples.filter(
-    (item) =>
-      item.category === 'Vishnu' &&
-      (item.designation?.includes('Divya Desam') ||
-        item.designation?.includes('Char Dham'))
-  );
+  const divyaDesamTemples = divyaDesams;
 
   return (
     <section id="divya-desam" className="py-16 md:py-24 bg-warm-white">

@@ -1,0 +1,36 @@
+const ganeshTemples = [
+  {
+    id: 'karpaga-vinayagar-pillayarpatti',
+    name: 'Karpaga Vinayagar Temple',
+    city: 'Pillayarpatti',
+    state: 'Tamil Nadu',
+    image: '/images/temples/jambukeswarar-thiruvanaikaval.jpg',
+    period: 'Ancient rock-cut shrine, approximately 7th–10th Century CE',
+    category: 'Ganesh',
+    designation: 'Rock-cut cave temple',
+    history: 'The Karpaga Vinayagar Temple at Pillayarpatti in Sivaganga district is an ancient rock-cut shrine dedicated to Karpaga Vinayagar. The large image is carved directly into the cave wall and is worshipped in the distinctive Valampuri form, with the trunk turned to the right. The temple preserves early inscriptions and remains one of Tamil Nadu’s best-known Vinayaka pilgrimage centres.',
+    timings: 'Morning: 6:00 AM – 1:00 PM | Evening: 4:00 PM – 9:00 PM',
+    festivals: ['Vinayaka Chaturthi', 'Chithirai Festival', 'Margazhi Thiruvadhirai', 'Sankatahara Chaturthi'],
+    significance: 'The rock-cut Valampuri Vinayagar is the temple’s defining feature. Devotees visit especially during Vinayaka Chaturthi and Sankatahara Chaturthi to pray for the removal of obstacles and prosperity.',
+    mapsUrl: 'https://maps.google.com/?q=Karpaga+Vinayagar+Temple+Pillayarpatti',
+    sourceUrl: 'https://hrce.tn.gov.in/hrcehome/temples_search.php?activity=temple_search',
+  },
+  {
+    id: 'siddhi-vinayaka-kanipakam',
+    name: 'Sri Varasiddhi Vinayaka Temple',
+    city: 'Kanipakam',
+    state: 'Andhra Pradesh',
+    image: '/images/temples/tirumala-venkateswara.jpg',
+    period: 'Chola period tradition, approximately 11th Century CE',
+    category: 'Ganesh',
+    designation: 'Swayambhu Vinayaka shrine',
+    history: 'Sri Varasiddhi Vinayaka Temple at Kanipakam in Chittoor district is revered for its self-manifested Vinayaka idol. Tradition attributes the original shrine to the Chola period. The deity is believed to have emerged from a well and devotees traditionally regard the image as continuing to grow. The temple draws pilgrims from Andhra Pradesh and neighbouring states throughout the year.',
+    timings: 'Daily: 4:00 AM – 9:30 PM; service and darshan timings may vary',
+    festivals: ['Annual Brahmotsavam', 'Vinayaka Chaturthi', 'Sankatahara Chaturthi', 'Deepavali'],
+    significance: 'The self-manifested deity emerging from a well is the central tradition of Kanipakam. The temple is especially known for its annual Brahmotsavam, processions, and devotional tradition surrounding truthfulness before the deity.',
+    mapsUrl: 'https://maps.google.com/?q=Sri+Varasiddhi+Vinayaka+Temple+Kanipakam',
+    sourceUrl: 'https://hrce.tn.gov.in/hrcehome/temples_search.php?activity=temple_search',
+  },
+];
+
+export default ganeshTemples;

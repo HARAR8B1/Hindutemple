@@ -46,11 +46,17 @@ export const translations = {
       subtitle: 'The eternal sanctums of Mahadeva, representing the infinite pillars of cosmic light, revered by millions through the millennia.',
       viewInArchive: 'Filter Shiva Temples in Archive',
     },
+    ganeshTemples: {
+      badge: 'Vinayaka Heritage',
+      title: 'Sacred Ganesh Temples',
+      subtitle: 'Revered South Indian shrines where Lord Vinayaka is worshipped in distinctive and cherished forms.',
+    },
     archive: {
       badge: 'Sacred Index',
       title: 'Explore the Temple Archive',
       subtitle: 'Search and discover ancient sanctuaries by name, deity, era, dynasty, and geographic state.',
       searchPlaceholder: 'Search by temple name, city, or deity...',
+      dinamalarLink: 'Browse Dinamalar temple directory',
       filterAllStates: 'All States',
       filterAllCategories: 'All Deities & Categories',
       resultsCount: '{count} temples discovered',
@@ -120,6 +126,7 @@ export const translations = {
       Vishnu: 'Vishnu',
       Shiva: 'Shiva',
       Shakti: 'Shakti',
+        Ganesh: 'Ganesh',
       Other: 'Other',
     },
     states: {
@@ -179,11 +186,17 @@ export const translations = {
       subtitle: 'முக்காலமும் உணர்ந்த ஈசனின் அருள்வடிவான பன்னிரு ஜோதிர்லிங்கங்கள் மற்றும் பாடல் பெற்ற திருத்தலங்கள்.',
       viewInArchive: 'சிவாலயங்களை மட்டும் காண்க',
     },
+    ganeshTemples: {
+      badge: 'விநாயகர் திருத்தலப் பாரம்பரியம்',
+      title: 'புகழ்பெற்ற விநாயகர் திருக்கோயில்கள்',
+      subtitle: 'தனித்துவமான திருவுருவங்களிலும் தொன்மையான மரபுகளிலும் விநாயகர் அருள்பாலிக்கும் தென்னிந்திய திருத்தலங்கள்.',
+    },
     archive: {
       badge: 'திருத்தலப் பட்டியல்',
       title: 'திருக்கோயில் களஞ்சியத்தை ஆராய்க',
       subtitle: 'பெயர், மூலவர், காலம், அரச மரபினர் மற்றும் மாநில வாரியாக திருத்தலங்களைத் தேடி அறிந்திடுங்கள்.',
       searchPlaceholder: 'கோயில் பெயர், ஊர் அல்லது தெய்வம் கொண்டு தேடுக...',
+      dinamalarLink: 'தினமலர் கோயில் களஞ்சியத்தைப் பார்க்க',
       filterAllStates: 'அனைத்து மாநிலங்களும்',
       filterAllCategories: 'அனைத்து தெய்வங்களும்',
       resultsCount: '{count} திருத்தலங்கள் கண்டறியப்பட்டன',
@@ -253,6 +266,7 @@ export const translations = {
       Vishnu: 'விஷ்ணு',
       Shiva: 'சிவன்',
       Shakti: 'சக்தி',
+        Ganesh: 'விநாயகர்',
       Other: 'மற்றவை',
     },
     states: {
@@ -312,11 +326,17 @@ export const translations = {
       subtitle: 'देवाधिदेव महादेव के अनंत प्रकाश स्वरूप ज्योतिर्लिंग और सदियों से पूज्य पावन शिव धाम।',
       viewInArchive: 'अभिलेखागार में शिव मंदिर देखें',
     },
+    ganeshTemples: {
+      badge: 'विनायक विरासत',
+      title: 'प्रसिद्ध गणेश मंदिर',
+      subtitle: 'दक्षिण भारत के श्रद्धेय तीर्थ, जहाँ भगवान विनायक की विशिष्ट और पूजनीय रूपों में आराधना होती है।',
+    },
     archive: {
       badge: 'पवित्र सूची',
       title: 'मंदिर अभिलेखागार की खोज करें',
       subtitle: 'नाम, देवता, कालखंड, राजवंश और राज्य के आधार पर पवित्र मंदिरों की विस्तृत जानकारी प्राप्त करें।',
       searchPlaceholder: 'मंदिर का नाम, नगर या देवता खोजें...',
+      dinamalarLink: 'दिनमलर मंदिर निर्देशिका देखें',
       filterAllStates: 'सभी राज्य',
       filterAllCategories: 'सभी देवता एवं श्रेणियां',
       resultsCount: '{count} मंदिर उपलब्ध हैं',
@@ -386,6 +406,7 @@ export const translations = {
       Vishnu: 'विष्णु',
       Shiva: 'शिव',
       Shakti: 'शक्ति',
+        Ganesh: 'गणेश',
       Other: 'अन्य',
     },
     states: {

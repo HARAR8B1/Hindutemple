@@ -41,6 +41,7 @@ export default function TempleModal({ temple, onClose }) {
     Shiva: 'bg-amber-100 text-amber-800 border-amber-200',
     Vishnu: 'bg-blue-100 text-blue-800 border-blue-200',
     Shakti: 'bg-rose-100 text-rose-800 border-rose-200',
+    Ganesh: 'bg-orange-100 text-orange-800 border-orange-200',
     Other: 'bg-gray-100 text-gray-700 border-gray-200',
   };
 
@@ -180,6 +181,20 @@ export default function TempleModal({ temple, onClose }) {
                 <MapPin size={18} />
                 {t('modal.getDirections')}
                 <ExternalLink size={14} />
+              </a>
+            </div>
+          )}
+
+          {localized.sourceUrl && (
+            <div className="pt-2">
+              <a
+                href={localized.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-maroon hover:text-maroon-dark transition-colors"
+              >
+                <ExternalLink size={16} />
+                HRCE temple search
               </a>
             </div>
           )}
