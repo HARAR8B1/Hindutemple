@@ -109,12 +109,25 @@ const entries = [
   ['Thiruparamapadham (Parathuvam)', 'Celestial Abode', 'Celestial Abode', 'Beyond Earthly Geography'],
 ];
 
+const divyaImageSet = [
+  'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1505761671935-60e792d5a0a6?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=900&q=80',
+];
+
 const divyaDesams = entries.map(([name, templeName, city, state], index) => ({
   id: `divya-desam-${String(index + 1).padStart(3, '0')}`,
   name: `${name} - ${templeName}`,
   city,
   state,
-  image: '/images/temples/ranganathaswamy.jpg',
+  image: divyaImageSet[index % divyaImageSet.length],
   period: 'Divya Desam tradition',
   category: 'Vishnu',
   designation: `Divya Desam ${index + 1} of 108`,
@@ -123,6 +136,7 @@ const divyaDesams = entries.map(([name, templeName, city, state], index) => ({
   festivals: ['Vaikuntha Ekadashi', 'Annual Brahmotsavam'],
   significance: 'A revered Vaishnava pilgrimage destination and part of the 108 Divya Desam circuit.',
   mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${templeName}, ${city}, ${state}`)}`,
+  sourceUrl: 'https://www.divyadesam.org/travel.html',
 }));
 
 export default divyaDesams;
