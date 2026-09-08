@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { Flame, Mountain, Sparkles } from 'lucide-react';
+import { Flame, Mountain } from 'lucide-react';
 import temples from '../data/temples';
 import TempleCard from './TempleCard';
 

@@ -1,11 +1,11 @@
 import { useState, useMemo } from 'react';
-import { Landmark, ExternalLink, MapPin, Sparkles, Filter } from 'lucide-react';
+import { Landmark, ExternalLink } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import chennaiTemples from '../data/chennaiTemples';
 import TempleCard from './TempleCard';
 
 export default function ChennaiTemplesSection({ onSelectTemple }) {
-  const { t, language } = useLanguage();
+  const { language } = useLanguage();
   const [selectedCategory, setSelectedCategory] = useState('All');
 
   const categories = ['All', 'Shiva', 'Vishnu', 'Shakti', 'Murugan'];

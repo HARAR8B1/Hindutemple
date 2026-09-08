@@ -13,6 +13,7 @@ import UnescoHeritageSection from './components/UnescoHeritageSection';
 import TempleCollectionsSection from './components/TempleCollectionsSection';
 import SacredCollectionsSection from './components/SacredCollectionsSection';
 import ChennaiTemplesSection from './components/ChennaiTemplesSection';
+import TamilnaduTemplesSection from './components/TamilnaduTemplesSection';
 import IndiaTemplesSection from './components/IndiaTemplesSection';
 import TempleGrid from './components/TempleGrid';
 import AboutSection from './components/AboutSection';
@@ -94,6 +95,9 @@ function MainLayout() {
 
         {/* Historic Temples of Chennai (sourced from Holidify and Dinamalar) */}
         <ChennaiTemplesSection onSelectTemple={setSelectedTemple} />
+
+        {/* Famous Sacred Temples of Tamil Nadu */}
+        <TamilnaduTemplesSection onSelectTemple={setSelectedTemple} />
 
         {/* Sacred Temples Across Bharat (All-India exploration by state) */}
         <IndiaTemplesSection onSelectTemple={setSelectedTemple} />

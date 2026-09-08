@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { ChevronDown, MapPin, Sparkles, Landmark, Building2 } from 'lucide-react';
+import { ChevronDown, Sparkles, Landmark, Building2 } from 'lucide-react';
 import temples from '../data/temples';
 import ganeshTemples from '../data/ganeshTemples';
 import muruganTemples from '../data/muruganTemples';

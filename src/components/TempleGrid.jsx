@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import { ExternalLink, Search, Filter, X, ChevronDown } from 'lucide-react';
 import temples from '../data/temples';
 import divyaDesams from '../data/divyaDesams';
@@ -8,6 +8,7 @@ import chennaiTemples from '../data/chennaiTemples';
 import indiaTemples from '../data/indiaTemples';
 import navagrahaTemples from '../data/navagrahaTemples';
 import unescoHeritageTemples from '../data/unescoHeritageTemples';
+import tamilnaduTemples from '../data/tamilnaduTemples';
 import { states, categories, localizedStates, localizedCategories } from '../data/categories';
 import TempleCard from './TempleCard';
 import { useLanguage } from '../context/LanguageContext';
@@ -15,7 +16,7 @@ import { useLanguage } from '../context/LanguageContext';
 const INITIAL_VISIBLE_COUNT = 32;
 
 const templeCatalog = [...new Map(
-  [...temples, ...divyaDesams, ...ganeshTemples, ...muruganTemples, ...navagrahaTemples, ...unescoHeritageTemples, ...chennaiTemples, ...indiaTemples].map((temple) => [temple.id, temple])
+  [...temples, ...divyaDesams, ...ganeshTemples, ...muruganTemples, ...navagrahaTemples, ...unescoHeritageTemples, ...chennaiTemples, ...tamilnaduTemples, ...indiaTemples].map((temple) => [temple.id, temple])
 ).values()];
 
 export default function TempleGrid({ onSelectTemple }) {
@@ -25,10 +26,30 @@ export default function TempleGrid({ onSelectTemple }) {
   const [selectedCategory, setSelectedCategory] = useState('All Categories');
   const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE_COUNT);
 
-  // Reset pagination on filter change
-  useEffect(() => {
+  const handleSearchChange = (val) => {
+    setSearchQuery(val);
     setVisibleCount(INITIAL_VISIBLE_COUNT);
-  }, [searchQuery, selectedState, selectedCategory]);
+  };
+
+  const handleStateChange = (val) => {
+    setSelectedState(val);
+    setVisibleCount(INITIAL_VISIBLE_COUNT);
+  };
+
+  const handleCategoryChange = (val) => {
+    setSelectedCategory(val);
+    setVisibleCount(INITIAL_VISIBLE_COUNT);
+  };
+
+  const clearFilters = () => {
+    setSearchQuery('');
+    setSelectedState('All States');
+    setSelectedCategory('All Categories');
+    setVisibleCount(INITIAL_VISIBLE_COUNT);
+  };
+
+  const hasActiveFilters =
+    Boolean(searchQuery) || selectedState !== 'All States' || selectedCategory !== 'All Categories';
 
   const filteredTemples = useMemo(() => {
     return templeCatalog.filter((temple) => {
@@ -62,15 +83,6 @@ export default function TempleGrid({ onSelectTemple }) {
   const displayedTemples = useMemo(() => {
     return filteredTemples.slice(0, visibleCount);
   }, [filteredTemples, visibleCount]);
-
-  const clearFilters = () => {
-    setSearchQuery('');
-    setSelectedState('All States');
-    setSelectedCategory('All Categories');
-  };
-
-  const hasActiveFilters =
-    Boolean(searchQuery) || selectedState !== 'All States' || selectedCategory !== 'All Categories';
 
   const handleLoadMore = () => {
     setVisibleCount((prev) => prev + 32);
@@ -118,14 +130,14 @@ export default function TempleGrid({ onSelectTemple }) {
               <input
                 type="text"
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={(e) => handleSearchChange(e.target.value)}
                 placeholder={t('archive.searchPlaceholder')}
                 className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-border bg-sandstone/70 text-sm text-charcoal placeholder:text-stone/60 focus:outline-none focus:ring-2 focus:ring-maroon/30 focus:border-maroon transition-all"
                 aria-label="Search temples"
               />
               {searchQuery && (
                 <button
-                  onClick={() => setSearchQuery('')}
+                  onClick={() => handleSearchChange('')}
                   className="absolute right-3 top-1/2 -translate-y-1/2 text-stone hover:text-charcoal cursor-pointer"
                   aria-label="Clear search query"
                 >
@@ -138,7 +150,7 @@ export default function TempleGrid({ onSelectTemple }) {
             <div className="flex flex-wrap sm:flex-nowrap gap-3">
               <select
                 value={selectedState}
-                onChange={(e) => setSelectedState(e.target.value)}
+                onChange={(e) => handleStateChange(e.target.value)}
                 className="px-4 py-2.5 rounded-xl border border-border bg-sandstone/70 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-maroon/30 focus:border-maroon transition-all cursor-pointer font-medium"
                 aria-label="Filter by state"
               >
@@ -151,7 +163,7 @@ export default function TempleGrid({ onSelectTemple }) {
 
               <select
                 value={selectedCategory}
-                onChange={(e) => setSelectedCategory(e.target.value)}
+                onChange={(e) => handleCategoryChange(e.target.value)}
                 className="px-4 py-2.5 rounded-xl border border-border bg-sandstone/70 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-maroon/30 focus:border-maroon transition-all cursor-pointer font-medium"
                 aria-label="Filter by category"
               >

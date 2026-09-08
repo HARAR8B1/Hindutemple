@@ -1,12 +1,12 @@
 import { useState, useMemo } from 'react';
-import { Compass, MapPin, Sparkles, Landmark } from 'lucide-react';
+import { Compass } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import indiaTemples from '../data/indiaTemples';
 import { localizedStates } from '../data/categories';
 import TempleCard from './TempleCard';
 
 export default function IndiaTemplesSection({ onSelectTemple }) {
-  const { t, language } = useLanguage();
+  const { language } = useLanguage();
   const [selectedState, setSelectedState] = useState('All');
 
   // Available states present in indiaTemples
