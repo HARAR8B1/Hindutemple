@@ -8,6 +8,8 @@ import DivyaDesamSection from './components/DivyaDesamSection';
 import ShivaTemplesSection from './components/ShivaTemplesSection';
 import GaneshTemplesSection from './components/GaneshTemplesSection';
 import MuruganTemplesSection from './components/MuruganTemplesSection';
+import NavagrahaTemplesSection from './components/NavagrahaTemplesSection';
+import UnescoHeritageSection from './components/UnescoHeritageSection';
 import TempleCollectionsSection from './components/TempleCollectionsSection';
 import SacredCollectionsSection from './components/SacredCollectionsSection';
 import ChennaiTemplesSection from './components/ChennaiTemplesSection';
@@ -83,6 +85,12 @@ function MainLayout() {
 
         {/* Sacred Murugan Temples */}
         <MuruganTemplesSection onSelectTemple={setSelectedTemple} />
+
+        {/* Navagraha temples in Chennai and Tamil Nadu */}
+        <NavagrahaTemplesSection onSelectTemple={setSelectedTemple} />
+
+        {/* UNESCO-listed Tamil Nadu temple heritage */}
+        <UnescoHeritageSection onSelectTemple={setSelectedTemple} />
 
         {/* Historic Temples of Chennai (sourced from Holidify and Dinamalar) */}
         <ChennaiTemplesSection onSelectTemple={setSelectedTemple} />

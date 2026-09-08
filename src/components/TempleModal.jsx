@@ -111,6 +111,12 @@ export default function TempleModal({ temple, onClose }) {
               <span className="text-stone-light/50">·</span>
               <span>{localized.period}</span>
             </div>
+            {localized.address && (
+              <p className="flex items-start gap-1.5 mt-2 max-w-2xl text-stone-light text-xs sm:text-sm">
+                <MapPin size={14} className="text-gold shrink-0 mt-0.5" strokeWidth={1.5} />
+                <span>{localized.address}</span>
+              </p>
+            )}
           </div>
         </div>
 

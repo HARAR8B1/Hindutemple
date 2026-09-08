@@ -21,6 +21,8 @@ export default function Navbar({ onAdminClick, onNavigate }) {
     { label: t('nav.indiaTemples'), icon: Compass, section: 'all-india-temples' },
     { label: t('nav.divyaDesam'), icon: Landmark, section: 'divya-desam' },
     { label: t('nav.shivaTemples'), icon: Flame, section: 'shiva-temples' },
+    { label: t('nav.navagrahaTemples'), icon: Compass, section: 'navagraha-temples' },
+    { label: t('nav.unescoHeritage'), icon: Landmark, section: 'unesco-heritage' },
     { label: t('nav.about'), icon: Info, section: 'about' },
   ];
 

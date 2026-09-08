@@ -6,10 +6,12 @@ import muruganTemples from '../data/muruganTemples';
 import divyaDesams from '../data/divyaDesams';
 import chennaiTemples from '../data/chennaiTemples';
 import indiaTemples from '../data/indiaTemples';
+import navagrahaTemples from '../data/navagrahaTemples';
+import unescoHeritageTemples from '../data/unescoHeritageTemples';
 import TempleCard from './TempleCard';
 
 const templeCatalog = [...new Map(
-  [...temples, ...divyaDesams, ...ganeshTemples, ...muruganTemples, ...chennaiTemples, ...indiaTemples].map((temple) => [temple.id, temple])
+  [...temples, ...divyaDesams, ...ganeshTemples, ...muruganTemples, ...navagrahaTemples, ...unescoHeritageTemples, ...chennaiTemples, ...indiaTemples].map((temple) => [temple.id, temple])
 ).values()];
 
 const deityGroups = [
