@@ -18,7 +18,7 @@
  * @property {Object} translations - Localized strings for 'ta' and 'hi'
  */
 
-import jyotirlingas from './jyotirlingas';
+import jyotirlingas from './jyotirlingas.js';
 
 const temples = [
   ...jyotirlingas,

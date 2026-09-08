@@ -192,10 +192,16 @@ export default function TempleModal({ temple, onClose }) {
                 href={localized.sourceUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-medium text-maroon hover:text-maroon-dark transition-colors"
+                className="inline-flex items-center gap-2 text-sm font-semibold text-maroon hover:text-maroon-dark transition-colors underline decoration-maroon/40 hover:decoration-maroon"
               >
                 <ExternalLink size={16} />
-                HRCE temple search
+                {localized.sourceUrl.includes('dinamalar.com')
+                  ? 'Dinamalar Temple Directory'
+                  : localized.sourceUrl.includes('holidify.com')
+                  ? 'Holidify Chennai Temples Guide'
+                  : localized.sourceUrl.includes('visittemples.com')
+                  ? 'VisitTemples Directory'
+                  : 'Temple Guide & Historical Reference'}
               </a>
             </div>
           )}

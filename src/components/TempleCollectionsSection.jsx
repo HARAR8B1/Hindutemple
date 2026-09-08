@@ -4,10 +4,12 @@ import temples from '../data/temples';
 import ganeshTemples from '../data/ganeshTemples';
 import muruganTemples from '../data/muruganTemples';
 import divyaDesams from '../data/divyaDesams';
+import chennaiTemples from '../data/chennaiTemples';
+import indiaTemples from '../data/indiaTemples';
 import TempleCard from './TempleCard';
 
 const templeCatalog = [...new Map(
-  [...temples, ...ganeshTemples, ...muruganTemples, ...divyaDesams].map((temple) => [temple.id, temple])
+  [...temples, ...divyaDesams, ...ganeshTemples, ...muruganTemples, ...chennaiTemples, ...indiaTemples].map((temple) => [temple.id, temple])
 ).values()];
 
 const deityGroups = [
@@ -57,8 +59,8 @@ export default function TempleCollectionsSection({ onSelectTemple }) {
         ...group,
         count: goddessCounts[group.key] || 0,
       })),
-      cities: [...cityMap.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8).map(([city, count]) => ({ label: city, count })),
-      states: [...stateMap.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8).map(([state, count]) => ({ label: state, count })),
+      cities: [...cityMap.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12).map(([city, count]) => ({ label: city, count })),
+      states: [...stateMap.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12).map(([state, count]) => ({ label: state, count })),
     };
   }, []);
 

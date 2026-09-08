@@ -17,6 +17,8 @@ export default function Navbar({ onAdminClick, onNavigate }) {
 
   const navLinks = [
     { label: t('nav.explore'), icon: Compass, section: 'explore' },
+    { label: t('nav.chennaiTemples'), icon: Landmark, section: 'chennai-temples' },
+    { label: t('nav.indiaTemples'), icon: Compass, section: 'all-india-temples' },
     { label: t('nav.divyaDesam'), icon: Landmark, section: 'divya-desam' },
     { label: t('nav.shivaTemples'), icon: Flame, section: 'shiva-temples' },
     { label: t('nav.about'), icon: Info, section: 'about' },

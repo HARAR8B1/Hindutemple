@@ -1,14 +1,19 @@
-import { useState, useMemo } from 'react';
-import { ExternalLink, Search, Filter, X } from 'lucide-react';
+import { useState, useMemo, useEffect } from 'react';
+import { ExternalLink, Search, Filter, X, ChevronDown } from 'lucide-react';
 import temples from '../data/temples';
+import divyaDesams from '../data/divyaDesams';
 import ganeshTemples from '../data/ganeshTemples';
 import muruganTemples from '../data/muruganTemples';
+import chennaiTemples from '../data/chennaiTemples';
+import indiaTemples from '../data/indiaTemples';
 import { states, categories, localizedStates, localizedCategories } from '../data/categories';
 import TempleCard from './TempleCard';
 import { useLanguage } from '../context/LanguageContext';
 
+const INITIAL_VISIBLE_COUNT = 32;
+
 const templeCatalog = [...new Map(
-  [...temples, ...ganeshTemples, ...muruganTemples].map((temple) => [temple.id, temple])
+  [...temples, ...divyaDesams, ...ganeshTemples, ...muruganTemples, ...chennaiTemples, ...indiaTemples].map((temple) => [temple.id, temple])
 ).values()];
 
 export default function TempleGrid({ onSelectTemple }) {
@@ -16,6 +21,12 @@ export default function TempleGrid({ onSelectTemple }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedState, setSelectedState] = useState('All States');
   const [selectedCategory, setSelectedCategory] = useState('All Categories');
+  const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE_COUNT);
+
+  // Reset pagination on filter change
+  useEffect(() => {
+    setVisibleCount(INITIAL_VISIBLE_COUNT);
+  }, [searchQuery, selectedState, selectedCategory]);
 
   const filteredTemples = useMemo(() => {
     return templeCatalog.filter((temple) => {
@@ -46,6 +57,10 @@ export default function TempleGrid({ onSelectTemple }) {
     });
   }, [searchQuery, selectedState, selectedCategory, getLocalizedTemple]);
 
+  const displayedTemples = useMemo(() => {
+    return filteredTemples.slice(0, visibleCount);
+  }, [filteredTemples, visibleCount]);
+
   const clearFilters = () => {
     setSearchQuery('');
     setSelectedState('All States');
@@ -53,69 +68,81 @@ export default function TempleGrid({ onSelectTemple }) {
   };
 
   const hasActiveFilters =
-    searchQuery || selectedState !== 'All States' || selectedCategory !== 'All Categories';
+    Boolean(searchQuery) || selectedState !== 'All States' || selectedCategory !== 'All Categories';
+
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => prev + 32);
+  };
 
   return (
     <section id="explore" className="py-16 md:py-24 bg-sandstone border-t border-border/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
+        {/* Header */}
         <div className="text-center mb-12">
-          <span className="text-xs sm:text-sm tracking-[0.2em] uppercase text-stone font-semibold">
-            {t('archive.badge')}
-          </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal mt-2">
+          <div className="flex items-center justify-center gap-2 mb-3">
+            <Filter size={18} className="text-maroon" strokeWidth={1.5} />
+            <span className="text-xs sm:text-sm tracking-[0.2em] uppercase text-stone font-semibold">
+              {t('archive.badge')}
+            </span>
+          </div>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal">
             {t('archive.title')}
           </h2>
-          <p className="text-stone mt-4 max-w-xl mx-auto text-sm sm:text-base">
+          <p className="text-stone mt-4 max-w-2xl mx-auto leading-relaxed text-sm sm:text-base">
             {t('archive.subtitle')}
           </p>
-          <a
-            href="https://temple.dinamalar.com/searchresult.php"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 mt-5 text-sm font-semibold text-maroon hover:text-maroon-dark transition-colors"
-          >
-            {t('archive.dinamalarLink')}
-            <ExternalLink size={15} />
-          </a>
+          <div className="mt-4">
+            <a
+              href="https://temple.dinamalar.com/en/default.php"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs sm:text-sm text-maroon hover:text-maroon-dark font-medium underline transition-colors"
+            >
+              <span>{t('archive.dinamalarLink')}</span>
+              <ExternalLink size={14} />
+            </a>
+          </div>
         </div>
 
-        {/* Search & Filters Card */}
-        <div className="bg-warm-white rounded-2xl shadow-card p-4 sm:p-6 mb-10 border border-border/60">
-          {/* Search Bar */}
-          <div className="relative mb-4">
-            <Search
-              size={20}
-              className="absolute left-4 top-1/2 -translate-y-1/2 text-stone"
-              strokeWidth={1.5}
-            />
-            <input
-              type="text"
-              placeholder={t('archive.searchPlaceholder')}
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-12 pr-4 py-3.5 rounded-xl border border-border bg-sandstone/50 text-charcoal placeholder:text-stone/60 focus:outline-none focus:ring-2 focus:ring-maroon/30 focus:border-maroon transition-all"
-              aria-label="Search temples"
-            />
-          </div>
-
-          {/* Filter Row */}
-          <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center">
-            <div className="flex items-center gap-2 text-stone text-sm">
-              <Filter size={16} strokeWidth={1.5} />
-              <span className="font-medium">Filter:</span>
+        {/* Search & Filter Controls */}
+        <div className="bg-warm-white rounded-2xl p-4 sm:p-6 shadow-card mb-8 border border-border">
+          <div className="flex flex-col md:flex-row gap-4">
+            {/* Search Input */}
+            <div className="relative flex-1">
+              <Search
+                size={18}
+                className="absolute left-3.5 top-1/2 -translate-y-1/2 text-stone"
+              />
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder={t('archive.searchPlaceholder')}
+                className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-border bg-sandstone/70 text-sm text-charcoal placeholder:text-stone/60 focus:outline-none focus:ring-2 focus:ring-maroon/30 focus:border-maroon transition-all"
+                aria-label="Search temples"
+              />
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-stone hover:text-charcoal cursor-pointer"
+                  aria-label="Clear search query"
+                >
+                  <X size={16} />
+                </button>
+              )}
             </div>
 
-            <div className="flex flex-wrap gap-3 flex-1">
+            {/* Filter Dropdowns */}
+            <div className="flex flex-wrap sm:flex-nowrap gap-3">
               <select
                 value={selectedState}
                 onChange={(e) => setSelectedState(e.target.value)}
                 className="px-4 py-2.5 rounded-xl border border-border bg-sandstone/70 text-sm text-charcoal focus:outline-none focus:ring-2 focus:ring-maroon/30 focus:border-maroon transition-all cursor-pointer font-medium"
                 aria-label="Filter by state"
               >
-                {states.map((stateKey) => (
-                  <option key={stateKey} value={stateKey}>
-                    {localizedStates[stateKey]?.[language] || stateKey}
+                {states.map((st) => (
+                  <option key={st} value={st}>
+                    {localizedStates[st]?.[language] || st}
                   </option>
                 ))}
               </select>
@@ -132,37 +159,63 @@ export default function TempleGrid({ onSelectTemple }) {
                   </option>
                 ))}
               </select>
-            </div>
 
-            {hasActiveFilters && (
-              <button
-                onClick={clearFilters}
-                className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-semibold text-maroon hover:bg-cream transition-colors cursor-pointer"
-                aria-label="Clear all filters"
-              >
-                <X size={14} />
-                {t('archive.clearFilters')}
-              </button>
-            )}
+              {hasActiveFilters && (
+                <button
+                  onClick={clearFilters}
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-semibold text-maroon hover:bg-cream transition-colors cursor-pointer shrink-0"
+                  aria-label="Clear all filters"
+                >
+                  <X size={14} />
+                  {t('archive.clearFilters')}
+                </button>
+              )}
+            </div>
           </div>
         </div>
 
         {/* Results count */}
         <p className="text-sm text-stone mb-6">
           {t('archive.resultsCount', { count: filteredTemples.length })}
+          {filteredTemples.length > visibleCount && (
+            <span className="text-xs text-stone/80 ml-2">
+              (showing first {visibleCount})
+            </span>
+          )}
         </p>
 
         {/* Grid */}
         {filteredTemples.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filteredTemples.map((temple) => (
-              <TempleCard
-                key={temple.id}
-                temple={temple}
-                onClick={onSelectTemple}
-              />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {displayedTemples.map((temple) => (
+                <TempleCard
+                  key={temple.id}
+                  temple={temple}
+                  onClick={onSelectTemple}
+                />
+              ))}
+            </div>
+
+            {/* Load More Button */}
+            {filteredTemples.length > visibleCount && (
+              <div className="text-center mt-10">
+                <button
+                  onClick={handleLoadMore}
+                  className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-gradient-maroon text-warm-white font-medium hover:shadow-lg transition-all cursor-pointer shadow-md text-sm sm:text-base hover:opacity-95"
+                >
+                  <span>
+                    {language === 'ta'
+                      ? `மேலும் கோயில்களைக் காணவும் (${filteredTemples.length - visibleCount} மீதம்)`
+                      : language === 'hi'
+                      ? `और मंदिर देखें (${filteredTemples.length - visibleCount} शेष)`
+                      : `Load More Temples (${filteredTemples.length - visibleCount} remaining)`}
+                  </span>
+                  <ChevronDown size={18} />
+                </button>
+              </div>
+            )}
+          </>
         ) : (
           <div className="text-center py-16 bg-warm-white/70 rounded-2xl border border-dashed border-stone/30 p-8">
             <p className="text-charcoal font-display text-xl mb-2 font-bold">

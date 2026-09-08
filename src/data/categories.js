@@ -4,14 +4,25 @@
 export const states = [
   'All States',
   'Andhra Pradesh',
+  'Assam',
   'Gujarat',
+  'Himachal Pradesh',
+  'Jammu & Kashmir',
   'Jharkhand',
+  'Karnataka',
+  'Kerala',
   'Madhya Pradesh',
   'Maharashtra',
+  'Nepal',
   'Odisha',
+  'Punjab',
+  'Rajasthan',
   'Tamil Nadu',
+  'Telangana',
   'Uttar Pradesh',
   'Uttarakhand',
+  'West Bengal',
+  'Beyond Earthly Geography',
 ];
 
 export const localizedStates = {
@@ -25,15 +36,40 @@ export const localizedStates = {
     ta: 'ஆந்திரப் பிரதேசம்',
     hi: 'आंध्र प्रदेश',
   },
+  'Assam': {
+    en: 'Assam',
+    ta: 'அசாம்',
+    hi: 'असम',
+  },
   'Gujarat': {
     en: 'Gujarat',
     ta: 'குஜராத்',
     hi: 'गुजरात',
   },
+  'Himachal Pradesh': {
+    en: 'Himachal Pradesh',
+    ta: 'இமாச்சலப் பிரதேசம்',
+    hi: 'हिमाचल प्रदेश',
+  },
+  'Jammu & Kashmir': {
+    en: 'Jammu & Kashmir',
+    ta: 'ஜம்மு & காஷ்மீர்',
+    hi: 'जम्मू और कश्मीर',
+  },
   'Jharkhand': {
     en: 'Jharkhand',
     ta: 'ஜார்க்கண்ட்',
     hi: 'झारखंड',
+  },
+  'Karnataka': {
+    en: 'Karnataka',
+    ta: 'கர்நாடகம்',
+    hi: 'कर्नाटक',
+  },
+  'Kerala': {
+    en: 'Kerala',
+    ta: 'கேரளம்',
+    hi: 'केरल',
   },
   'Madhya Pradesh': {
     en: 'Madhya Pradesh',
@@ -45,15 +81,35 @@ export const localizedStates = {
     ta: 'மகாராஷ்டிரம்',
     hi: 'महाराष्ट्र',
   },
+  'Nepal': {
+    en: 'Nepal',
+    ta: 'நேபாளம்',
+    hi: 'नेपाल',
+  },
   'Odisha': {
     en: 'Odisha',
     ta: 'ஒடிசா',
     hi: 'ओडिशा',
   },
+  'Punjab': {
+    en: 'Punjab',
+    ta: 'பஞ்சாப்',
+    hi: 'पंजाब',
+  },
+  'Rajasthan': {
+    en: 'Rajasthan',
+    ta: 'ராஜஸ்தான்',
+    hi: 'राजस्थान',
+  },
   'Tamil Nadu': {
     en: 'Tamil Nadu',
     ta: 'தமிழ்நாடு',
     hi: 'तमिलनाडु',
+  },
+  'Telangana': {
+    en: 'Telangana',
+    ta: 'தெலங்கானா',
+    hi: 'तेलंगाना',
   },
   'Uttar Pradesh': {
     en: 'Uttar Pradesh',
@@ -64,6 +120,16 @@ export const localizedStates = {
     en: 'Uttarakhand',
     ta: 'உத்தரகண்ட்',
     hi: 'उत्तराखंड',
+  },
+  'West Bengal': {
+    en: 'West Bengal',
+    ta: 'மேற்கு வங்கம்',
+    hi: 'पश्चिम बंगाल',
+  },
+  'Beyond Earthly Geography': {
+    en: 'Beyond Earthly Geography',
+    ta: 'விண்ணுலக திருப்பதிகள்',
+    hi: 'दिव्य धाम',
   },
 };
 

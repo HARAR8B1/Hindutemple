@@ -10,6 +10,8 @@ import GaneshTemplesSection from './components/GaneshTemplesSection';
 import MuruganTemplesSection from './components/MuruganTemplesSection';
 import TempleCollectionsSection from './components/TempleCollectionsSection';
 import SacredCollectionsSection from './components/SacredCollectionsSection';
+import ChennaiTemplesSection from './components/ChennaiTemplesSection';
+import IndiaTemplesSection from './components/IndiaTemplesSection';
 import TempleGrid from './components/TempleGrid';
 import AboutSection from './components/AboutSection';
 import Footer from './components/Footer';
@@ -81,6 +83,12 @@ function MainLayout() {
 
         {/* Sacred Murugan Temples */}
         <MuruganTemplesSection onSelectTemple={setSelectedTemple} />
+
+        {/* Historic Temples of Chennai (sourced from Holidify and Dinamalar) */}
+        <ChennaiTemplesSection onSelectTemple={setSelectedTemple} />
+
+        {/* Sacred Temples Across Bharat (All-India exploration by state) */}
+        <IndiaTemplesSection onSelectTemple={setSelectedTemple} />
 
         {/* Temple Collections by deity, goddess, city, and state */}
         <TempleCollectionsSection onSelectTemple={setSelectedTemple} />
