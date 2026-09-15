@@ -8,7 +8,7 @@ export default function ChennaiTemplesSection({ onSelectTemple }) {
   const { language } = useLanguage();
   const [selectedCategory, setSelectedCategory] = useState('All');
 
-  const categories = ['All', 'Shiva', 'Vishnu', 'Shakti', 'Murugan'];
+  const categories = ['All', 'Shiva', 'Vishnu', 'Shakti', 'Murugan', 'Ganesh'];
 
   const filteredTemples = useMemo(() => {
     if (selectedCategory === 'All') return chennaiTemples;
@@ -21,6 +21,7 @@ export default function ChennaiTemplesSection({ onSelectTemple }) {
     Vishnu: { en: 'Vishnu', ta: 'விஷ்ணு', hi: 'विष्णु' },
     Shakti: { en: 'Shakti / Amman', ta: 'சக்தி / அம்மன்', hi: 'शक्ति / अम्मन' },
     Murugan: { en: 'Murugan', ta: 'முருகன்', hi: 'मुरुगन' },
+    Ganesh: { en: 'Ganesh / Vinayagar', ta: 'விநாயகர்', hi: 'गणेश' },
   };
 
   return (

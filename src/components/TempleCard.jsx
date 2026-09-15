@@ -31,13 +31,25 @@ export default function TempleCard({ temple, onClick }) {
       {/* Image */}
       <div className="relative h-52 sm:h-56 overflow-hidden bg-sandstone">
         <img
-          src={localized.image || '/images/temple-fallback.jpg'}
+          src={temple.image || ''}
           alt={localized.name}
+          data-category={temple.category}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
           loading="lazy"
           onError={(e) => {
             e.currentTarget.onerror = null;
-            e.currentTarget.src = '/images/temple-fallback.jpg';
+            // Category-based gradient fallback — no external request needed
+            const gradients = {
+              Shiva:   'linear-gradient(135deg,#78350f 0%,#b45309 50%,#d97706 100%)',
+              Vishnu:  'linear-gradient(135deg,#1e3a5f 0%,#1d4ed8 50%,#3b82f6 100%)',
+              Shakti:  'linear-gradient(135deg,#7f1d1d 0%,#be123c 50%,#f43f5e 100%)',
+              Ganesh:  'linear-gradient(135deg,#7c2d12 0%,#ea580c 50%,#fb923c 100%)',
+              Murugan: 'linear-gradient(135deg,#4c1d95 0%,#7c3aed 50%,#a78bfa 100%)',
+              Other:   'linear-gradient(135deg,#1c1917 0%,#57534e 50%,#a8a29e 100%)',
+            };
+            const grad = gradients[e.currentTarget.dataset.category] || gradients.Other;
+            e.currentTarget.style.display = 'none';
+            e.currentTarget.parentElement.style.background = grad;
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

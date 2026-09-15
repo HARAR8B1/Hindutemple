@@ -9,14 +9,33 @@ import indiaTemples from '../data/indiaTemples';
 import navagrahaTemples from '../data/navagrahaTemples';
 import unescoHeritageTemples from '../data/unescoHeritageTemples';
 import tamilnaduTemples from '../data/tamilnaduTemples';
+import kanchipuramTemples from '../data/kanchipuramTemples';
+import kumbakonamTemples from '../data/kumbakonamTemples';
+import tiruvallurTemples from '../data/tiruvallurTemples';
+import rasiNakshatraTemples from '../data/rasiNakshatraTemples';
 import { states, categories, localizedStates, localizedCategories } from '../data/categories';
 import TempleCard from './TempleCard';
 import { useLanguage } from '../context/LanguageContext';
 
 const INITIAL_VISIBLE_COUNT = 32;
 
+// Merge all datasets and deduplicate by id (Map preserves first occurrence)
 const templeCatalog = [...new Map(
-  [...temples, ...divyaDesams, ...ganeshTemples, ...muruganTemples, ...navagrahaTemples, ...unescoHeritageTemples, ...chennaiTemples, ...tamilnaduTemples, ...indiaTemples].map((temple) => [temple.id, temple])
+  [
+    ...temples,
+    ...divyaDesams,
+    ...ganeshTemples,
+    ...muruganTemples,
+    ...navagrahaTemples,
+    ...unescoHeritageTemples,
+    ...chennaiTemples,
+    ...tamilnaduTemples,
+    ...kanchipuramTemples,
+    ...kumbakonamTemples,
+    ...tiruvallurTemples,
+    ...rasiNakshatraTemples,
+    ...indiaTemples,
+  ].map((temple) => [temple.id, temple])
 ).values()];
 
 export default function TempleGrid({ onSelectTemple }) {

@@ -14,6 +14,10 @@ import TempleCollectionsSection from './components/TempleCollectionsSection';
 import SacredCollectionsSection from './components/SacredCollectionsSection';
 import ChennaiTemplesSection from './components/ChennaiTemplesSection';
 import TamilnaduTemplesSection from './components/TamilnaduTemplesSection';
+import KanchipuramTemplesSection from './components/KanchipuramTemplesSection';
+import KumbakonamTemplesSection from './components/KumbakonamTemplesSection';
+import TiruvallurTemplesSection from './components/TiruvallurTemplesSection';
+import RasiNakshatraSection from './components/RasiNakshatraSection';
 import IndiaTemplesSection from './components/IndiaTemplesSection';
 import TempleGrid from './components/TempleGrid';
 import AboutSection from './components/AboutSection';
@@ -21,6 +25,7 @@ import Footer from './components/Footer';
 import TempleModal from './components/TempleModal';
 import AdminLoginModal from './components/AdminLoginModal';
 import AdminPanel from './components/AdminPanel';
+import NearbyTemplesButton from './components/NearbyTemplesButton';
 
 function MainLayout() {
   const { isLoggedIn } = useAdmin();
@@ -99,6 +104,18 @@ function MainLayout() {
         {/* Famous Sacred Temples of Tamil Nadu */}
         <TamilnaduTemplesSection onSelectTemple={setSelectedTemple} />
 
+        {/* Temples of Kanchipuram — City of a Thousand Temples */}
+        <KanchipuramTemplesSection onSelectTemple={setSelectedTemple} />
+
+        {/* Temples of Kumbakonam — The Temple City of South India */}
+        <KumbakonamTemplesSection onSelectTemple={setSelectedTemple} />
+
+        {/* Tiruvallur District Temples */}
+        <TiruvallurTemplesSection onSelectTemple={setSelectedTemple} />
+
+        {/* Rasi & Nakshatra Astrological Pilgrimage Circuit */}
+        <RasiNakshatraSection onSelectTemple={setSelectedTemple} />
+
         {/* Sacred Temples Across Bharat (All-India exploration by state) */}
         <IndiaTemplesSection onSelectTemple={setSelectedTemple} />
 
@@ -117,6 +134,9 @@ function MainLayout() {
 
       {/* Footer */}
       <Footer />
+
+      {/* Floating Nearby Temples Search Button */}
+      <NearbyTemplesButton />
 
       {/* Temple Details Modal */}
       {selectedTemple && (

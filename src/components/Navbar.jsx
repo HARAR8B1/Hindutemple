@@ -7,18 +7,24 @@ import {
   Flame,
   Info,
   ShieldCheck,
+  Star,
+  MapPin,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import LanguageSelector from './LanguageSelector';
 
 export default function Navbar({ onAdminClick, onNavigate }) {
   const [isOpen, setIsOpen] = useState(false);
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const navLinks = [
     { label: t('nav.explore'), icon: Compass, section: 'explore' },
     { label: t('nav.chennaiTemples'), icon: Landmark, section: 'chennai-temples' },
     { label: t('nav.tamilnaduTemples'), icon: Landmark, section: 'tamilnadu-temples' },
+    { label: language === 'ta' ? 'காஞ்சிபுரம்' : language === 'hi' ? 'कांचीपुरम' : 'Kanchipuram', icon: Landmark, section: 'kanchipuram-temples' },
+    { label: language === 'ta' ? 'கும்பகோணம்' : language === 'hi' ? 'कुम्भकोणम' : 'Kumbakonam', icon: Landmark, section: 'kumbakonam-temples' },
+    { label: language === 'ta' ? 'திருவள்ளூர்' : language === 'hi' ? 'तिरुवल्लुर' : 'Tiruvallur', icon: MapPin, section: 'tiruvallur-temples' },
+    { label: language === 'ta' ? 'ராசி & நட்சத்திரம்' : language === 'hi' ? 'राशि व नक्षत्र' : 'Rasi & Nakshatra', icon: Star, section: 'rasi-nakshatra' },
     { label: t('nav.indiaTemples'), icon: Compass, section: 'all-india-temples' },
     { label: t('nav.divyaDesam'), icon: Landmark, section: 'divya-desam' },
     { label: t('nav.shivaTemples'), icon: Flame, section: 'shiva-temples' },
