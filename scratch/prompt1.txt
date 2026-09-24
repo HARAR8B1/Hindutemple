@@ -1,0 +1,59 @@
+<USER_REQUEST>
+fix the issues in the english & Hindi translations and update it the below temple details,  properly in all language by proper translations 
+🔱 திருவள்ளூர் மாவட்ட தேவாரம் பாடல் பெற்ற 6 சிவத்தலங்கள் 🔱
+
+தமிழகத்தின் தொன்மையான சைவத் திருத்தலங்களில், தேவார மூவரான திருஞானசம்பந்தர், திருநாவுக்கரசர் (அப்பர்), சுந்தரமூர்த்தி நாயனார் ஆகியோரால் பாடல் பெற்ற சிவத்தலங்களுக்கு தனிச்சிறப்பு உண்டு.
+
+திருவள்ளூர் மாவட்டம் மற்றும் இதனுடன் பாரம்பரியமாக இணைத்துக் குறிப்பிடப்படும் திருத்தலங்களில், தேவாரம் பாடல் பெற்ற முக்கியமான 6 சிவத்தலங்கள்:
+
+🔱 1. திருவிற்கோலம் – கூவம்
+🔱 2. திருக்கள்ளில் – திருக்கண்டலம்
+🔱 3. திருப்பாசூர்
+🔱 4. திருவாலங்காடு
+🔱 5. திருவெண்பாக்கம் – பூண்டி
+🔱 6. திருவொற்றியூர்
+
+━━━━━━━━━━━━━━━━━━
+🔱 1. திருவிற்கோலம் – கூவம்
+
+அருள்மிகு திரிபுராந்தகேஸ்வரர் திருக்கோயில்
+
+━━━━━━━━━━━━━━━━━━
+
+📍 அமைவிடம்: கூவம், திருவள்ளூர் மாவட்டம்
+
+🕉️ இறைவன்: திரிபுராந்தகேஸ்வரர் / திருவிற்கோலநாதர்
+🌺 இறைவி: திரிபுராந்தகி / திரிபுரசுந்தரி
+🌿 தலவிருட்சம்: வில்வம்
+💧 தீர்த்தம்: அக்னி தீர்த்தம், கூபாக்கினி தீர்த்தம்
+🎵 தேவாரம் பாடியவர்: திருஞானசம்பந்தர்
+📖 தேவாரப் பதிகம்: “உருவினார் உமையொடும்” – 3.023
+
+🌿 தல வரலாறு
+
+திருவிற்கோலம் எனப் பழங்காலத்தில் அழைக்கப்பட்ட இத்தலம் தற்போது கூவம் என்று வழங்கப்படுகிறது.
+
+திரிபுராசுரர்களான தாரகாட்சன், கமலாட்சன், வித்யுன்மாலி ஆகியோரின் மூன்று கோட்டைகளை அழிக்க சிவபெருமான் புறப்பட்டபோது, மேருமலையை வில்லாகவும் வாசுகியை நாணாகவும் கொண்டு திரிபுர சம்ஹாரம் செய்யப் புறப்பட்டதாக புராண மரபு கூறுகிறது.
+
+சிவபெருமான் மேருமலையை வில்லாக ஏந்திய திருக்கோலம் கொண்டதால் “திரு + வில் + கோலம் = திருவிற்கோலம்” என்ற பெயர் ஏற்பட்டதாக தலவரலாறு கூறுகிறது.
+
+⭐ சிறப்பு
+
+இத்தல மூலவர் திரிபுராந்தகேஸ்வரர் என்றும் திருவிற்கோலநாதர் என்றும் அழைக்கப்படுகிறார்.
+
+மூலவர் சுயம்ப
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-09-24T11:46:13+05:30.
+
+The user's current state is as follows:
+Other open documents:
+- c:\Users\harih\OneDrive\Desktop\Hari Projects\HinduTemples\src\components\TempleModal.jsx (LANGUAGE_JAVASCRIPT)
+- c:\Users\harih\OneDrive\Desktop\Hari Projects\HinduTemples\src\index.css (LANGUAGE_CSS)
+- c:\Users\harih\OneDrive\Desktop\Hari Projects\HinduTemples\scratch\extractMadurai.js (LANGUAGE_JAVASCRIPT)
+- c:\Users\harih\OneDrive\Desktop\Hari Projects\HinduTemples\src\data\kumbakonamTemples.js (LANGUAGE_JAVASCRIPT)
+- c:\Users\harih\OneDrive\Desktop\Hari Projects\HinduTemples\src\data\indiaTemples.js (LANGUAGE_JAVASCRIPT)
+</ADDITIONAL_METADATA>
+<USER_SETTINGS_CHANGE>
+The user changed setting `Model Selection` from None to Claude Sonnet 4.6 (Thinking). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.
+</USER_SETTINGS_CHANGE>
