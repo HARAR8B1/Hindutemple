@@ -119,6 +119,13 @@ export default function Footer() {
             </p>
           </div>
         </div>
+
+        {/* Website Maintainer & Creator Credit */}
+        <div className="mt-8 pt-6 border-t border-gold/20 text-center">
+          <p className="text-xs sm:text-sm text-gold/90 font-medium tracking-wide">
+            Website created and maintained by <span className="text-warm-white font-semibold">Hariharan Nagarajan</span>, Chennai, Mob# <a href="tel:+919500046807" className="text-gold font-bold hover:underline transition-colors">+919500046807</a>
+          </p>
+        </div>
       </div>
     </footer>
   );

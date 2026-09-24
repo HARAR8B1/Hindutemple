@@ -1,9 +1,253 @@
 /**
  * Tiruvallur District Hindu Temples
  * Sources: Wikipedia Category:Hindu_temples_in_Tiruvallur_district
- * 22 temples listed in the Wikipedia category
+ * Includes 6 Devaram Paadal Petra Shiva Temples of Tiruvallur District
  */
 export const tiruvallurTemples = [
+  // ─────────────────────────────────────────────────────────────────────
+  // DEVARAM PAADAL PETRA SHIVA TEMPLES OF TIRUVALLUR DISTRICT (6 temples)
+  // ─────────────────────────────────────────────────────────────────────
+  {
+    id: 'tripurantakeswarar-koovam-thiruvirkolam',
+    name: 'Tripurantakeswarar Temple (Thiruvirkolam)',
+    city: 'Koovam',
+    state: 'Tamil Nadu',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Thiruvirkolam_temple.jpg/320px-Thiruvirkolam_temple.jpg',
+    period: 'Ancient, Sangam–Pallava era',
+    category: 'Shiva',
+    designation: 'Devaram Paadal Petra Sthalams',
+    history: 'Thiruvirkolam (திருவிற்கோலம்), now called Koovam (கூவம்), is a celebrated Devaram Paadal Petra Sthalam in Tiruvallur district. According to Puranic tradition, when Shiva set out to destroy the three citadels (Tripura) of the asuras Tarakaksha, Kamalaksha, and Vidyunmali — wielding Mount Meru as his bow (vil) and Vasuki as the bowstring — he assumed the divine form called "Thiruvirkolam" (the Sacred Bow Posture). The shrine\'s name derives from this cosmic event: "Thiru + Vil + Kolam" (Sacred + Bow + Form). The presiding deity Shiva is worshipped as Tripurantakeswarar (also known as Thiruvirkolanathar), and the Goddess as Tripurantaki (also known as Tripurasundari). The Sthala Vriksham is the Vilva (Bael) tree. The sacred waters are the Agni Theertham and Koopakagni Theertham. The great Shaiva saint Thirugnana Sambandar sang the Devaram padhigam "Uruvinaar Umaiyodum" (3.023) in praise of this shrine, conferring it the status of a Paadal Petra Sthalam. The Moolavar here is a Swayambhu (self-manifested) Linga, which lends extraordinary sanctity to this temple.',
+    timings: '6:00 AM – 12:00 PM | 4:00 PM – 8:00 PM',
+    festivals: ['Maha Shivaratri', 'Arudra Darshan', 'Panguni Uthiram', 'Karthigai Deepam', 'Tripura Samhara Utsavam'],
+    significance: 'One of the 276 Devaram Paadal Petra Sthalams — celebrated by Thirugnana Sambandar (Padhigam 3.023: "Uruvinaar Umaiyodum"). The Moolavar Tripurantakeswarar is a Swayambhu Linga. The temple enshrines Shiva\'s legendary Tripura Samhara posture (Thiruvirkolam), making it unique among Shiva temples. The Sthala Vriksham (sacred tree) is the Vilva (Bael) tree, and the Theerthams are Agni Theertham and Koopakagni Theertham.',
+    mapsUrl: 'https://maps.google.com/?q=Tripurantakeswarar+Temple+Koovam+Tiruvallur',
+    lat: 13.2010, lng: 79.9750,
+    translations: {
+      ta: {
+        name: 'அருள்மிகு திரிபுராந்தகேஸ்வரர் திருக்கோயில், திருவிற்கோலம் (கூவம்)',
+        city: 'கூவம்',
+        state: 'தமிழ்நாடு',
+        category: 'சிவன்',
+        designation: 'தேவாரம் பாடல் பெற்ற தலம்',
+        history: 'திருவிற்கோலம் (தற்போது கூவம்) என்பது திருவள்ளூர் மாவட்டத்திலுள்ள ஒரு தேவாரம் பாடல் பெற்ற சிவத்தலம். திரிபுராசுரர்களான தாரகாட்சன், கமலாட்சன், வித்யுன்மாலி ஆகியோரின் மூன்று கோட்டைகளை அழிக்க சிவபெருமான் மேருமலையை வில்லாகவும் வாசுகியை நாணாகவும் கொண்டு திரிபுர சம்ஹாரம் செய்யப் புறப்பட்டதாக புராண மரபு கூறுகிறது. சிவபெருமான் வில்லை ஏந்திய திருக்கோலம் கொண்டதால் "திரு + வில் + கோலம் = திருவிற்கோலம்" என்ற பெயர் ஏற்பட்டதாக தலவரலாறு கூறுகிறது. மூலவர்: திரிபுராந்தகேஸ்வரர் / திருவிற்கோலநாதர் (சுயம்பு லிங்கம்). அம்மன்: திரிபுராந்தகி / திரிபுரசுந்தரி. தல விருட்சம்: வில்வம். தீர்த்தம்: அக்னி தீர்த்தம், கூபாக்கினி தீர்த்தம். தேவாரம்: திருஞானசம்பந்தர் — "உருவினார் உமையொடும்" (3.023).',
+        timings: 'காலை 6:00 – மதியம் 12:00 | மாலை 4:00 – இரவு 8:00',
+        festivals: ['மஹா சிவராத்திரி', 'ஆருத்ரா தர்சனம்', 'பங்குனி உத்திரம்', 'கார்த்திகை தீபம்', 'திரிபுர சம்ஹார உத்சவம்'],
+        significance: '276 தேவாரம் பாடல் பெற்ற தலங்களில் ஒன்று. திருஞானசம்பந்தர் "உருவினார் உமையொடும்" (3.023) என்ற பதிகத்தில் பாடியுள்ளார். மூலவர் சுயம்பு லிங்கம். சிவபெருமானின் திரிபுர சம்ஹார திருவிற்கோலத்தை நினைவுகூரும் தலம்.',
+      },
+      hi: {
+        name: 'श्री त्रिपुरांतकेश्वरर मंदिर, तिरुविर्कोलम (कूवम)',
+        city: 'कूवम',
+        state: 'तमिलनाडु',
+        category: 'शिव',
+        designation: 'देवारम पादल पेत्र स्थलम',
+        history: 'तिरुविर्कोलम (अब कूवम) तिरुवल्लूर जिले का एक देवारम पादल पेत्र शिव मंदिर है। पुराणों के अनुसार, जब भगवान शिव त्रिपुर असुरों — तारकाक्ष, कमलाक्ष और विद्युन्माली — के तीन नगरों का नाश करने निकले, तब उन्होंने मेरु पर्वत को धनुष और वासुकि को प्रत्यंचा बनाकर त्रिपुर संहार किया। इस धनुषधारी दिव्य स्वरूप के कारण इस स्थल को "तिरु + विल् + कोलम = तिरुविर्कोलम" (पवित्र + धनुष + रूप) कहा गया। मूलवर: त्रिपुरांतकेश्वरर / तिरुविर्कोलनाथर (स्वयंभू लिंग)। अम्मन: त्रिपुरांतकी / त्रिपुरसुंदरी। स्थलवृक्ष: बेल। तीर्थ: अग्नि तीर्थ, कूपाग्नि तीर्थ। देवारम: तिरुज्ञानसम्बंदर — "उरुविनार उमैयोडुम" (3.023)।',
+        timings: 'प्रातः 6:00 – दोपहर 12:00 | सायं 4:00 – रात्रि 8:00',
+        festivals: ['महाशिवरात्रि', 'आर्द्रा दर्शन', 'पंगुनि उत्तिरम', 'कार्तिगई दीपम', 'त्रिपुर संहार उत्सव'],
+        significance: '276 देवारम पादल पेत्र स्थलमों में से एक। तिरुज्ञानसम्बंदर ने यहाँ "उरुविनार उमैयोडुम" (3.023) पाठ गाया। मूलवर स्वयंभू लिंग हैं। यह मंदिर भगवान शिव के त्रिपुर संहार धनुषधारी रूप को समर्पित है।',
+      },
+    },
+  },
+  {
+    id: 'agniswarar-thirukallil-thirukandalam',
+    name: 'Agniswarar Temple (Thirukallil – Thirukandalam)',
+    city: 'Thirukandalam',
+    state: 'Tamil Nadu',
+    image: '',
+    period: 'Ancient, Pallava–Chola era',
+    category: 'Shiva',
+    designation: 'Devaram Paadal Petra Sthalams',
+    history: 'Thirukallil (திருக்கள்ளில்), also known as Thirukandalam (திருக்கண்டலம்), is a Devaram Paadal Petra Sthalam located in Tiruvallur district. The presiding deity Shiva is worshipped here as Agniswarar (அக்னீஸ்வரர்), the Lord of Fire, and the Goddess is revered as Soundaranayaki (சௌந்தரநாயகி). The Sthala Vriksham (sacred tree) of this shrine is the Kallil tree (கள்ளி, Euphorbia), giving the place its ancient name Thirukallil. The theertham (sacred water) is the Agni Theertham (Fire Theertham). The sacred hymns of Thirukallil were composed by the Devaram saints, elevating this shrine to the distinguished status of a Paadal Petra Sthalam — a temple sung by the holy Nayanmars. The temple follows traditional Shaiva Agamic practices of the Thondai Mandalam region and bears ancient stone inscriptions from the Pallava and Chola periods.',
+    timings: '6:00 AM – 12:00 PM | 4:00 PM – 8:00 PM',
+    festivals: ['Maha Shivaratri', 'Arudra Darshan', 'Panguni Uthiram', 'Karthigai Deepam'],
+    significance: 'One of the 276 Devaram Paadal Petra Sthalams of Thondai Mandalam. The Sthala Vriksham is the Kallil (Euphorbia) tree — rare and distinctive among Shiva temples. The deity Agniswarar represents Shiva as the cosmic fire (Agni), and the Agni Theertham has sacred purifying power.',
+    mapsUrl: 'https://maps.google.com/?q=Agniswarar+Temple+Thirukandalam+Tiruvallur',
+    lat: 13.1890, lng: 80.0640,
+    translations: {
+      ta: {
+        name: 'அருள்மிகு அக்னீஸ்வரர் திருக்கோயில், திருக்கள்ளில் (திருக்கண்டலம்)',
+        city: 'திருக்கண்டலம்',
+        state: 'தமிழ்நாடு',
+        category: 'சிவன்',
+        designation: 'தேவாரம் பாடல் பெற்ற தலம்',
+        history: 'திருக்கள்ளில் (திருக்கண்டலம்) என்பது திருவள்ளூர் மாவட்டத்திலுள்ள ஒரு தேவாரம் பாடல் பெற்ற சிவத்தலம். மூலவர்: அக்னீஸ்வரர். அம்மன்: சௌந்தரநாயகி. தல விருட்சம்: கள்ளி (யூஃபோர்பியா). தீர்த்தம்: அக்னி தீர்த்தம். கள்ளி மரத்தின் பெயரால் இத்தலம் "திருக்கள்ளில்" என்று அழைக்கப்படுகிறது. தொண்டை மண்டலத்தில் உள்ள முக்கியமான தேவாரம் பாடல் பெற்ற 276 தலங்களில் ஒன்று. பல்லவர் மற்றும் சோழர் காலத்து கல்வெட்டுகள் இத்தலத்தில் காணப்படுகின்றன.',
+        timings: 'காலை 6:00 – மதியம் 12:00 | மாலை 4:00 – இரவு 8:00',
+        festivals: ['மஹா சிவராத்திரி', 'ஆருத்ரா தர்சனம்', 'பங்குனி உத்திரம்', 'கார்த்திகை தீபம்'],
+        significance: '276 தேவாரம் பாடல் பெற்ற தலங்களில் ஒன்று. தல விருட்சம் கள்ளி மரம் — சிவத்தலங்களில் அரிதான தனிச்சிறப்பு. மூலவர் அக்னீஸ்வரர் — சிவபெருமானின் அக்னி வடிவம்.',
+      },
+      hi: {
+        name: 'श्री अग्नीश्वरर मंदिर, तिरुक्कल्लिल (तिरुक्कंडलम)',
+        city: 'तिरुक्कंडलम',
+        state: 'तमिलनाडु',
+        category: 'शिव',
+        designation: 'देवारम पादल पेत्र स्थलम',
+        history: 'तिरुक्कल्लिल (तिरुक्कंडलम) तिरुवल्लूर जिले का एक देवारम पादल पेत्र शिव मंदिर है। मूलवर: अग्नीश्वरर (भगवान शिव का अग्नि रूप)। अम्मन: सौंदरनायकी। स्थलवृक्ष: कल्ली (यूफोर्बिया) — इसी वृक्ष के नाम पर इस स्थल को "तिरुक्कल्लिल" कहा गया। तीर्थ: अग्नि तीर्थ। यह थोण्डई मंडलम का एक महत्वपूर्ण 276 देवारम पादल पेत्र स्थलम है। यहाँ पल्लव और चोल काल के शिलालेख पाए जाते हैं।',
+        timings: 'प्रातः 6:00 – दोपहर 12:00 | सायं 4:00 – रात्रि 8:00',
+        festivals: ['महाशिवरात्रि', 'आर्द्रा दर्शन', 'पंगुनि उत्तिरम', 'कार्तिगई दीपम'],
+        significance: '276 देवारम पादल पेत्र स्थलमों में से एक। स्थलवृक्ष कल्ली (यूफोर्बिया) — शिव मंदिरों में दुर्लभ। मूलवर अग्नीश्वरर, शिव के अग्नि स्वरूप को दर्शाते हैं।',
+      },
+    },
+  },
+  {
+    id: 'pasupathiswarar-thirupasur',
+    name: 'Pasupathiswarar Temple (Thirupasur)',
+    city: 'Thirupasur',
+    state: 'Tamil Nadu',
+    image: '',
+    period: 'Ancient, Sangam–Pallava era',
+    category: 'Shiva',
+    designation: 'Devaram Paadal Petra Sthalams',
+    history: 'Thirupasur (திருப்பாசூர்) is one of the ancient Devaram Paadal Petra Sthalams located in Tiruvallur district, Tamil Nadu. The presiding deity Shiva is worshipped as Pasupathiswarar (பசுபதீஸ்வரர்), the Lord of all living beings (Pashupati), and the Goddess is revered as Brahmavidyanayaki (பிரம்மவித்யாநாயகி) — the Goddess who bestows the knowledge of Brahman. The Sthala Vriksham (sacred tree) is the Kondrai (Cassia fistula / Golden Shower tree). The theertham is the Brahma Theertham. The temple is situated on the banks of a sacred tank and has been sung by the Devaram Nayanmars. The shrine bears witness to centuries of Shaiva devotional tradition in the Thondai Mandalam region. Stone inscriptions from the Pallava and Chola periods document the temple\'s rich administrative and religious history.',
+    timings: '6:00 AM – 12:00 PM | 4:30 PM – 8:00 PM',
+    festivals: ['Maha Shivaratri', 'Arudra Darshan', 'Panguni Uthiram', 'Karthigai Deepam', 'Vaikasi Visakam'],
+    significance: 'One of the 276 Devaram Paadal Petra Sthalams of Thondai Mandalam. The deity Pasupathiswarar embodies Shiva as the supreme protector of all living beings. The Goddess Brahmavidyanayaki is believed to grant divine wisdom and liberation (moksha) to devoted worshippers. The Kondrai tree (Golden Shower) is the Sthala Vriksham.',
+    mapsUrl: 'https://maps.google.com/?q=Pasupathiswarar+Temple+Thirupasur+Tiruvallur',
+    lat: 13.1650, lng: 79.8820,
+    translations: {
+      ta: {
+        name: 'அருள்மிகு பசுபதீஸ்வரர் திருக்கோயில், திருப்பாசூர்',
+        city: 'திருப்பாசூர்',
+        state: 'தமிழ்நாடு',
+        category: 'சிவன்',
+        designation: 'தேவாரம் பாடல் பெற்ற தலம்',
+        history: 'திருப்பாசூர் என்பது திருவள்ளூர் மாவட்டத்திலுள்ள ஒரு தேவாரம் பாடல் பெற்ற சிவத்தலம். மூலவர்: பசுபதீஸ்வரர் (அனைத்து உயிர்களுக்கும் இறைவன்). அம்மன்: பிரம்மவித்யாநாயகி (பிரம்ம ஞானத்தை அருளுபவள்). தல விருட்சம்: கொன்றை (காசியா ஃபிஸ்டுலா). தீர்த்தம்: பிரம்ம தீர்த்தம். தொண்டை மண்டலத்தின் தேவாரம் பாடல் பெற்ற 276 தலங்களில் ஒன்று. பல்லவர் மற்றும் சோழர் காலத்து கல்வெட்டுகள் காணப்படுகின்றன.',
+        timings: 'காலை 6:00 – மதியம் 12:00 | மாலை 4:30 – இரவு 8:00',
+        festivals: ['மஹா சிவராத்திரி', 'ஆருத்ரா தர்சனம்', 'பங்குனி உத்திரம்', 'கார்த்திகை தீபம்', 'வைகாசி விசாகம்'],
+        significance: '276 தேவாரம் பாடல் பெற்ற தலங்களில் ஒன்று. மூலவர் பசுபதீஸ்வரர் — அனைத்து உயிர்களையும் காக்கும் சிவபெருமான். அம்மன் பிரம்மவித்யாநாயகி — பிரம்ம ஞானத்தை மோட்சத்திற்கு வழிகாட்டுபவள். தல விருட்சம்: கொன்றை மரம்.',
+      },
+      hi: {
+        name: 'श्री पशुपतीश्वरर मंदिर, तिरुप्पासूर',
+        city: 'तिरुप्पासूर',
+        state: 'तमिलनाडु',
+        category: 'शिव',
+        designation: 'देवारम पादल पेत्र स्थलम',
+        history: 'तिरुप्पासूर तिरुवल्लूर जिले का एक देवारम पादल पेत्र शिव मंदिर है। मूलवर: पशुपतीश्वरर (सभी प्राणियों के स्वामी)। अम्मन: ब्रह्मविद्यानायकी (ब्रह्म ज्ञान की देवी)। स्थलवृक्ष: कोन्ड्रई (अमलतास — Cassia fistula)। तीर्थ: ब्रह्म तीर्थ। यह थोण्डई मंडलम के 276 देवारम पादल पेत्र स्थलमों में से एक है। यहाँ पल्लव और चोल काल के शिलालेख पाए जाते हैं।',
+        timings: 'प्रातः 6:00 – दोपहर 12:00 | सायं 4:30 – रात्रि 8:00',
+        festivals: ['महाशिवरात्रि', 'आर्द्रा दर्शन', 'पंगुनि उत्तिरम', 'कार्तिगई दीपम', 'वैकासी विशाखम'],
+        significance: '276 देवारम पादल पेत्र स्थलमों में से एक। भगवान पशुपतीश्वरर सभी प्राणियों के रक्षक हैं। देवी ब्रह्मविद्यानायकी भक्तों को मोक्ष का मार्ग दिखाती हैं। स्थलवृक्ष: अमलतास (कोन्ड्रई)।',
+      },
+    },
+  },
+  {
+    id: 'vadaranyeswarar-thiruvalangadu',
+    name: 'Vadaranyeswarar Temple (Ratna Sabha, Thiruvalangadu)',
+    city: 'Thiruvalangadu',
+    state: 'Tamil Nadu',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Thiruvaalangadu_temple.jpg/320px-Thiruvaalangadu_temple.jpg',
+    period: 'Ancient, Sangam–Pallava era',
+    category: 'Shiva',
+    designation: 'Devaram Paadal Petra Sthalams',
+    history: 'Thiruvalangadu (திருவாலங்காடு) is one of the supreme Devaram Paadal Petra Sthalams in Tiruvallur district and home to the sacred Ratna Sabha (ரத்தின சபை — Gem Hall), one of the Five Cosmic Dance Sabhas of Lord Nataraja. Legend holds that Lord Shiva and Goddess Kali (Bhairavi) engaged in a cosmic dance competition here in the sacred banyan-kadamba forest (Aalangadu). When Lord Shiva performed the breathtaking Urdhva Tandava (raising His right leg up to His crown), Kali admitted defeat. Presiding deity: Vadaranyeswarar / Devarsingapperumal (Swayambhu Linga). Consort: Vandarkuzhali Ammai. The great saint Karaikal Ammaiyar considered this holy soil so sacred that she traversed it walking on her head, sang her famous Thiruvalangattu Mootha Thirupathigam, and attained eternal bliss beneath the dancing foot of Shiva. Sung by all three Devaram Moovar: Thirugnana Sambandar, Thirunavukkarasar (Appar), and Sundaramoorthy Nayanar.',
+    timings: '6:00 AM – 12:30 PM | 4:00 PM – 8:30 PM',
+    festivals: ['Arudra Darshan', 'Maha Shivaratri', 'Panguni Uthiram', 'Karthigai Deepam', 'Aani Thirumanjanam'],
+    significance: 'One of the Pancha Sabhas of Lord Nataraja (Ratna Sabha). Celebrated for the legendary Urdhva Tandava dance duel between Shiva and Kali. Sung by all three Devaram saints (Sambandar, Appar, Sundarar). Sthala Vriksham: Aalamaram (Banyan) and Kadamba. Sacred Theertham: Mukthi Theertham. Final resting place where Saint Karaikal Ammaiyar attained eternal liberation.',
+    mapsUrl: 'https://maps.google.com/?q=Vadaranyeswarar+Temple+Thiruvalangadu+Tiruvallur',
+    lat: 13.1256, lng: 79.7712,
+    translations: {
+      ta: {
+        name: 'அருள்மிகு வடாரண்யேஸ்வரர் திருக்கோயில் (ரத்தின சபை), திருவாலங்காடு',
+        city: 'திருவாலங்காடு',
+        state: 'தமிழ்நாடு',
+        category: 'சிவன்',
+        designation: 'தேவாரம் பாடல் பெற்ற தலம்',
+        history: 'திருவாலங்காடு என்பது நடராஜப் பெருமானின் ஐம்பெரும் நடன சபைகளில் ஒன்றான "ரத்தின சபை" (ரத்ன சபை) அமைந்த மிகப்புனிதமான தலம். சிவபெருமானுக்கும் காளிக்கும் இடையே நடைபெற்ற நாட்டியப் போட்டியில், சிவபெருமான் தனது வலது காலை உச்சி வரை தூக்கி "ஊர்த்தவ தாண்டவம்" ஆடி வெற்றி பெற்ற தலம். மூலவர்: வடாரண்யேஸ்வரர் / தேவர்சிங்கப்பெருமான் (சுயம்பு லிங்கம்). அம்மன்: வண்டார்குழலி அம்மை. காரைக்கால் அம்மையார் இப்புனித பூமியில் கால் படக்கூடாது என தலையாலேயே நடந்து வந்து ஈசனின் திருநடனம் கண்டு, அவரது திருவடியின் கீழ் நிரந்தர முக்தி பெற்ற திருத்தலம். தேவார மூவரான திருஞானசம்பந்தர், அப்பர், சுந்தரர் ஆகிய மூவராலும் பாடல் பெற்ற பெருமை கொண்டது.',
+        timings: 'காலை 6:00 – மதியம் 12:30 | மாலை 4:00 – இரவு 8:30',
+        festivals: ['ஆருத்ரா தரிசனம்', 'மஹா சிவராத்திரி', 'பங்குனி உத்திரம்', 'கார்த்திகை தீபம்', 'ஆனி திருமஞ்சனம்'],
+        significance: 'நடராஜரின் பஞ்ச சபைகளில் ரத்தின சபை. சிவபெருமானின் ஊர்த்தவ தாண்டவ தலம். காரைக்கால் அம்மையார் தலையினால் நடந்து முக்தி பெற்ற புண்ணிய பூமி. தேவார மூவரும் பாடிய ஒப்பற்ற சிவஸ்தலம்.',
+      },
+      hi: {
+        name: 'श्री वडारण्येश्वरर मंदिर (रत्न सभा), तिरुवालंगाडु',
+        city: 'तिरुवालंगाडु',
+        state: 'तमिलनाडु',
+        category: 'शिव',
+        designation: 'देवारम पादल पेत्र स्थलम',
+        history: 'तिरुवालंगाडु भगवान नटराज की पांच प्रसिद्ध नृत्य सभाओं में से एक "रत्न सभा" के रूप में विश्वप्रसिद्ध देवारम पादल पेत्र शिव मंदिर है। यहाँ भगवान शिव और देवी काली के बीच आलौकिक नृत्य प्रतियोगिता हुई थी। जब शिव ने अपना दायाँ पैर मस्तक तक उठाकर "ऊर्ध्व ताण्डव" किया, तो देवी काली ने अपनी पराजय स्वीकार की। मूलवर: वडारण्येश्वरर / देवर्सिंगपेरुमाल (स्वयंभू लिंग)। अम्मन: वंडारकुळली। महान शैव संत कारैक्काल अम्मैयार ने इस पवित्र भूमि पर पैर रखना अनुचित मानकर सिर के बल चलकर यात्रा की और शिव के नृत्य चरणों के नीचे मोक्ष प्राप्त किया। तीनों देवारम संतों (सम्बंदर, अप्पर, सुंदरर) द्वारा स्तुत।',
+        timings: 'प्रातः 6:00 – दोपहर 12:30 | सायं 4:00 – रात्रि 8:30',
+        festivals: ['आर्द्रा दर्शन', 'महाशिवरात्रि', 'पंगुनि उत्तिरम', 'कार्तिगई दीपम', 'आनि तिरुमंजनम'],
+        significance: 'नटराज की पंच सभाओं में से रत्न सभा। भगवान शिव का ऊर्ध्व ताण्डव स्थल। संत कारैक्काल अम्मैयार की मोक्ष स्थली। तीनों प्रमुख देवारम संतों द्वारा वंदित पावन धाम।',
+      },
+    },
+  },
+  {
+    id: 'oondreeswarar-thiruvenbaakkam-poondi',
+    name: 'Oondreeswarar Temple (Thiruvenbaakkam – Poondi)',
+    city: 'Poondi',
+    state: 'Tamil Nadu',
+    image: '',
+    period: 'Ancient, Sangam–Pallava era',
+    category: 'Shiva',
+    designation: 'Devaram Paadal Petra Sthalams',
+    history: 'Thiruvenbaakkam (திருவெண்பாக்கம்), located in Poondi near the famous Poondi Reservoir in Tiruvallur district, is an exalted Devaram Paadal Petra Sthalam immortalized by Saint Sundaramoorthy Nayanar. When Sundarar breached his divine promise to Sangili Nachiyar at Tiruvottiyur to stay in her town, he lost the sight in both eyes as ordained. Groping his way in utter darkness, he reached Thiruvenbaakkam and cried into the sanctum: "உளீரோ எம்பிரான்?" ("Are You inside, my Lord?"). Lord Shiva replied "உளோம், போ!" ("We are indeed inside, go!"), and tossed a sacred walking stick (ஊன்றுகோல் - Oondrukol) to guide his footsteps. Hence Lord Shiva is worshipped as Oondreeswarar (the Lord who gave the Walking Stick). Presiding deity: Oondreeswarar (Swayambhu Linga). Consort: Karundhadanganni (கரும்பனையன்ன / மின்னனையவள்). Sthala Vriksham: Moongil (Bamboo). Sacred water: Siva Ganga Theertham. Worshippers pray here for the cure of eye ailments, physical mobility challenges, and divine guidance in times of hardship.',
+    timings: '6:00 AM – 12:00 PM | 4:30 PM – 8:00 PM',
+    festivals: ['Maha Shivaratri', 'Arudra Darshan', 'Panguni Uthiram', 'Karthigai Deepam', 'Sundarar Walking Stick Utsavam'],
+    significance: 'Devaram Paadal Petra Sthalam celebrated by Saint Sundarar (Padhigam: "பிழையுளன பொறுத்திடுவர்" 7.089). Famous for Lord Shiva gifting the sacred walking stick (Oondrukol) to blind Sundarar. Premier parihara sthalam for healing eye diseases, vision problems, and guiding devotees through life\'s darkest crises. Located peacefully by the scenic Poondi reservoir.',
+    mapsUrl: 'https://maps.google.com/?q=Oondreeswarar+Temple+Thiruvenpakkam+Poondi+Tiruvallur',
+    lat: 13.2085, lng: 79.8642,
+    translations: {
+      ta: {
+        name: 'அருள்மிகு ஊன்றீஸ்வரர் திருக்கோயில், திருவெண்பாக்கம் (பூண்டி)',
+        city: 'பூண்டி',
+        state: 'தமிழ்நாடு',
+        category: 'சிவன்',
+        designation: 'தேவாரம் பாடல் பெற்ற தலம்',
+        history: 'திருவெண்பாக்கம் (பூண்டி, திருவள்ளூர் மாவட்டம்) என்பது சுந்தரமூர்த்தி நாயனாரின் வரலாற்றோடு பின்னிப் பிணைந்த புகழ்பெற்ற தேவாரம் பாடல் பெற்ற சிவத்தலம். திருவொற்றியூரில் சங்கிலி நாச்சியாருக்கு செய்த சத்தியத்தை மீறி ஊர் எல்லையைக் கடந்ததால் சுந்தரர் இரு கண்களின் பார்வையையும் இழந்தார். பார்வையற்ற நிலையில் தடுமாறி திருவெண்பாக்கம் கோயிலுக்கு வந்த சுந்தரர், சன்னதியை நோக்கி "உளீரோ எம்பிரான்?" (எம் பெருமானே உள்ளே இருக்கிறீரா?) என்று கதறினார். அதற்கு சிவபெருமான் "உளோம், போ!" (உள்ளேதான் இருக்கிறோம், போ!) என்று கூறி, அவருக்கு வழிகாட்ட ஒரு தெய்வீக ஊன்றுகோலை வீசி அருளினார். இதனால் மூலவர் "ஊன்றீஸ்வரர்" என்று போற்றப்படுகிறார். மூலவர்: ஊன்றீஸ்வரர் (சுயம்பு லிங்கம்). அம்மன்: கரும்பனையன்ன / மின்னனையவள். தல விருட்சம்: மூங்கில். தீர்த்தம்: சிவ கங்கை தீர்த்தம்.',
+        timings: 'காலை 6:00 – மதியம் 12:00 | மாலை 4:30 – இரவு 8:00',
+        festivals: ['மஹா சிவராத்திரி', 'ஆருத்ரா தரிசனம்', 'பங்குனி உத்திரம்', 'கார்த்திகை தீபம்', 'சுந்தரர் ஊன்றுகோல் பெற்ற உற்சவம்'],
+        significance: '276 தேவாரம் பாடல் பெற்ற தலங்களில் ஒன்று. சுந்தரர் பாடிய "பிழையுளன பொறுத்திடுவர்" (7.089) பதிகம் பெற்ற தலம். சுந்தரருக்கு ஈசன் ஊன்றுகோல் வழங்கி வழிகாட்டிய திருத்தலம். கண் பார்வை குறைபாடுகள், கண் நோய்கள் நீங்கவும், வாழ்க்கையில் வழி தெரியாமல் தவிப்போருக்கு நல்வழி காட்டவும் அருளும் அற்புதப் பரிகாரத் தலம்.',
+      },
+      hi: {
+        name: 'श्री ऊन्द्रीश्वरर मंदिर, तिरुवेण्पाक्कम (पूंडी)',
+        city: 'पूंडी',
+        state: 'तमिलनाडु',
+        category: 'शिव',
+        designation: 'देवारम पादल पेत्र स्थलम',
+        history: 'तिरुवेण्पाक्कम (पूंडी जलाशय के निकट, तिरुवल्लूर जिला) संत सुंदरमूर्ति नायनार के जीवन से जुड़ा एक अत्यंत पावन देवारम पादल पेत्र शिव मंदिर है। जब संत सुंदरर ने तिरुवोट्टियूर में संगिली नाचियार को दिए वचन को तोड़कर नगर सीमा पार की, तो उन्होंने दोनों आँखों की ज्योति खो दी। अंधकार में भटकते हुए जब वे तिरुवेण्पाक्कम पहुँचे और गर्भगृह के सामने रोते हुए पुकारा: "उलीरो एम्पिरान?" (हे प्रभु, क्या आप भीतर हैं?), तो भगवान शिव ने उत्तर दिया: "उलोम, पो!" (हाँ हम भीतर हैं, जाओ!) और उन्हें मार्गदर्शन हेतु गर्भगृह से एक दिव्य लाठी (ऊन्द्रुकोल - सहारा देने वाली छड़ी) प्रदान की। इसलिए भगवान शिव को "ऊन्द्रीश्वरर" कहा जाता है। मूलवर: ऊन्द्रीश्वरर (स्वयंभू लिंग)। अम्मन: करुम्बनैयान्न। स्थलवृक्ष: बाँस। तीर्थ: शिव गंगा।',
+        timings: 'प्रातः 6:00 – दोपहर 12:00 | सायं 4:30 – रात्रि 8:00',
+        festivals: ['महाशिवरात्रि', 'आर्द्रा दर्शन', 'पंगुनि उत्तिरम', 'कार्तिगई दीपम', 'सुंदरर छड़ी प्राप्ति उत्सव'],
+        significance: 'देवारम पादल पेत्र स्थल (संत सुंदरर द्वारा रचित 7.089)। भगवान शिव द्वारा दृष्टिहीन सुंदरर को सहारे की छड़ी देने का पावन स्थल। नेत्र रोगों, दृष्टि दोष निवारण तथा जीवन के कठिन समय में सन्मार्ग प्राप्ति हेतु सिद्ध परिहार स्थल।',
+      },
+    },
+  },
+  {
+    id: 'thyagarajaswamy-vadivudai-amman-thiruvottiyur',
+    name: 'Thyagarajaswamy & Vadivudai Amman Temple (Thiruvottiyur)',
+    city: 'Thiruvottiyur',
+    state: 'Tamil Nadu',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Thiruvottiyur_Thyagaraja_Temple_Gopuram.jpg/320px-Thiruvottiyur_Thyagaraja_Temple_Gopuram.jpg',
+    period: 'Ancient, Pallava–Chola era (7th Century CE)',
+    category: 'Shiva',
+    designation: 'Devaram Paadal Petra Sthalams',
+    history: 'Thiruvottiyur (திருவொற்றியூர்) is one of the most venerable and ancient Devaram Paadal Petra Sthalams of Thondai Mandalam, situated on the Coromandel coast. The temple is dedicated to Lord Shiva as Adhipureeswarar (the Primordial Lord / Swayambhu Mud Linga in Padmapadam form, covered in gold/silver kavacham) and Thyagarajaswamy (performing Ajapa Natanam). The Divine Mother Vadivudai Amman (Tripurasundari) is the supreme manifestation of Ichha Shakti (the Divine Will), forming the celebrated Shakti triad of Chennai with Kodiyidai Amman of Thirumullaivoyal (Kriya Shakti) and Thiruvudai Amman of Melur (Gnana Shakti). Legend states that during the Great Cosmic Deluge (Pralaya), Lord Shiva sheltered this holy land from the surging waters, declaring it exempt ("ஒற்றி வைக்கப்பட்டது" - Ottri vaikkappattathu), hence the sacred name Thiruvottiyur. All three Devaram Moovar — Sambandar, Appar, and Sundarar — have sung hymns here. Saint Sundarar wedded Sangili Nachiyar under the sacred Makizha tree here. Saint Pattinathar attained Jeeva Samadhi on the beach nearby, and Saint Ramalinga Vallalar worshipped Vadivudai Amman daily, composing exquisite devotional hymns.',
+    timings: '6:00 AM – 12:30 PM | 4:00 PM – 9:00 PM',
+    festivals: ['Brahmotsavam (Masi Magam)', 'Vadivudai Amman Thai Poosam Utsavam', 'Maha Shivaratri', 'Panguni Uthiram', 'Arudra Darshan', 'Navaratri'],
+    significance: 'One of the greatest Devaram Paadal Petra Sthalams sung by Sambandar, Appar, and Sundarar. Vadivudai Amman is Chennai\'s supreme Ichha Shakti. Enshrines 27 Nakshatra Shiva Lingas around the prakaram for planetary remedy. Holy site of Sundarar-Sangili Nachiyar sacred marriage vow under the Makizha tree. Jeeva Samadhi sthalam of Saint Pattinathar and divine playground of Saint Ramalinga Vallalar.',
+    mapsUrl: 'https://maps.google.com/?q=Thyagaraja+Temple+Thiruvottiyur+Chennai',
+    lat: 13.1611, lng: 80.3015,
+    translations: {
+      ta: {
+        name: 'அருள்மிகு தியாகராஜசுவாமி உடனுறை வடிவுடையம்மன் திருக்கோயில், திருவொற்றியூர்',
+        city: 'திருவொற்றியூர்',
+        state: 'தமிழ்நாடு',
+        category: 'சிவன்',
+        designation: 'தேவாரம் பாடல் பெற்ற தலம்',
+        history: 'திருவொற்றியூர் என்பது தொண்டை மண்டலத்தின் தலையாய தேவாரம் பாடல் பெற்ற சிவத்தலமாகும். பிரளய காலத்தில் உலகம் வெள்ளத்தில் மூழ்கியபோது, சிவபெருமான் இத்தலத்தை வெள்ளம் தொடாதவாறு "ஒற்றி" (விலக்கி) வைத்ததால் "திருவொற்றியூர்" எனப் பெயர் பெற்றது. மூலவர்: ஆதிபுரீஸ்வரர் (சுயம்பு புற்று மண் லிங்கம், ஆண்டு முழுவதும் கவசத்தால் மூடப்பட்டு கார்த்திகை பௌர்ணமியில் மட்டுமே கவசம் திறக்கப்படும்) மற்றும் தியாகராஜசுவாமி (அஜபா நடனம்). அம்பாள்: வடிவுடையம்மன் — சென்னை பகுதி சக்தி தலங்களில் தலைசிறந்த "இச்சா சக்தி" (மேலூர் திருவுடையம்மன் ஞான சக்தி, திருமுல்லைவாயில் கொடியிடையம்மன் கிரியா சக்தி). சுந்தரமூர்த்தி நாயனார் மகிழ மரத்தடியில் சங்கிலி நாச்சியாரை திருமணம் செய்ய சத்தியம் செய்த வரலாற்றுத் தலம். தேவார மூவர் நால்வராலும் பாடல் பெற்றது. பட்டினத்தார் ஜீவ சமாதி அடைந்த தலமும், வள்ளலார் சுவாமிகள் வடிவுடையம்மனை தினமும் தரிசித்து அருள் பாடல்கள் இயற்றிய திருத்தலமும் ஆகும்.',
+        timings: 'காலை 6:00 – மதியம் 12:30 | மாலை 4:00 – இரவு 9:00',
+        festivals: ['மாசி பிரம்மோற்சவம்', 'தைப்பூச வடிவுடையம்மன் பெருவிழா', 'மஹா சிவராத்திரி', 'பங்குனி உத்திரம்', 'நவராத்திரி'],
+        significance: '276 தேவாரம் பாடல் பெற்ற தலங்களில் முதன்மையான ஒன்று (சம்பந்தர், அப்பர், சுந்தரர் பாடியது). வடிவுடையம்மன் — இச்சா சக்தி வடிவம். 27 நட்சத்திரங்களுக்குமான 27 லிங்கங்கள் அமைந்துள்ள அரிய பரிகாரத் தலம். சுந்தரர்-சங்கிலி நாச்சியார் மகிழ மர சத்தியத் தலம். பட்டினத்தார் ஜீவ சமாதி மற்றும் வள்ளலார் போற்றிய புண்ணிய பூமி.',
+      },
+      hi: {
+        name: 'श्री त्यागराजस्वामी एवं वदिवुडई अम्मन मंदिर (आदिपुरीश्वरर), तिरुवोट्टियूर',
+        city: 'तिरुवोट्टियूर',
+        state: 'तमिलनाडु',
+        category: 'शिव',
+        designation: 'देवारम पादल पेत्र स्थलम',
+        history: 'तिरुवोट्टियूर थोण्डई मंडलम का एक प्राचीन और सर्वाधिक महिमामय देवारम पादल पेत्र शिव मंदिर है। महाप्रलय के समय जब समस्त संसार जलमग्न हो गया था, तब भगवान शिव ने इस पावन भूमि को जल से अप्रभावित रखने हेतु अलग (ओट्ट्री) रखा था, इसलिए इसका नाम "तिरुवोट्टियूर" पड़ा। मूलवर: आदिपुरीश्वरर (स्वयंभू मिट्टी लिंग, जो वर्षभर रजत/स्वर्ण कवच से आच्छादित रहता है और केवल कार्तिगई पूर्णिमा पर दर्शन हेतु खुलता है) तथा त्यागराजस्वामी। अम्मन: वदिवुडई अम्मन — चेन्नई की त्रिशक्ति देवियों में सर्वोच्च "इच्छा शक्ति" (मेलूर की तिरुवुडई अम्मन ज्ञान शक्ति, तिरुमुल्लैवायल की कोडियिडई अम्मन क्रिया शक्ति)। संत सुंदरमूर्ति नायनार ने यहाँ पवित्र मकिळा वृक्ष के नीचे संगिली नाचियार से विवाह की प्रतिज्ञा ली थी। यह संत पट्टिनत्तार की जीव समाधि स्थली और संत रामलिंग वल्ललार की नित्य आराधना भूमि है।',
+        timings: 'प्रातः 6:00 – दोपहर 12:30 | सायं 4:00 – रात्रि 9:00',
+        festivals: ['मासी ब्रह्मोत्सव', 'थाई पूसम वदिवुडई अम्मन उत्सव', 'महाशिवरात्रि', 'पंगुनि उत्तिरम', 'नवरात्रि'],
+        significance: 'तीनों देवारम संतों (सम्बंदर, अप्पर, सुंदरर) द्वारा संस्तुत महाक्षेत्र। वदिवुडई अम्मन — सर्वोच्च इच्छा शक्ति स्वरूप। प्रांगण में 27 नक्षत्रों के 27 शिव लिंग स्थापित हैं जो ग्रह शांति के लिए प्रसिद्ध हैं। संत पट्टिनत्तार की समाधि और वल्ललार द्वारा वंदित पावन स्थल।',
+      },
+    },
+  },
+
   {
     id: 'bhaktavatsala-perumal-thirunindravur',
     name: 'Bhaktavatsala Perumal Temple',
@@ -326,24 +570,45 @@ export const tiruvallurTemples = [
   },
   {
     id: 'thyagaraja-temple-tiruvottiyur',
-    name: 'Thyagaraja Temple',
+    name: 'Adipureeswarar (Thyagaraja) Temple – Thiruvottiyur',
     city: 'Thiruvottiyur',
     state: 'Tamil Nadu',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Thiruvottiyur_Thyagaraja_Temple_Gopuram.jpg/320px-Thiruvottiyur_Thyagaraja_Temple_Gopuram.jpg',
-    period: 'Pallava / Chola era, 7th century CE',
+    period: 'Pallava / Chola era, 7th century CE onwards',
     category: 'Shiva',
-    designation: 'Paadal Petra Sthalams',
-    history: 'The Thyagaraja Temple at Thiruvottiyur is an ancient Paadal Petra Sthalam dedicated to Lord Shiva as Thyagaraja. The temple is also known as Thiruvotriyur Adipureeswarar Temple. It is one of the 276 Devara Paadal Petra Sthalams and is celebrated by the Nayanmars. The temple faces east and the presiding deity is Thyagaraja (Shiva as the dancer who gave up attachment). The Goddess is Tripurasundari.',
+    designation: 'Devaram Paadal Petra Sthalams',
+    history: 'Thiruvottiyur (திருவொற்றியூர்), also known as Kadalmalai (கடல்மலை — Hill at the Sea), is one of the most celebrated Devaram Paadal Petra Sthalams of Thondai Mandalam, now part of northern Chennai. The presiding deity Shiva is worshipped here as Adipureeswarar (ஆதிபுரீஸ்வரர்) and also as Thyagarajar (தியாகராஜர் — the Lord who renounces), while the Goddess is revered as Vadivudaiammai (வடிவுடையம்மை) / Tripurasundari. The Sthala Vriksham is the Punnai (Alexandrian Laurel / Calophyllum inophyllum) tree. The sacred theertham is the Nithya Pushkarani. All three great Devaram Nayanmars — Thirugnana Sambandar, Thirunavukkarasar (Appar), and Sundaramoorthy Nayanar — have sung Devaram padhigams glorifying this shrine, making it an exceptionally honoured Shiva kshetra. The temple gopuram and mandapams bear exquisite Pallava-era sculpture. The town itself, situated on the coastline, is referenced in ancient Sangam literature. Thiruvottiyur is also sacred because Shiva is said to have appeared here as the Primordial Being (Adi Puran) — hence the name Adipureeswarar.',
     timings: '5:30 AM – 12:30 PM | 4:00 PM – 9:00 PM',
-    festivals: ['Maha Shivaratri', 'Arudra Darshan', 'Panguni Uthiram', 'Thai Poosam'],
-    significance: 'One of the celebrated Paadal Petra Sthalams in Thondai Mandalam. The temple contains some of the finest Pallava-era sculptures. Thiruvottiyur is known as "Kadalmalai" (Hill at the Sea).',
+    festivals: ['Maha Shivaratri', 'Arudra Darshan', 'Panguni Uthiram', 'Thai Poosam', 'Karthigai Deepam', 'Brahmotsavam'],
+    significance: 'One of the most celebrated Devaram Paadal Petra Sthalams — sung by all three Devaram saints (Sambandar, Appar, and Sundarar). Shiva worshipped as Adipureeswarar (the Primordial Lord) and Thyagaraja. Thiruvottiyur is known as "Kadalmalai" (Hill at the Sea), a coastal Shiva kshetra. The Punnai tree is the Sthala Vriksham. The temple contains some of the finest Pallava-era sculptures.',
     mapsUrl: 'https://maps.google.com/?q=Thyagaraja+Temple+Thiruvottiyur',
     lat: 13.1640, lng: 80.2990,
     translations: {
-      ta: { name: 'தியாகராஜர் திருக்கோயில், திருவொற்றியூர்', city: 'திருவொற்றியூர்', state: 'தமிழ்நாடு', category: 'சிவன்', designation: 'பாடல் பெற்ற தலம்' },
-      hi: { name: 'त्यागराज मंदिर, थिरुवोट्टियूर', city: 'थिरुवोट्टियूर', state: 'तमिलनाडु', category: 'शिव', designation: 'पादल पेत्र स्थलम' },
+      ta: {
+        name: 'அருள்மிகு ஆதிபுரீஸ்வரர் (தியாகராஜர்) திருக்கோயில், திருவொற்றியூர்',
+        city: 'திருவொற்றியூர்',
+        state: 'தமிழ்நாடு',
+        category: 'சிவன்',
+        designation: 'தேவாரம் பாடல் பெற்ற தலம்',
+        history: 'திருவொற்றியூர் (கடல்மலை என்றும் அழைக்கப்படும்) தொண்டை மண்டலத்தின் மிகவும் சிறப்புமிக்க தேவாரம் பாடல் பெற்ற சிவத்தலங்களில் ஒன்று. மூலவர்: ஆதிபுரீஸ்வரர் / தியாகராஜர் (பற்றற்ற இறைவன்). அம்மன்: வடிவுடையம்மை / திரிபுரசுந்தரி. தல விருட்சம்: புன்னை மரம் (Calophyllum inophyllum). தீர்த்தம்: நித்ய புஷ்கரிணி. தேவாரம்: திருஞானசம்பந்தர், திருநாவுக்கரசர் (அப்பர்), சுந்தரமூர்த்தி நாயனார் ஆகிய மூவரும் பாடியுள்ளனர். பல்லவர் காலத்து நுண்ணிய சிற்பங்கள் கொண்ட கோபுரமும் மண்டபங்களும் இத்தலத்தின் சிறப்புகள். சங்க இலக்கியங்களிலும் குறிப்பிடப்படும் கடலோரத் திருத்தலம்.',
+        timings: 'காலை 5:30 – மதியம் 12:30 | மாலை 4:00 – இரவு 9:00',
+        festivals: ['மஹா சிவராத்திரி', 'ஆருத்ரா தர்சனம்', 'பங்குனி உத்திரம்', 'தை பூசம்', 'கார்த்திகை தீபம்', 'பிரம்மோத்சவம்'],
+        significance: 'மூன்று தேவார மூவரும் (சம்பந்தர், அப்பர், சுந்தரர்) பாடிய அரிய சிவத்தலம். மூலவர் ஆதிபுரீஸ்வரர் — ஆதிப் பொருள் சிவபெருமான். திருவொற்றியூர் "கடல்மலை" என்று அழைக்கப்படும் கடலோரத் திருத்தலம். தல விருட்சம்: புன்னை மரம். பல்லவர் காலத்து அரிய சிற்பங்கள்.',
+      },
+      hi: {
+        name: 'श्री आदिपुरीश्वरर (त्यागराज) मंदिर, तिरुवोट्टियूर',
+        city: 'तिरुवोट्टियूर',
+        state: 'तमिलनाडु',
+        category: 'शिव',
+        designation: 'देवारम पादल पेत्र स्थलम',
+        history: 'तिरुवोट्टियूर (कदल्मलै — समुद्र के पास की पहाड़ी) थोण्डई मंडलम का एक अत्यंत विशिष्ट देवारम पादल पेत्र शिव मंदिर है, जो अब उत्तरी चेन्नई में स्थित है। मूलवर: आदिपुरीश्वरर / त्यागराजर (आसक्तिरहित परमेश्वर)। अम्मन: वडिवुडैयम्मै / त्रिपुरसुंदरी। स्थलवृक्ष: पुन्नई (Calophyllum inophyllum)। तीर्थ: नित्य पुष्करिणी। देवारम: तिरुज्ञानसम्बंदर, तिरुनावुक्करसर (अप्पर) एवं सुंदरमूर्ति नायनार — तीनों देवारम संतों ने यहाँ भजन गाए हैं। पल्लव काल की उत्कृष्ट मूर्तिकला से सुशोभित यह मंदिर संगम साहित्य में भी उल्लिखित है।',
+        timings: 'प्रातः 5:30 – दोपहर 12:30 | सायं 4:00 – रात्रि 9:00',
+        festivals: ['महाशिवरात्रि', 'आर्द्रा दर्शन', 'पंगुनि उत्तिरम', 'थाई पूसम', 'कार्तिगई दीपम', 'ब्रह्मोत्सव'],
+        significance: 'तीनों देवारम संतों (सम्बंदर, अप्पर, सुंदरर) द्वारा गाया गया दुर्लभ शिव मंदिर। मूलवर आदिपुरीश्वरर — आदि परम तत्त्व के स्वामी। "कदल्मलै" (समुद्र तटीय पहाड़ी) पर स्थित यह मंदिर पल्लव कला का उत्कृष्ट उदाहरण है।',
+      },
     },
   },
+
   {
     id: 'tiruverkadu-karumariamman',
     name: 'Tiruverkadu Devi Karumariamman Temple',
@@ -444,6 +709,333 @@ export const tiruvallurTemples = [
       hi: { name: 'वीरराघव स्वामी मंदिर, तिरुवल्लुर', city: 'तिरुवल्लुर', state: 'तमिलनाडु', category: 'विष्णु', designation: '108 दिव्यदेशम' },
     },
   },
+,
+{
+    "id": "alarmatheeswarar-alamathi",
+    "name": "Sri Alarmatheeswarar Temple",
+    "city": "Alamathi",
+    "state": "Tamil Nadu",
+    "image": "https://www.visittemples.com/uploads/temple/thumb/250/20260627110643_1783900800.jpg",
+    "period": "Ancient, Chola era",
+    "category": "Shiva",
+    "designation": "",
+    "history": "Sri Alarmatheeswarar Temple is an ancient Shiva temple located in Alamathi village, Tiruvallur district, situated near Redhills on the northern outskirts of Chennai. The presiding deity is Lord Shiva worshipped as Alarmatheeswarar and the Goddess is Alarmelvalli Thayar. The temple is revered by local villagers for peaceful darshan and removal of ancestral doshas.",
+    "timings": "6:30 AM – 11:30 AM | 4:30 PM – 8:00 PM",
+    "festivals": [
+      "Maha Shivaratri",
+      "Arudra Darshan",
+      "Pradosham",
+      "Panguni Uthiram"
+    ],
+    "significance": "Ancient rural Shaiva shrine in Alamathi near Redhills. Believed to bestow peace of mind and agricultural prosperity to the surrounding region.",
+    "mapsUrl": "https://maps.google.com/?q=Alarmatheeswarar+Temple+Alamathi+Tiruvallur",
+    "sourceUrl": "https://www.visittemples.com/hindu/srialarmatheeswarartemplealamathithiruvallurdistricttamilnadu",
+    "lat": 13.2385,
+    "lng": 80.1245,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு அலர்மதீஸ்வரர் திருக்கோயில், அலமதி",
+        "city": "அலமதி",
+        "state": "தமிழ்நாடு",
+        "category": "சிவன்",
+        "designation": "",
+        "history": "திருவள்ளூர் மாவட்டம் அலமதி கிராமத்தில் (செங்குன்றம் அருகே) அமைந்துள்ள தொன்மையான சிவாலயம் அலர்மதீஸ்வரர் திருக்கோயில். மூலவர்: அலர்மதீஸ்வரர். அம்பாள்: அலர்மேல்வல்லி. கிராமப்புற அமைதியில் அருள்பாலிக்கும் ஈசனை வழிபட்டால் மன அமைதியும் நல்வாழ்வும் கிட்டும் என்பது ஐதீகம்.",
+        "timings": "காலை 6:30 – 11:30 | மாலை 4:30 – 8:00",
+        "festivals": [
+          "மஹா சிவராத்திரி",
+          "பிரதோஷம்",
+          "பங்குனி உத்திரம்"
+        ],
+        "significance": "அலமதி கிராமத்தில் அமைந்துள்ள புராதன சிவத்தலம். விவசாய வளம் மற்றும் மன நிம்மதி அருளும் ஆலயம்."
+      },
+      "hi": {
+        "name": "श्री अलर्मथीश्वरर मंदिर, अलमथी",
+        "city": "अलमथी",
+        "state": "तमिलनाडु",
+        "category": "शिव",
+        "designation": "",
+        "history": "तिरुवल्लुर जिले के अलमथी गांव में स्थित प्राचीन शिव मंदिर। मूलवर अलर्मथीश्वरर और देवी अलर्मेलवल्ली हैं। यह मंदिर ग्रामीण शांति और आध्यात्मिक शांति प्रदान करने हेतु प्रसिद्ध है।",
+        "timings": "प्रातः 6:30 – 11:30 | सायं 4:30 – 8:00",
+        "festivals": [
+          "महाशिवरात्रि",
+          "प्रदोषम",
+          "पंगुनि उत्तिरम"
+        ],
+        "significance": "चेन्नई के निकट अलमथी का शांत और पवित्र शिव धाम।"
+      }
+    }
+  },
+  {
+    "id": "udaiyavar-kottai-elavur",
+    "name": "Sri Udaiyavar Kottai Temple, Chengalsoolaimedu",
+    "city": "Elavur",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Medieval era",
+    "category": "Vishnu",
+    "designation": "",
+    "history": "Sri Udaiyavar Kottai Temple is located at Chengalsoolaimedu near Elavur in Gummidipoondi Taluk, Tiruvallur district. \"Udaiyavar\" is the revered honorific for Acharya Sri Ramanuja. The temple preserves the sacred memories of Vaishnava acharyas and houses deities worshipped by the local agrarian community for generations.",
+    "timings": "7:00 AM – 11:00 AM | 5:00 PM – 7:30 PM",
+    "festivals": [
+      "Vaikunta Ekadasi",
+      "Ramanuja Jayanthi",
+      "Panguni Uthiram"
+    ],
+    "significance": "Historic Vaishnava heritage shrine near the Tamil Nadu-Andhra border in Gummidipoondi taluk, honoring Sri Ramanuja (Udaiyavar).",
+    "mapsUrl": "https://maps.google.com/?q=Udaiyavar+Kottai+Temple+Elavur+Tiruvallur",
+    "sourceUrl": "https://www.visittemples.com/hindu/sriudaiyavarkottaitemplechengalsoolaimedunearelavurthiruvallurdistricttamilnadu",
+    "lat": 13.432,
+    "lng": 80.115,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு உடையவர் கோட்டை திருக்கோயில், எளாவூர்",
+        "city": "எளாவூர் (கும்மிடிப்பூண்டி)",
+        "state": "தமிழ்நாடு",
+        "category": "விஷ்ணு",
+        "designation": "",
+        "history": "திருவள்ளூர் மாவட்டம் கும்மிடிப்பூண்டி அருகே எளாவூர் செங்கற்சூளைமேடு பகுதியில் அமைந்துள்ள திருக்கோயில். \"உடையவர்\" என்பது வைணவ ஆச்சார்யர் ஸ்ரீ ராமானுஜரின் சிறப்பு திருநாமமாகும். ஆச்சார்ய பக்தி மற்றும் வைணவ மரபுகளைப் போற்றும் புனிதத் தலம்.",
+        "timings": "காலை 7:00 – 11:00 | மாலை 5:00 – 7:30",
+        "festivals": [
+          "வைகுண்ட ஏகாதசி",
+          "ராமானுஜர் ஜெயந்தி"
+        ],
+        "significance": "ஸ்ரீ ராமானுஜரின் (உடையவர்) திருநாமத்தில் விளங்கும் வைணவ வரலாற்றுத் திருத்தலம்."
+      },
+      "hi": {
+        "name": "श्री उदयवर कोट्टई मंदिर, एलावूर",
+        "city": "एलावूर",
+        "state": "तमिलनाडु",
+        "category": "विष्णु",
+        "designation": "",
+        "history": "तिरुवल्लुर जिले के एलावूर के निकट स्थित वैष्णव मंदिर। \"उदयवर\" आचार्य श्री रामानुज का आदरसूचक नाम है। यह मंदिर रामानुज परंपरा और वैष्णव संस्कृति को समर्पित है।",
+        "timings": "प्रातः 7:00 – 11:00 | सायं 5:00 – 7:30",
+        "festivals": [
+          "वैकुंठ एकादशी",
+          "रामानुज जयंती"
+        ],
+        "significance": "आचार्य श्री रामानुज की स्मृति में निर्मित पवित्र वैष्णव स्थल।"
+      }
+    }
+  },
+  {
+    "id": "thirupandi-kodumudinathar-elavur",
+    "name": "Sri Thirupandi Kodumudinathar Temple, Salai",
+    "city": "Elavur",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Ancient, Pandya/Chola era",
+    "category": "Shiva",
+    "designation": "",
+    "history": "Sri Thirupandi Kodumudinathar Temple is situated at Salai village near Elavur in Tiruvallur district. Dedicated to Lord Shiva as Thirupandi Kodumudinathar, the temple reflects ancient Pandya influence in northern Thondai Nadu. Devotees visit this serene rural temple to pray for liberation from karmic hurdles and family peace.",
+    "timings": "6:30 AM – 11:00 AM | 5:00 PM – 8:00 PM",
+    "festivals": [
+      "Maha Shivaratri",
+      "Pradosham",
+      "Karthigai Deepam"
+    ],
+    "significance": "Ancient Shiva temple near the northern border of Tamil Nadu bearing testimony to early Pandya Shaiva devotional footprints.",
+    "mapsUrl": "https://maps.google.com/?q=Thirupandi+Kodumudinathar+Temple+Elavur+Tiruvallur",
+    "sourceUrl": "https://www.visittemples.com/hindu/srithirupandikodumudinathartemplesalaielavurthiruvallurdistricttamilnadu",
+    "lat": 13.441,
+    "lng": 80.121,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு திருப்பண்டி கொடுமுடிநாதர் திருக்கோயில், எளாவூர்",
+        "city": "எளாவூர் (சாலை)",
+        "state": "தமிழ்நாடு",
+        "category": "சிவன்",
+        "designation": "",
+        "history": "திருவள்ளூர் மாவட்டம் எளாவூர் சாலை கிராமத்தில் அமைந்த பழமையான சிவத்தலம். மூலவர்: திருப்பண்டி கொடுமுடிநாதர். பாண்டிய மன்னர்களின் வழிபாட்டு மரபோடு தொடர்புடைய இத்தலத்தில் வழிபட்டால் மனக்கவலைகள் நீங்கி ஈசனின் பேரருள் கிட்டும்.",
+        "timings": "காலை 6:30 – 11:00 | மாலை 5:00 – 8:00",
+        "festivals": [
+          "மஹா சிவராத்திரி",
+          "பிரதோஷம்",
+          "கார்த்திகை தீபம்"
+        ],
+        "significance": "தொண்டை மண்டலத்தில் பாண்டிய மன்னர்களின் சைவத் தடம் தாங்கிய வரலாற்றுச் சிறப்புமிக்க சிவத்தலம்."
+      },
+      "hi": {
+        "name": "श्री तिरुपांडी कोडुमुडीनाथर मंदिर, एलावूर",
+        "city": "एलावूर",
+        "state": "तमिलनाडु",
+        "category": "शिव",
+        "designation": "",
+        "history": "तिरुवल्लुर जिले के एलावूर के निकट सालाई गांव में स्थित प्राचीन शिव मंदिर। मूलवर तिरुपांडी कोडुमुडीनाथर हैं। यह मंदिर पांड्य राजाओं के धार्मिक योगदान को दर्शाता है।",
+        "timings": "प्रातः 6:30 – 11:00 | सायं 5:00 – 8:00",
+        "festivals": [
+          "महाशिवरात्रि",
+          "प्रदोषम",
+          "कार्तिगई दीपम"
+        ],
+        "significance": "शांति और भक्ति का पावन ग्रामीण शिव धाम।"
+      }
+    }
+  },
+  {
+    "id": "kasi-viswanathar-nazarathpettai",
+    "name": "Sri Kasi Viswanathar Temple, Nazarathpettai",
+    "city": "Nazarathpettai (Poonamallee)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Medieval era",
+    "category": "Shiva",
+    "designation": "",
+    "history": "Sri Kasi Viswanathar Temple is situated at Nazarathpettai near Poonamallee, on the western outskirts of Chennai along the Chennai-Bangalore highway. The temple enshrines Lord Shiva as Kasi Viswanathar alongside Goddess Visalakshi. Worshipping here is believed to grant the divine spiritual merit of visiting sacred Varanasi (Kasi).",
+    "timings": "6:30 AM – 11:30 AM | 4:30 PM – 8:00 PM",
+    "festivals": [
+      "Maha Shivaratri",
+      "Pradosham",
+      "Arudra Darshan",
+      "Aani Thirumanjanam"
+    ],
+    "significance": "Revered Dakshina Kasi kshetram near Poonamallee. Cleanses planetary doshas and bestows the spiritual blessings of Varanasi pilgrimage.",
+    "mapsUrl": "https://maps.google.com/?q=Kasi+Viswanathar+Temple+Nazarathpettai+Poonamallee",
+    "sourceUrl": "https://www.visittemples.com/hindu/srikasiviswanathartemplenazarathpettainearpoonamalleechennaitamilnadu",
+    "lat": 13.0489,
+    "lng": 80.0512,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு காசி விஸ்வநாதர் திருக்கோயில், நசரத்பேட்டை",
+        "city": "நசரத்பேட்டை (பூந்தமல்லி)",
+        "state": "தமிழ்நாடு",
+        "category": "சிவன்",
+        "designation": "",
+        "history": "பூந்தமல்லி அருகே நசரத்பேட்டையில் (சென்னை-பெங்களூரு நெடுஞ்சாலை) அமைந்துள்ள அருள்மிகு காசி விஸ்வநாதர் திருக்கோயில். மூலவர்: காசி விஸ்வநாதர். அம்பாள்: விசாலாட்சி. காசிக்குச் சென்று கங்கையில் நீராடி விஸ்வநாதரை தரிசித்த பலனைத் தரும் தட்சிண காசி தலமாக போற்றப்படுகிறது.",
+        "timings": "காலை 6:30 – 11:30 | மாலை 4:30 – 8:00",
+        "festivals": [
+          "மஹா சிவராத்திரி",
+          "பிரதோஷம்",
+          "ஆருத்ரா தரிசனம்"
+        ],
+        "significance": "பூந்தமல்லி அருகேயுள்ள தட்சிண காசி தலம். விஸ்வநாதர்-விசாலாட்சி அருள் பெற்று சகல தோஷங்களும் நீங்க வழிபடும் தலம்."
+      },
+      "hi": {
+        "name": "श्री काशी विश्वनाथर मंदिर, नज़रथपेट्टई",
+        "city": "नज़रथपेट्टई (पूनमल्ली)",
+        "state": "तमिलनाडु",
+        "category": "शिव",
+        "designation": "",
+        "history": "चेन्नई के पूनमल्ली के पास नज़रथपेट्टई में स्थित पावन शिव मंदिर। मूलवर काशी विश्वनाथर और माता विशालाक्षी हैं। यहाँ दर्शन करने से काशी विश्वनाथ के दर्शन का पुण्य फल प्राप्त होता है।",
+        "timings": "प्रातः 6:30 – 11:30 | सायं 4:30 – 8:00",
+        "festivals": [
+          "महाशिवरात्रि",
+          "प्रदोषम",
+          "आर्द्रा दर्शन"
+        ],
+        "significance": "दक्षिण का काशी स्वरूप पवित्र शिव धाम।"
+      }
+    }
+  },
+  {
+    "id": "haritha-vaarana-perumal-nazarathpettai",
+    "name": "Sri Haritha Vaarana Perumal Temple, Nazarathpettai",
+    "city": "Nazarathpettai (Poonamallee)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Ancient, Pallava era",
+    "category": "Vishnu",
+    "designation": "",
+    "history": "Sri Haritha Vaarana Perumal Temple is located in Nazarathpettai near Poonamallee. The temple is dedicated to Lord Vishnu worshipped in a lustrous emerald-green hue as Haritha Vaarana Perumal (Pachai Varna Perumal), alongside Consort Sri Amirthavalli Thayar. Legend connects this sacred spot to Sage Haritha, who performed penance here to behold the divine emerald manifestation of Lord Narayana.",
+    "timings": "7:00 AM – 11:00 AM | 5:00 PM – 8:00 PM",
+    "festivals": [
+      "Vaikunta Ekadasi",
+      "Panguni Uthiram",
+      "Purattasi Saturdays",
+      "Krishna Jayanti"
+    ],
+    "significance": "Ancient Vishnu temple dedicated to Haritha Vaarana Perumal (Emerald Green Narayana), revered for bringing prosperity, good harvest, and relief from Budha (Mercury) dosha.",
+    "mapsUrl": "https://maps.google.com/?q=Haritha+Vaarana+Perumal+Temple+Nazarathpettai",
+    "sourceUrl": "https://www.visittemples.com/hindu/sriharithavaaranaperumaltemplenazarathpettainearpoonamalleechennaitamilnadu",
+    "lat": 13.0475,
+    "lng": 80.053,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு ஹரித வாரண பெருமாள் திருக்கோயில், நசரத்பேட்டை",
+        "city": "நசரத்பேட்டை (பூந்தமல்லி)",
+        "state": "தமிழ்நாடு",
+        "category": "விஷ்ணு",
+        "designation": "",
+        "history": "பூந்தமல்லி அருகே நசரத்பேட்டையில் அமைந்துள்ள பழமையான பெருமாள் கோயில். மூலவர்: ஹரித வாரண பெருமாள் (பச்சை வண்ணப் பெருமாள்). தாயார்: அமிர்தவல்லி தாயார். ஹரித மகரிஷி தவம் புரிந்து பெருமாளின் பச்சை வண்ண திவ்ய வடிவைக் கண்டு தரிசித்த புண்ணிய தலம்.",
+        "timings": "காலை 7:00 – 11:00 | மாலை 5:00 – 8:00",
+        "festivals": [
+          "வைகுண்ட ஏகாதசி",
+          "புரட்டாசி சனிக்கிழமைகள்",
+          "பங்குனி உத்திரம்"
+        ],
+        "significance": "பச்சை வண்ணப் பெருமாளாக அருள்பாலிக்கும் ஹரித வாரண பெருமாள். புதன் கிரக தோஷம் நீங்கவும், தொழில் மேன்மை பெறவும் அருளும் தலம்."
+      },
+      "hi": {
+        "name": "श्री हरित वारण पेरुमाल मंदिर, नज़रथपेट्टई",
+        "city": "नज़रथपेट्टई (पूनमल्ली)",
+        "state": "तमिलनाडु",
+        "category": "विष्णु",
+        "designation": "",
+        "history": "पूनमल्ली के नज़रथपेट्टई में स्थित प्राचीन वैष्णव मंदिर। भगवान विष्णु यहाँ मनोहारी हरित (श्याम-हरित) वर्ण में \"हरित वारण पेरुमाल\" के रूप में पूजे जाते हैं। महर्षि हरित ने यहाँ तपस्या कर भगवान के दर्शन पाए थे।",
+        "timings": "प्रातः 7:00 – 11:00 | सायं 5:00 – 8:00",
+        "festivals": [
+          "वैकुंठ एकादशी",
+          "पुरट्टासी शनिवार",
+          "पंगुनि उत्तिरम"
+        ],
+        "significance": "हरित स्वरूप भगवान विष्णु का पावन धाम। बुध ग्रह की शांति एवं समृद्धि प्रदायक।"
+      }
+    }
+  },
+  {
+    "id": "poorimara-thava-muneeswarar-kattupakkam",
+    "name": "Sri Poorimara Thava Muneeswarar Temple, Kattupakkam",
+    "city": "Kattupakkam (Poonamallee)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Centuries old tradition",
+    "category": "Other",
+    "designation": "",
+    "history": "Sri Poorimara Thava Muneeswarar Temple is a celebrated rural guardian deity shrine located at Kattupakkam near Poonamallee, on the Mount-Poonamallee High Road in western Chennai. Lord Muneeswarar is depicted in profound ascetic penance (Thavam) beneath the sacred sacred neem/poorimaram tree. Devotees revere Him as a powerful protective deity who eradicates evil spirits, illnesses, and legal complications.",
+    "timings": "6:00 AM – 12:00 PM | 4:30 PM – 8:30 PM",
+    "festivals": [
+      "Aadi Festival",
+      "Thai Pongal",
+      "Maha Shivaratri",
+      "Aavani Moolam"
+    ],
+    "significance": "Famous guardian and protective shrine (Kaaval Deivam) in western Chennai, sought after for removal of negative energies, drishti (evil eye), and safety.",
+    "mapsUrl": "https://maps.google.com/?q=Poorimara+Thava+Muneeswarar+Temple+Kattupakkam",
+    "sourceUrl": "https://www.visittemples.com/hindu/sripoorimarathavamuneeswarartemplekattupakkamnearpoonamalleechennaitamilnadu",
+    "lat": 13.0375,
+    "lng": 80.1285,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு பூரிமர தவ முனீஸ்வரர் திருக்கோயில், காட்டுப்பாக்கம்",
+        "city": "காட்டுப்பாக்கம் (பூந்தமல்லி)",
+        "state": "தமிழ்நாடு",
+        "category": "மற்றவை",
+        "designation": "",
+        "history": "சென்னை மவுண்ட்-பூந்தமல்லி சாலையில் காட்டுப்பாக்கத்தில் அமைந்துள்ள புகழ்பெற்ற காவல் தெய்வத் திருத்தலம். மூலவர் தவ முனீஸ்வரர் தவம் இயற்றும் திருக்கோலத்தில் கம்பீரமாக அருள்பாலிக்கிறார். செய்வினை, கண் திருஷ்டி, பயம் நீங்கி குடும்பப் பாதுகாப்பு பெற பக்தர்கள் இங்கு திரளாக வந்து ஆடு, கோழி காணிக்கை செலுத்தி வழிபடுகின்றனர்.",
+        "timings": "காலை 6:00 – 12:00 | மாலை 4:30 – 8:30",
+        "festivals": [
+          "ஆடிப் பெருவிழா",
+          "தை பொங்கல்",
+          "மஹா சிவராத்திரி"
+        ],
+        "significance": "மேற்கு சென்னையின் சக்திவாய்ந்த காவல் தெய்வம். கண் திருஷ்டி, பயம், எதிர்மறை ஆற்றல்களை அகற்றி காவல் காக்கும் முனீஸ்வரர்."
+      },
+      "hi": {
+        "name": "श्री पूरीमर तव मुनीश्वरर मंदिर, काट्टुपाक्कम",
+        "city": "काट्टुपाक्कम (पूनमल्ली)",
+        "state": "तमिलनाडु",
+        "category": "अन्य",
+        "designation": "",
+        "history": "चेन्नई के काट्टुपाक्कम में स्थित प्रसिद्ध रक्षक देवता मंदिर। भगवान मुनीश्वरर यहाँ घोर तपस्या मुद्रा में विराजमान हैं। बुरी शक्तियों, नजर दोष और भय से मुक्ति हेतु श्रद्धालु यहाँ नमन करते हैं।",
+        "timings": "प्रातः 6:00 – 12:00 | सायं 4:30 – 8:30",
+        "festivals": [
+          "आदि उत्सव",
+          "थाई पोंगल",
+          "महाशिवरात्रि"
+        ],
+        "significance": "नजर दोष और संकटों से रक्षा करने वाले शक्तिशाली क्षेत्रपाल मुनीश्वरर।"
+      }
+    }
+  }
 ];
 
 export default tiruvallurTemples;

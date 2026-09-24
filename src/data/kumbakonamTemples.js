@@ -503,6 +503,326 @@ const kumbakonamTemples = [
       },
     },
   },
+,
+{
+    "id": "abathsagayeswarar-alangudi",
+    "name": "Sri Abathsagayeswarar Temple (Guru Sthalam), Alangudi",
+    "city": "Alangudi (Kumbakonam/Valangaiman)",
+    "state": "Tamil Nadu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Alangudi_Guru_Temple.jpg/320px-Alangudi_Guru_Temple.jpg",
+    "period": "Ancient, Chola era",
+    "category": "Shiva",
+    "designation": "Navagraha & Paadal Petra Sthalam",
+    "history": "Sri Abathsagayeswarar Temple in Alangudi near Kumbakonam is the pre-eminent Navagraha temple for Lord Guru (Jupiter / Brihaspati). Presiding deity is Lord Shiva as Abathsagayeswarar (the Savior in Times of Danger) and Goddess Elavarkuzhali. The South-facing Dakshinamoorthy shrine here is worshipped as the supreme manifestation of Guru Bhagavan. When the cosmic churning produced the deadly poison Alakala, Lord Shiva consumed it here to save the devas, hence named Alangudi and Abathsagayeswarar.",
+    "timings": "6:00 AM – 1:00 PM | 4:00 PM – 9:00 PM",
+    "festivals": [
+      "Guru Peyarchi (Jupiter Transit)",
+      "Maha Shivaratri",
+      "Panguni Uthiram",
+      "Chithirai Pournami"
+    ],
+    "significance": "Paramount Navagraha Guru Sthalam (Jupiter). Sung by Saint Sambandar in Devaram hymns. Lakhs of devotees gather for Guru Peyarchi to ward off unfavorable planetary transits.",
+    "mapsUrl": "https://maps.google.com/?q=Alangudi+Guru+Temple+Kumbakonam",
+    "sourceUrl": "https://www.visittemples.com/hindu/sriabathsagayeswarartempleorgurusthalamalangudithiruvarurdistricttamilnadu",
+    "lat": 10.8356,
+    "lng": 79.4089,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு ஆபத்சகாயேஸ்வரர் திருக்கோயில் (குரு ஸ்தலம்), ஆலங்குடி",
+        "city": "ஆலங்குடி (கும்பகோணம்)",
+        "state": "தமிழ்நாடு",
+        "category": "சிவன்",
+        "designation": "நவக்கிரகம் & பாடல் பெற்ற தலம்",
+        "history": "கும்பகோணம் அருகே உள்ள ஆலங்குடி, நவகிரகங்களில் முதன்மையான குரு பகவானின் சிறப்பு வழிபாட்டுத் தலமாகும். ஆலகால விஷத்தை அருந்தி உலகைக் காத்ததால் ஈசனுக்கு \"ஆபத்சகாயேஸ்வரர்\" என்று பெயர். மூலவர் சன்னதி பிரகாரத்தில் தெற்கு நோக்கிய தட்சிணாமூர்த்தி \"குரு பகவானாக\" வழிபடப்படுகிறார். சம்பந்தரால் தேவாரம் பாடப்பட்ட தலம். குரு பெயர்ச்சியின் போது குரு தோஷம் நீங்க பக்தர்கள் இங்கு திரளாக வழிபாடு செய்கின்றனர்.",
+        "timings": "காலை 6:00 – மதியம் 1:00 | மாலை 4:00 – இரவு 9:00",
+        "festivals": [
+          "குரு பெயர்ச்சி விழா",
+          "மஹா சிவராத்திரி",
+          "பங்குனி உத்திரம்"
+        ],
+        "significance": "நவகிரகங்களில் குரு ஸ்தலம். குரு பார்வை பெறவும், உத்தியோகம் மற்றும் புத்திர பாக்கியம் கைகூடவும் தொழும் முதன்மைத் தலம்."
+      },
+      "hi": {
+        "name": "श्री आपत्सहायेश्वरर मंदिर (गुरु स्थल), आलंगुडी",
+        "city": "आलंगुडी (कुम्भकोणम)",
+        "state": "तमिलनाडु",
+        "category": "शिव",
+        "designation": "नवग्रह एवं पादल पेत्र स्थलम",
+        "history": "कुम्भकोणम के निकट आलंगुडी नवग्रहों में देवगुरु बृहस्पति का परम प्रसिद्ध तीर्थ है। हलाहल विष का पान कर देवताओं की रक्षा करने के कारण शिव जी \"आपत्सहायेश्वरर\" (संकटमोचक) कहलाए। यहाँ दक्षिणामूर्ति भगवान ही गुरु रूप में पूजे जाते हैं। गुरु गोचर के समय यहाँ लाखों श्रद्धालु दर्शन करते हैं।",
+        "timings": "प्रातः 6:00 – दोपहर 1:00 | सायं 4:00 – रात्रि 9:00",
+        "festivals": [
+          "गुरु गोचर (गुरु पेयार्ची)",
+          "महाशिवरात्रि"
+        ],
+        "significance": "नवग्रहों में गुरु (बृहस्पति) का प्रधान धाम। विद्या, ज्ञान और उन्नति प्रदायक।"
+      }
+    }
+  },
+  {
+    "id": "somanatha-swamy-keezha-pazhayarai",
+    "name": "Sri Somanatha Swamy Temple, Keezha Pazhayarai",
+    "city": "Keezha Pazhayarai (Kumbakonam)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Ancient, Medieval Chola Capital",
+    "category": "Shiva",
+    "designation": "Devaram Paadal Petra Sthalams",
+    "history": "Sri Somanatha Swamy Temple is situated at Keezha Pazhayarai near Kumbakonam, which served as the secondary royal capital and military camp of the Imperial Cholas. Lord Shiva is worshipped as Somanatheswarar and the Goddess as Somanayaki. Sung in the Devaram padhigams of Thirunavukkarasar (Appar), this historic temple is steeped in Chola royal legends and was patronized by Rajaraja Chola and his sister Kundavai Pirattiyar.",
+    "timings": "7:00 AM – 12:00 PM | 4:30 PM – 8:00 PM",
+    "festivals": [
+      "Maha Shivaratri",
+      "Panguni Uthiram",
+      "Pradosham"
+    ],
+    "significance": "Ancient Chola royal capital temple sung by Saint Appar. Radiates the grandeur of Chola heritage and spiritual solace.",
+    "mapsUrl": "https://maps.google.com/?q=Somanatha+Swamy+Temple+Keezha+Pazhayarai+Kumbakonam",
+    "sourceUrl": "https://www.visittemples.com/hindu/srisomanathaswamytemplekeezhapazhayarainearkumbakonamtamilnadu",
+    "lat": 10.9234,
+    "lng": 79.3512,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு சோமநாத சுவாமி திருக்கோயில், கீழப் பழையாறை",
+        "city": "கீழப் பழையாறை (கும்பகோணம்)",
+        "state": "தமிழ்நாடு",
+        "category": "சிவன்",
+        "designation": "தேவாரம் பாடல் பெற்ற தலம்",
+        "history": "சோழர்களின் இரண்டாவது தலைநகரமாகவும் அரச குடும்பத்தின் உறைவிடமாகவும் விளங்கிய பழையாறையில் அமைந்த வரலாற்றுப் புகழ்மிக்க தலம். அப்பர் பெருமானால் தேவாரம் பாடப்பெற்ற தலம். மூலவர்: சோமநாதேஸ்வரர். அம்பாள்: சோமநாயகி. ராஜராஜ சோழன் மற்றும் குந்தவை பிராட்டியார் திருப்பணி செய்த புராதன ஆலயம்.",
+        "timings": "காலை 7:00 – 12:00 | மாலை 4:30 – 8:00",
+        "festivals": [
+          "மஹா சிவராத்திரி",
+          "பிரதோஷம்",
+          "பங்குனி உத்திரம்"
+        ],
+        "significance": "சோழர் தலைநகரப் பெருமை கொண்ட தேவாரம் பாடல் பெற்ற சிவத்தலம்."
+      },
+      "hi": {
+        "name": "श्री सोमनाथ स्वामी मंदिर, कीळा पळैयारै",
+        "city": "कीळा पळैयारै (कुम्भकोणम)",
+        "state": "तमिलनाडु",
+        "category": "शिव",
+        "designation": "देवारम पादल पेत्र स्थलम",
+        "history": "चोल साम्राज्य की द्वितीय राजधानी पळैयारै में स्थित ऐतिहासिक शिव मंदिर। संत अप्पर द्वारा देवारम में स्तुत। सम्राट राजराज चोल और राजकुमारी कुंदवई द्वारा सेवित पावन तीर्थ।",
+        "timings": "प्रातः 7:00 – 12:00 | सायं 4:30 – 8:00",
+        "festivals": [
+          "महाशिवरात्रि",
+          "प्रदोषम"
+        ],
+        "significance": "चोल स्थापत्य एवं इतिहास का अनुपम शिव धाम।"
+      }
+    }
+  },
+  {
+    "id": "kothandaramar-mudikondan",
+    "name": "Sri Kothandaramar Temple, Mudikondan",
+    "city": "Mudikondan (Tiruvarur/Nannilam)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Ancient, Chola era",
+    "category": "Vishnu",
+    "designation": "",
+    "history": "Sri Kothandaramar Temple in Mudikondan is an ancient and celebrated Rama shrine located between Kumbakonam and Tiruvarur. According to the Ramayana sthala purana, Sage Bharadwaja invited Sri Rama for a royal feast during His return to Ayodhya. Rama accepted the feast in His coronation crown (Mudi) posture, hence the village earned the holy name \"Mudi-Kondan\" (He who wore the Crown). Worshipping here grants victory in endeavours, political leadership, and elevation in career.",
+    "timings": "7:00 AM – 12:00 PM | 4:30 PM – 8:30 PM",
+    "festivals": [
+      "Sri Rama Navami",
+      "Vaikunta Ekadasi",
+      "Hanumath Jayanthi"
+    ],
+    "significance": "Revered temple where Sri Rama gave darshan wearing His coronation crown (Mudi) to Sage Bharadwaja. Bestows leadership, career growth, and victory.",
+    "mapsUrl": "https://maps.google.com/?q=Kothandaramar+Temple+Mudikondan",
+    "sourceUrl": "https://www.visittemples.com/hindu/srikothandaramartemplemudikondanthiruvarurdistricttamilnadu",
+    "lat": 10.912,
+    "lng": 79.582,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு கோதண்டராமர் திருக்கோயில், முடிகொண்டான்",
+        "city": "முடிகொண்டான் (திருவாரூர்)",
+        "state": "தமிழ்நாடு",
+        "category": "விஷ்ணு",
+        "designation": "",
+        "history": "கும்பகோணம்-மயிலாடுதுறை வழித்தடத்தில் அமைந்துள்ள வரலாற்றுச் சிறப்புமிக்க ராமர் கோயில். பரத்வாஜ முனிவரின் விருந்தை ஏற்பதற்காக ஸ்ரீ ராமர் பட்டாபிஷேக முடியுடன் (கிரீடத்துடன்) காட்சியளித்ததால் இவ்வூர் \"முடிகொண்டான்\" என அழைக்கப்படுகிறது. உத்தியோக உயர்வு மற்றும் தலைமைப் பண்பு பெற அருளும் தலம்.",
+        "timings": "காலை 7:00 – 12:00 | மாலை 4:30 – 8:30",
+        "festivals": [
+          "ஸ்ரீ ராம நவமி",
+          "வைகுண்ட ஏகாதசி",
+          "ஹனுமத் ஜெயந்தி"
+        ],
+        "significance": "ஸ்ரீ ராமர் மகுடத்துடன் முனிவருக்குக் காட்சி தந்த திருத்தலம். அரசு வேலை மற்றும் தலைமைப் பொறுப்புகள் பெறச் சிறந்த தலம்."
+      },
+      "hi": {
+        "name": "श्री कोदंडरामार मंदिर, मुडिकोंडन",
+        "city": "मुडिकोंडन",
+        "state": "तमिलनाडु",
+        "category": "विष्णु",
+        "designation": "",
+        "history": "कुम्भकोणम के पास स्थित पावन राम मंदिर। महर्षि भारद्वाज के आग्रह पर भगवान श्री राम ने यहाँ राज्याभिषेक का मुकुट धारण कर दर्शन दिए थे, अतः इसे \"मुडिकोंडन\" कहा जाता है। कार्य में सफलता और पदोन्नति हेतु विशेष फलदायी।",
+        "timings": "प्रातः 7:00 – 12:00 | सायं 4:30 – 8:30",
+        "festivals": [
+          "श्री राम नवमी",
+          "वैकुंठ एकादशी"
+        ],
+        "significance": "मुकुटधारी श्री राम का दुर्लभ दर्शन। नेतृत्व क्षमता एवं सफलता प्रदायक।"
+      }
+    }
+  },
+  {
+    "id": "uma-maheswarar-konerirajapuram",
+    "name": "Sri Uma Maheswarar Temple (Swayambhu Natarajar), Konerirajapuram",
+    "city": "Konerirajapuram (Kumbakonam)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Chola era (built by Queen Sembiyan Mahadevi)",
+    "category": "Shiva",
+    "designation": "Paadal Petra Sthalam",
+    "history": "Sri Uma Maheswarar Temple in Konerirajapuram (Thirunallam) near Kumbakonam was constructed by the illustrious Chola Queen Sembiyan Mahadevi. The temple enshrines the LARGEST bronze Nataraja idol in the world, sculpted as a direct manifestation (Swayambhu) of Lord Shiva. The sthala purana recounts that when the sculptor was troubled by the king's deadline, Lord Shiva and Parvati came as elderly mendicants, drank water, and transformed into the magnificent bronze icon. Devotees also worship here to cure leprosy, skin ailments, and Vaatha disorders.",
+    "timings": "6:30 AM – 12:00 PM | 4:30 PM – 8:30 PM",
+    "festivals": [
+      "Arudra Darshan",
+      "Aani Thirumanjanam",
+      "Maha Shivaratri",
+      "Panguni Uthiram"
+    ],
+    "significance": "World's largest bronze Nataraja icon. Direct swayambhu manifestation of Nataraja. Queen Sembiyan Mahadevi's architectural masterpiece. Cures severe skin diseases and Vaatha afflictions.",
+    "mapsUrl": "https://maps.google.com/?q=Uma+Maheswarar+Temple+Konerirajapuram",
+    "sourceUrl": "https://www.visittemples.com/hindu/sriumamaheswararorsriswayambhunatarajartemplekonerirajapuramnearkumbakonamtamilnadu",
+    "lat": 10.985,
+    "lng": 79.554,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு உமாமகேஸ்வரர் திருக்கோயில் (சுயம்பு நடராஜர்), கோனேரிராஜபுரம்",
+        "city": "கோனேரிராஜபுரம் (கும்பகோணம்)",
+        "state": "தமிழ்நாடு",
+        "category": "சிவன்",
+        "designation": "பாடல் பெற்ற தலம்",
+        "history": "செம்பியன் மாதேவியால் கட்டப்பட்ட உலகப் புகழ்பெற்ற சோழர் கால கலைப் பொக்கிஷம். உலகிலேயே மிகப்பெரிய வெண்கல நடராஜர் திருமேனி இங்கு அமைந்துள்ளது. சிற்பிக்கு உதவ ஈசனே நேரில் வந்து வெண்கலச் சிலையாக காட்சியளித்த அற்புதத் தலம். தோல் வியாதிகள் மற்றும் வாத நோய்கள் தீர அருள்பாலிக்கும் தலம்.",
+        "timings": "காலை 6:30 – 12:00 | மாலை 4:30 – 8:30",
+        "festivals": [
+          "ஆருத்ரா தரிசனம்",
+          "ஆனி திருமஞ்சனம்",
+          "மஹா சிவராத்திரி"
+        ],
+        "significance": "உலகின் மிகப்பெரிய வெண்கல நடராஜர் சிலை. செம்பியன் மாதேவி கட்டிய சோழர் காலப் பொக்கிஷம்."
+      },
+      "hi": {
+        "name": "श्री उमामहेश्वरर मंदिर (स्वयंभू नटराज), कोनेरीराजपुरम",
+        "city": "कोनेरीराजपुरम (कुम्भकोणम)",
+        "state": "तमिलनाडु",
+        "category": "शिव",
+        "designation": "पादल पेत्र स्थलम",
+        "history": "चोल महारानी सेम्बियन महादेवी द्वारा निर्मित पावन धाम। यहाँ विश्व की सबसे बड़ी कांस्य नटराज प्रतिमा स्थापित है। साक्षात शिव जी ने स्वयं प्रकट होकर मूर्तिकार को दर्शन दिए थे। असाध्य रोगों और त्वचा विकारों के निवारण हेतु विख्यात।",
+        "timings": "प्रातः 6:30 – 12:00 | सायं 4:30 – 8:30",
+        "festivals": [
+          "आर्द्रा दर्शन",
+          "आनि तिरुमंजनम",
+          "महाशिवरात्रि"
+        ],
+        "significance": "विश्व की विशालतम कांस्य नटराज प्रतिमा का पावन धाम।"
+      }
+    }
+  },
+  {
+    "id": "palaivananathar-papanasam",
+    "name": "Sri Palaivananathar Temple, Papanasam",
+    "city": "Papanasam (Kumbakonam)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Ancient, Chola era",
+    "category": "Shiva",
+    "designation": "Paadal Petra Sthalam",
+    "history": "Sri Palaivananathar Temple in Papanasam near Kumbakonam is celebrated in the Devaram padhigams of Appar. \"Papanasam\" translates to \"the Annihilator of Sins\". The temple is unique for enshrining 108 Shivalingas within its sacred precincts. The presiding deity is Palaivananathar and the Goddess is Dhavala Vennagai Ammai. Legend says that worshipping the 108 Lingas here absolves all lingering sins and ancestral afflictions.",
+    "timings": "6:30 AM – 12:00 PM | 4:30 PM – 8:30 PM",
+    "festivals": [
+      "Panguni Uthiram",
+      "Maha Shivaratri",
+      "Arudra Darshan"
+    ],
+    "significance": "Celebrated Paadal Petra Sthalam enshrining 108 Shivalingas. Eradicates deep-seated sins (Papa Vinasanam) and restores peace of mind.",
+    "mapsUrl": "https://maps.google.com/?q=Palaivananathar+Temple+Papanasam",
+    "sourceUrl": "https://www.visittemples.com/hindu/sripalaivananathartemplepapanasamnearkumbakonamtamilnadu",
+    "lat": 10.925,
+    "lng": 79.289,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு பாலைவனநாதர் திருக்கோயில், பாபநாசம்",
+        "city": "பாபநாசம் (கும்பகோணம்)",
+        "state": "தமிழ்நாடு",
+        "category": "சிவன்",
+        "designation": "பாடல் பெற்ற தலம்",
+        "history": "கும்பகோணம் அருகே உள்ள பாபநாசத்தில் அமைந்த தேவாரம் பாடல் பெற்ற தலம். \"பாபநாசம்\" என்றால் பாவங்களை நாசம் செய்யும் தலம் என்று பொருள். அப்பர் பெருமானால் பாடப்பட்டது. இக்கோயிலில் 108 சிவலிங்கங்கள் பிரதிஷ்டை செய்யப்பட்டுள்ளது தனிச்சிறப்பாகும். சகல பாவங்களும் நீங்க இத்தல தரிசனம் விசேஷம்.",
+        "timings": "காலை 6:30 – 12:00 | மாலை 4:30 – 8:30",
+        "festivals": [
+          "பங்குனி உத்திரம்",
+          "மஹா சிவராத்திரி"
+        ],
+        "significance": "108 சிவலிங்கங்கள் அருளும் தலம். பாவங்களை நீக்கி புனிதம் நல்கும் பாபநாசம்."
+      },
+      "hi": {
+        "name": "श्री पालैवनानाथर मंदिर, पापनासम",
+        "city": "पापनासम (कुम्भकोणम)",
+        "state": "तमिलनाडु",
+        "category": "शिव",
+        "designation": "पादल पेत्र स्थलम",
+        "history": "कुम्भकोणम के निकट पापनासम समस्त पापों का नाश करने वाला देवारम पादल पेत्र तीर्थ है। मंदिर परिसर में 108 शिवलिंग स्थापित हैं। संत अप्पर द्वारा रचित भजनों में इसकी महिमा वर्णित है।",
+        "timings": "प्रातः 6:30 – 12:00 | सायं 4:30 – 8:30",
+        "festivals": [
+          "पंगुनि उत्तिरम",
+          "महाशिवरात्रि"
+        ],
+        "significance": "108 शिवलिंगों का पावन धाम जो समस्त पापों का समूल नाश करता है।"
+      }
+    }
+  },
+  {
+    "id": "soundararaja-perumal-sundaraperumalkoil",
+    "name": "Sri Soundararaja Perumal Temple, Sundaraperumalkoil",
+    "city": "Sundaraperumalkoil (Papanasam)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Ancient, Kulothunga Chola era",
+    "category": "Vishnu",
+    "designation": "",
+    "history": "Sri Soundararaja Perumal Temple is located in Sundaraperumalkoil near Papanasam in the Cauvery delta region. Dedicated to Lord Vishnu in His captivatingly handsome manifestation as Soundararaja Perumal (the King of Supreme Beauty) with Consort Soundaravalli Thayar, the temple features exquisite Chola stone carvings and a sacred temple tank. Worshippers pray for family prosperity and handsome, virtuous progeny.",
+    "timings": "7:00 AM – 11:30 AM | 5:00 PM – 8:00 PM",
+    "festivals": [
+      "Vaikunta Ekadasi",
+      "Panguni Brahmotsavam",
+      "Purattasi Saturdays"
+    ],
+    "significance": "Historic Chola era Vishnu temple renowned for the sublime beauty of Lord Soundararaja Perumal.",
+    "mapsUrl": "https://maps.google.com/?q=Soundararaja+Perumal+Temple+Sundaraperumalkoil",
+    "sourceUrl": "https://www.visittemples.com/hindu/srisoundararajaperumaltemplesundaraperumalkoilnearpapanasamkumbakonamtamilnadu",
+    "lat": 10.918,
+    "lng": 79.312,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு சௌந்தரராஜ பெருமாள் திருக்கோயில், சுந்தரபெருமாள்கோவில்",
+        "city": "சுந்தரபெருமாள்கோவில் (பாபநாசம்)",
+        "state": "தமிழ்நாடு",
+        "category": "விஷ்ணு",
+        "designation": "",
+        "history": "பாபநாசம் அருகே சுந்தரபெருமாள்கோவிலில் அமைந்துள்ள சோழர் கால விஷ்ணு ஆலயம். பேரழகு மிளிரும் சௌந்தரராஜ பெருமாள் மற்றும் சௌந்தரவல்லி தாயார் அருள்பாலிக்கின்றனர். குடும்ப அமைதி மற்றும் சந்ததி மேன்மை பெற பக்தர்கள் வழிபடுகின்றனர்.",
+        "timings": "காலை 7:00 – 11:30 | மாலை 5:00 – 8:00",
+        "festivals": [
+          "வைகுண்ட ஏகாதசி",
+          "புரட்டாசி சனிக்கிழமைகள்"
+        ],
+        "significance": "சோழர் கால அழகிய பெருமாள் திருக்கோயில். மங்கல வாழ்வு தரும் சௌந்தரராஜர்."
+      },
+      "hi": {
+        "name": "श्री सौंदरराज पेरुमाल मंदिर, सुंदरपेरुमालकोइल",
+        "city": "सुंदरपेरुमालकोइल (पापनासम)",
+        "state": "तमिलनाडु",
+        "category": "विष्णु",
+        "designation": "",
+        "history": "पापनासम के निकट चोल काल का भव्य विष्णु मंदिर। भगवान विष्णु अपने अति सुंदर सौंदरराज रूप में माँ सौंदरवल्ली के साथ विराजमान हैं।",
+        "timings": "प्रातः 7:00 – 11:30 | सायं 5:00 – 8:00",
+        "festivals": [
+          "वैकुंठ एकादशी",
+          "पंगुनि ब्रह्मोत्सव"
+        ],
+        "significance": "अति मनोहारी स्वरूप वाले भगवान सौंदरराज का पावन धाम।"
+      }
+    }
+  }
 ];
 
 export default kumbakonamTemples;

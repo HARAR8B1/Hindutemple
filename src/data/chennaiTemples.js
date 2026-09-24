@@ -955,6 +955,117 @@ const chennaiTemples = [
       },
     },
   },
+,
+{
+    "id": "asalathamman-nungambakkam",
+    "name": "Sri Asalathamman Temple, Nungambakkam",
+    "city": "Chennai (Nungambakkam)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Ancient, approx. 300 years old",
+    "category": "Shakti",
+    "designation": "",
+    "history": "Sri Asalathamman Temple is a renowned Grama Devata (guardian goddess) shrine situated on Tank Bund Road in Nungambakkam, Chennai. Mother Asalathamman is an aspect of Goddess Mariamman / Parvati, reverently worshipped as the primordial protective deity (\"Asal\" meaning genuine / original) of Nungambakkam village. Devotees offer neem leaves, lemon garlands, and porridge (Koozh) to seek protection against chickenpox, viral fevers, and family troubles.",
+    "timings": "6:00 AM – 12:00 PM | 4:30 PM – 9:00 PM",
+    "festivals": [
+      "Aadi Thiruvizha",
+      "Thai Velli",
+      "Navaratri",
+      "Panguni Uthiram"
+    ],
+    "significance": "Celebrated guardian mother of Nungambakkam. Bestows health, cures viral fevers, and safeguards the neighborhood.",
+    "mapsUrl": "https://maps.google.com/?q=Asalathamman+Temple+Nungambakkam+Chennai",
+    "sourceUrl": "https://www.visittemples.com/hindu/sriasalathammantemplenungambakkamchennaitamilnadu",
+    "lat": 13.061,
+    "lng": 80.2415,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு அசலாத்தம்மன் திருக்கோயில், நுங்கம்பாக்கம்",
+        "city": "சென்னை (நுங்கம்பாக்கம்)",
+        "state": "தமிழ்நாடு",
+        "category": "சக்தி",
+        "designation": "",
+        "history": "சென்னையின் மையப்பகுதியான நுங்கம்பாக்கம் டேங்க் பண்ட் சாலையில் அமைந்துள்ள பழமையான கிராம தேவதை திருக்கோயில். \"அசல்\" என்றால் உண்மையான, ஆதி அம்மன் என்று பொருள். அம்மை நோய், வெப்ப வியாதிகள் நீங்கவும், குடும்ப மேன்மை பெறவும் பக்தர்கள் வேப்பிலை மற்றும் கூழ் படைத்து வழிபடுகின்றனர்.",
+        "timings": "காலை 6:00 – 12:00 | மாலை 4:30 – 9:00",
+        "festivals": [
+          "ஆடித் திருவிழா",
+          "தை வெள்ளி",
+          "நவராத்திரி"
+        ],
+        "significance": "நுங்கம்பாக்கத்தின் ஆதி காவல் அன்னை. நோய் தீர்க்கும் சக்தி வாய்ந்த மாரியம்மன் வடிவம்."
+      },
+      "hi": {
+        "name": "श्री असलाथम्मन मंदिर, नुंगमबाक्कम",
+        "city": "चेन्नई (नुंगमबाक्कम)",
+        "state": "तमिलनाडु",
+        "category": "शक्ति",
+        "designation": "",
+        "history": "चेन्नई के नुंगमबाक्कम में स्थित प्राचीन ग्राम देवी मंदिर। माता असलाथम्मन देवी पार्वती एवं मरियम्मन का कल्याणकारी स्वरूप हैं। भक्तजन स्वास्थ्य रक्षा एवं संकट निवारण हेतु माता की आराधना करते हैं।",
+        "timings": "प्रातः 6:00 – 12:00 | सायं 4:30 – 9:00",
+        "festivals": [
+          "आदि उत्सव",
+          "थाई शुक्रवार",
+          "नवरात्रि"
+        ],
+        "significance": "नुंगमबाक्कम की रक्षक देवी। आरोग्य और पारिवारिक शांति प्रदायिनी।"
+      }
+    }
+  },
+  {
+    "id": "sringeri-sharadambal-kodambakkam",
+    "name": "Sri Sringeri Sharadambal Temple, Kodambakkam",
+    "city": "Chennai (Kodambakkam)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Modern, Sringeri Sharada Peetham branch",
+    "category": "Shakti",
+    "designation": "",
+    "history": "Sri Sringeri Sharadambal Temple is a serene spiritual sanctuary located in Kodambakkam, Chennai, functioning under the direct auspices of the sacred Dakshinamnaya Sri Sharada Peetham, Sringeri. The sanctum enshrines the radiant golden icon of Mother Sharadambal seated in divine grace, alongside shrines for Adi Sankaracharya and Lord Varasiddhi Vinayaka. The temple is a hub of Vedic chanting, Lalitha Sahasranama parayana, and spiritual study.",
+    "timings": "6:30 AM – 12:00 PM | 4:30 PM – 8:30 PM",
+    "festivals": [
+      "Sharad Navaratri",
+      "Sankara Jayanthi",
+      "Vasantha Panchami",
+      "Guru Poornima"
+    ],
+    "significance": "Chennai branch of the ancient Sringeri Sharada Peetham. Radiates supreme serenity, granting wisdom, academic brilliance, and spiritual enlightenment.",
+    "mapsUrl": "https://maps.google.com/?q=Sringeri+Sharadambal+Temple+Kodambakkam+Chennai",
+    "sourceUrl": "https://www.visittemples.com/hindu/srisringerisharadambaltemplekodambakkamchennaitamilnadu",
+    "lat": 13.0515,
+    "lng": 80.2225,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு சிருங்கேரி சாரதாம்பாள் திருக்கோயில், கோடம்பாக்கம்",
+        "city": "சென்னை (கோடம்பாக்கம்)",
+        "state": "தமிழ்நாடு",
+        "category": "சக்தி",
+        "designation": "",
+        "history": "சென்னையில் கோடம்பாக்கம் பகுதியில் அமைந்துள்ள சிருங்கேரி சாரதா பீடத்தின் கிளைத் திருக்கோயில். கல்விக்கும் ஞானத்திற்கும் அதிபதியான அன்னை சாரதாம்பாள் மற்றும் ஆதி சங்கரர் சன்னதிகள் இங்கு அமைந்துள்ளன. வேதம், லலிதா சகஸ்ரநாம பாராயணம் மற்றும் வித்யா வழிபாடுகளுக்கு மிகவும் உகந்த புண்ணிய தலம்.",
+        "timings": "காலை 6:30 – 12:00 | மாலை 4:30 – 8:30",
+        "festivals": [
+          "சாரதா நவராத்திரி",
+          "சங்கர ஜெயந்தி",
+          "வசந்த பஞ்சமி"
+        ],
+        "significance": "சிருங்கேரி சாரதா பீடத்தின் சென்னை கிளை. கல்வி ஞானமும் மன அமைதியும் அருளும் சாரதாம்பாள் சன்னதி."
+      },
+      "hi": {
+        "name": "श्री शृंगेरी शारदाम्बा मंदिर, कोडमबाक्कम",
+        "city": "चेन्नई (कोडमबाक्कम)",
+        "state": "तमिलनाडु",
+        "category": "शक्ति",
+        "designation": "",
+        "history": "चेन्नई के कोडमबाक्कम में स्थित दक्षिणाम्नाय शृंगेरी शारदा पीठ की शाखा। माँ शारदाम्बा की मनमोहक मूर्ति और आदि शंकराचार्य का मंदिर यहाँ स्थापित है। वेद पाठ एवं साधना का प्रमुख केंद्र।",
+        "timings": "प्रातः 6:30 – 12:00 | सायं 4:30 – 8:30",
+        "festivals": [
+          "शारदीय नवरात्रि",
+          "शंकर जयंती",
+          "वसंत पंचमी"
+        ],
+        "significance": "शृंगेरी पीठ की चेन्नई स्थित पावन शाखा। विद्या, ज्ञान और मानसिक शांति प्रदायिनी।"
+      }
+    }
+  }
 ];
 
 export default chennaiTemples;

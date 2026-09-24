@@ -1809,6 +1809,544 @@ const tamilnaduTemples = [
       },
     },
   },
+,
+{
+    "id": "pamban-swamigal-pirappanvalasai",
+    "name": "Sri Pamban Swamigal Temple, Pirappanvalasai",
+    "city": "Pirappanvalasai (Ramanathapuram)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "19th–20th Century CE",
+    "category": "Murugan",
+    "designation": "Jeeva Samadhi / Avatara Sthalam",
+    "history": "Sri Pamban Swamigal Temple at Pirappanvalasai in Ramanathapuram district is the sacred birthplace of the great 20th-century Murugan saint-poet Srimat Pamban Kumaragurudasa Swamigal (1848–1929). Located on the route to Rameswaram, this serene shrine houses a south-facing welcome arch leading to the sanctum where Pamban Swamigal performed rigorous tapasya and composed immortal Tamil devotional hymns including Shanmuga Kavasam. Murugan devotees revere this shrine for healing, spiritual awakening, and protection from all adversaries.",
+    "timings": "6:00 AM – 12:00 PM | 4:30 PM – 8:00 PM",
+    "festivals": [
+      "Pamban Swamigal Guru Pooja",
+      "Skanda Sashti",
+      "Thai Poosam",
+      "Panguni Uthiram"
+    ],
+    "significance": "Sacred birthplace and penance hermitage of Saint Pamban Swamigal, author of Shanmuga Kavasam. Powerful shrine for Murugan grace and disease healing.",
+    "mapsUrl": "https://maps.google.com/?q=Pamban+Swamigal+Temple+Pirappanvalasai+Ramanathapuram",
+    "sourceUrl": "https://www.visittemples.com/hindu/sripambanswamigaltemplepirappanvalasairamanathapuramdistricttamilnadu",
+    "lat": 9.352,
+    "lng": 78.951,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு பாம்பன் சுவாமிகள் திருக்கோயில், பிரப்பன்வலசை",
+        "city": "பிரப்பன்வலசை (ராமநாதபுரம்)",
+        "state": "தமிழ்நாடு",
+        "category": "முருகன்",
+        "designation": "அவதாரத் தலம்",
+        "history": "சண்முக கவசம் அருளிய ஒப்பற்ற முருக பக்தரான ஸ்ரீமத் பாம்பன் குமரகுருதாச சுவாமிகள் அவதரித்த புண்ணிய பூமி பிரப்பன்வலசை (ராமேஸ்வரம் செல்லும் வழி). சுவாமிகள் தவம் இயற்றி முருகனின் பேரருள் பெற்ற தலம். நோய்கள் தீரவும், எதிர்ப்புகள் அகலவும் சண்முக கவச பாராயணம் செய்வோருக்கு இது கண்கண்ட புண்ணிய பூமி.",
+        "timings": "காலை 6:00 – 12:00 | மாலை 4:30 – 8:00",
+        "festivals": [
+          "பாம்பன் சுவாமிகள் குருபூஜை",
+          "கந்த சஷ்டி",
+          "தைப்பூசம்"
+        ],
+        "significance": "பாம்பன் சுவாமிகளின் அவதாரத் தலம். சண்முக கவசம் பிறந்த புண்ணிய பூமி. முருகப் பெருமானின் விசேஷ அருள் தலம்."
+      },
+      "hi": {
+        "name": "श्री पाम्बन स्वामीगल मंदिर, पिरप्पनवलसै",
+        "city": "पिरप्पनवलसै (रामनाथपुरम)",
+        "state": "तमिलनाडु",
+        "category": "मुरुगन",
+        "designation": "अवतार स्थल",
+        "history": "रामेश्वरम मार्ग पर स्थित महान मुरुगन संत पाम्बन स्वामीगल की पावन जन्मस्थली। उन्होंने यहाँ घोर तपस्या कर प्रसिद्ध \"षण्मुख कवचं\" की रचना की थी। मुरुगन भक्तों के लिए यह अत्यंत सिद्ध और कल्याणकारी तीर्थ है।",
+        "timings": "प्रातः 6:00 – 12:00 | सायं 4:30 – 8:00",
+        "festivals": [
+          "पाम्बन स्वामी गुरु पूजा",
+          "स्कंद षष्ठी",
+          "थाई पूसम"
+        ],
+        "significance": "षण्मुख कवचं के रचयिता संत पाम्बन स्वामीगल की जन्मस्थली। मुरुगन कृपा का पावन केंद्र।"
+      }
+    }
+  },
+  {
+    "id": "subramaniya-swamy-chennimalai",
+    "name": "Sri Subramaniya Swamy Temple, Chennimalai",
+    "city": "Chennimalai (Erode)",
+    "state": "Tamil Nadu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Chennimalai_Murugan_Temple.jpg/320px-Chennimalai_Murugan_Temple.jpg",
+    "period": "Ancient, Kongu Chola era",
+    "category": "Murugan",
+    "designation": "",
+    "history": "Sri Subramaniya Swamy Temple in Chennimalai, Erode district, is a celebrated hill shrine situated atop a hill of 1,320 steps. Lord Muruga is worshipped here as Siragiri Velan. Legend says that the divine serpents Adisesha and Garuda fought here, creating this hill resembling the head of the serpent. The celebrated poet Saravana Munivar composed the famous \"Kanda Sashti Kavasam\" hymns linked to this shrine. A miraculous feature of Chennimalai is that curd and milk offered to Lord Muruga here do not sour for days.",
+    "timings": "6:00 AM – 8:30 PM continuously",
+    "festivals": [
+      "Thai Poosam (Grand 15-day chariot festival)",
+      "Panguni Uthiram",
+      "Skanda Sashti",
+      "Vaikasi Visakam"
+    ],
+    "significance": "Famous Kongu Nadu hill temple of Lord Muruga (1,320 steps). Celebrated for Thai Poosam ther (car festival). Sacred soil associated with Kanda Sashti Kavasam.",
+    "mapsUrl": "https://maps.google.com/?q=Chennimalai+Murugan+Temple+Erode",
+    "sourceUrl": "https://www.visittemples.com/hindu/srisubramaniyaswamytemplechennimalaierodedistricttamilnadu",
+    "lat": 11.1685,
+    "lng": 77.611,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு சுப்பிரமணிய சுவாமி திருக்கோயில், சென்னிமலை",
+        "city": "சென்னிமலை (ஈரோடு)",
+        "state": "தமிழ்நாடு",
+        "category": "முருகன்",
+        "designation": "",
+        "history": "ஈரோடு மாவட்டம் சென்னிமலையில் 1320 படிகளுடன் கூடிய மலை மீது அமைந்த பிரசித்தி பெற்ற முருகன் திருக்கோயில். மூலவர்: சிரகிரி வேலவன் (சென்னிமலை ஆண்டவர்). ஆதிசேஷனுக்கும் கருடனுக்கும் நடந்த போரில் உருவான மலை என்பது புராண வரலாறு. கந்த சஷ்டி கவசம் அரங்கேறிய தலங்களில் ஒன்றாக போற்றப்படுகிறது. இங்கு முருகனுக்கு அபிஷேகம் செய்யப்படும் தயிர் புளிப்பதில்லை என்பது ஓர் அற்புத உண்மை.",
+        "timings": "காலை 6:00 – இரவு 8:30",
+        "festivals": [
+          "தைப்பூசத் தேர்த்திருவிழா",
+          "பங்குனி உத்திரம்",
+          "கந்த சஷ்டி"
+        ],
+        "significance": "கொங்கு மண்டலத்தின் தலைசிறந்த மலைக்கோயில். 1320 படிகள் கொண்ட மலை மீது சிரகிரி வேலவன் அருள்வடிவம்."
+      },
+      "hi": {
+        "name": "श्री सुब्रमण्य स्वामी मंदिर, चेन्निमलई",
+        "city": "चेन्निमलई (इरोड)",
+        "state": "तमिलनाडु",
+        "category": "मुरुगन",
+        "designation": "",
+        "history": "इरोड जिले में 1320 सीढ़ियों वाली रमणीय पहाड़ी पर स्थित भगवान मुरुगन का प्रसिद्ध मंदिर। भगवान यहाँ \"शिरगिरि वेलन\" रूप में पूजे जाते हैं। यहाँ मुरुगन को अर्पित दही दिनों तक खट्टा नहीं होता। प्रसिद्ध स्कंद षष्ठी कवचं से संबंधित पावन स्थल।",
+        "timings": "प्रातः 6:00 – रात्रि 8:30",
+        "festivals": [
+          "थाई पूसम रथोत्सव",
+          "पंगुनि उत्तिरम",
+          "स्कंद षष्ठी"
+        ],
+        "significance": "कोंगुनाडु का प्रसिद्ध पर्वत धाम। 1320 सीढ़ियों वाला जाग्रत मुरुगन मंदिर।"
+      }
+    }
+  },
+  {
+    "id": "subramaniya-swamy-sivanmalai",
+    "name": "Sri Subramaniya Swamy Temple, Sivanmalai",
+    "city": "Sivanmalai (Kangeyam/Tiruppur)",
+    "state": "Tamil Nadu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sivanmalai_Murugan_temple.jpg/320px-Sivanmalai_Murugan_temple.jpg",
+    "period": "Ancient, Chera–Chola era",
+    "category": "Murugan",
+    "designation": "",
+    "history": "Sri Subramaniya Swamy Temple in Sivanmalai near Kangeyam, Tiruppur district, is renowned throughout India for its unique \"Aandavan Utharavu\" (Divine Command Miracle Box). Lord Muruga appears in the dream of a devotee and commands a specific item (such as gold, water, grain, sand, iron) to be placed inside a sealed glass box in the sanctum. Whatever item is placed inside heralds real-world events affecting the nation and society, a prophetic tradition that has unfailingly come true for centuries.",
+    "timings": "6:00 AM – 12:30 PM | 4:00 PM – 8:30 PM",
+    "festivals": [
+      "Thai Poosam (Famous 3-day car festival)",
+      "Panguni Uthiram",
+      "Soorasamharam",
+      "Karthigai Deepam"
+    ],
+    "significance": "World-famous for the prophetic \"Aandavan Utharavu\" miracle box where items placed by divine dream command predict future social events. 18-step sacred Kangeyam hill temple.",
+    "mapsUrl": "https://maps.google.com/?q=Sivanmalai+Murugan+Temple+Kangeyam",
+    "sourceUrl": "https://www.visittemples.com/hindu/srisubramaniyaswamytemplesivanmalainearkangeyamtiruppurdistricttamilnadu",
+    "lat": 11.0289,
+    "lng": 77.5612,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு சுப்பிரமணிய சுவாமி திருக்கோயில், சிவன்மலை",
+        "city": "சிவன்மலை (காங்கேயம், திருப்பூர்)",
+        "state": "தமிழ்நாடு",
+        "category": "முருகன்",
+        "designation": "",
+        "history": "திருப்பூர் மாவட்டம் காங்கேயம் அருகே சிவன்மலையில் அமைந்துள்ள புகழ்பெற்ற முருகன் திருக்கோயில். இக்கோயிலின் உலகப் பிரசித்தி பெற்ற அம்சம் \"ஆண்டவன் உத்தரவுப் பெட்டி\" ஆகும். முருகன் பக்தரின் கனவில் தோன்றி உத்தரவிடும் பொருளை (தங்கம், நீர், மணல், தானியம், இரும்பு போன்றவை) கண்ணாடிப் பெட்டியில் வைத்து பூஜிப்பர். அந்த பொருள் சார்ந்த நிகழ்வுகள் உலகளவில் தாக்கத்தை ஏற்படுத்தும் என்பது நூற்றாண்டுகளாக நடக்கும் அதிசயம்.",
+        "timings": "காலை 6:00 – மதியம் 12:30 | மாலை 4:00 – இரவு 8:30",
+        "festivals": [
+          "தைப்பூசத் தேரோட்டம்",
+          "பங்குனி உத்திரம்",
+          "சூரசம்ஹாரம்"
+        ],
+        "significance": "எதிர்காலத்தை உணர்த்தும் ஆண்டவன் உத்தரவுப் பெட்டி கொண்ட அதிசயத் தலம். காங்கேயம் காளைகளின் பூமிக்கு மகுடமாய் விளங்கும் சிவன்மலை."
+      },
+      "hi": {
+        "name": "श्री सुब्रमण्य स्वामी मंदिर, शिवन्मलई",
+        "city": "शिवन्मलई (कांगेयम, तिरुप्पुर)",
+        "state": "तमिलनाडु",
+        "category": "मुरुगन",
+        "designation": "",
+        "history": "तिरुप्पुर जिले के कांगेयम में स्थित भगवान मुरुगन का चमत्कारी मंदिर। यह मंदिर अपनी \"आंडवन उत्तरवु\" (दिव्य आज्ञा पेटी) के लिए प्रसिद्ध है, जिसमें भगवान स्वप्न में जो वस्तु रखने का आदेश देते हैं, उसे कांच के बक्से में रखा जाता है और वह भविष्यवाणी के रूप में समाज में घटित होती है।",
+        "timings": "प्रातः 6:00 – दोपहर 12:30 | सायं 4:00 – रात्रि 8:30",
+        "festivals": [
+          "थाई पूसम रथोत्सव",
+          "पंगुनि उत्तिरम",
+          "सूरसंहारम"
+        ],
+        "significance": "चमत्कारिक भविष्यसूचक दिव्य पेटी वाला प्रसिद्ध मुरुगन पर्वत धाम।"
+      }
+    }
+  },
+  {
+    "id": "avinashi-lingeshwarar-temple",
+    "name": "Sri Avinashilingeshwarar Temple, Avinashi",
+    "city": "Avinashi (Tiruppur)",
+    "state": "Tamil Nadu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Avinashiappar_temple.jpg/320px-Avinashiappar_temple.jpg",
+    "period": "Ancient, Kongu Chola/Pandya era (7th Century CE)",
+    "category": "Shiva",
+    "designation": "Devaram Paadal Petra Sthalams",
+    "history": "Sri Avinashilingeshwarar Temple in Avinashi, Tiruppur district, is the most celebrated Devaram Paadal Petra Sthalam of the Kongu region. Presiding deity is Lord Shiva as Avinashiappar (the Indestructible Lord) and Mother Karunambigai. The temple is immortalized by Saint Sundaramoorthy Nayanar, who sang the Devaram padhigam and miraculously resurrected a young boy swallowed by a crocodile from the dry river tank three years prior. Devotees pray here to ward off unnatural death (Akalamrithyu) and protect children.",
+    "timings": "6:00 AM – 1:00 PM | 4:00 PM – 8:30 PM",
+    "festivals": [
+      "Chithirai Ther Thiruvizha (Grand Chariot)",
+      "Maha Shivaratri",
+      "Arudra Darshan"
+    ],
+    "significance": "Supreme Paadal Petra Sthalam of Kongu Nadu. Famous for Sundarar's crocodile miracle (Mudalai Vaai Pillai). Cures mortal fears and protects children.",
+    "mapsUrl": "https://maps.google.com/?q=Avinashilingeshwarar+Temple+Avinashi",
+    "sourceUrl": "https://www.visittemples.com/hindu/sriavinashilingeshwarartempleavinashitiruppurdistricttamilnadu",
+    "lat": 11.192,
+    "lng": 77.2685,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு அவிநாசிலிங்கேஸ்வரர் திருக்கோயில், அவிநாசி",
+        "city": "அவிநாசி (திருப்பூர்)",
+        "state": "தமிழ்நாடு",
+        "category": "சிவன்",
+        "designation": "தேவாரம் பாடல் பெற்ற தலம்",
+        "history": "கொங்கு மண்டலத்தின் முதன்மை தேவாரம் பாடல் பெற்ற சிவத்தலம் அவிநாசி. மூலவர்: அவிநாசியப்பர். அம்பாள்: கருணாம்பிகை. சுந்தரமூர்த்தி நாயனார் பாடிய \"எற்றான் மறக்கேன்\" பதிகத்தின் மகிமையால், மூன்று ஆண்டுகளுக்கு முன்பு முதலையால் விழுங்கப்பட்ட சிறுவன் குளத்திலிருந்து உயிருடன் மீட்டுத் தரப்பட்ட அற்புதம் நிகழ்ந்த தலம். அவிநாசி தேர்த்திருவிழா தென்னிந்தியாவின் மிகப்பெரிய தேர்களில் ஒன்றாகும்.",
+        "timings": "காலை 6:00 – மதியம் 1:00 | மாலை 4:00 – இரவு 8:30",
+        "festivals": [
+          "சித்திரைத் தேர்த்திருவிழா",
+          "மஹா சிவராத்திரி",
+          "முதலை வாய் பிள்ளை உற்சவம்"
+        ],
+        "significance": "சுந்தரரின் முதலை வாய் பிள்ளை மீட்ட வரலாற்றுப் பாடல் பெற்ற தலம். அகால மரணம் நீங்கவும் குழந்தைகள் நலம் பெறவும் அருளும் தலம்."
+      },
+      "hi": {
+        "name": "श्री अविनाशीलिंगेश्वरर मंदिर, अविनाशी",
+        "city": "अविनाशी (तिरुप्पुर)",
+        "state": "तमिलनाडु",
+        "category": "शिव",
+        "designation": "देवारम पादल पेत्र स्थलम",
+        "history": "कोंगु क्षेत्र का सबसे प्रतिष्ठित देवारम पादल पेत्र शिव मंदिर। भगवान अविनाशीअप्पर और माता करुणाम्बिका यहाँ विराजमान हैं। संत सुंदरर ने यहाँ देवारम भजन गाकर मगरमच्छ द्वारा निगले गए बालक को तीन वर्ष बाद पुनः जीवित निकाला था। यहाँ का रथ उत्सव दक्षिण भारत के विशालतम उत्सवों में है।",
+        "timings": "प्रातः 6:00 – दोपहर 1:00 | सायं 4:00 – रात्रि 8:30",
+        "festivals": [
+          "चित्तिरै महा रथोत्सव",
+          "महाशिवरात्रि"
+        ],
+        "significance": "अकाल मृत्यु निवारण एवं बाल रक्षा का सर्वोच्च तीर्थ। संत सुंदरर का मगरमच्छ चमत्कार स्थल।"
+      }
+    }
+  },
+  {
+    "id": "ranganatha-swamy-karamadai",
+    "name": "Sri Ranganatha Swamy Temple, Karamadai",
+    "city": "Karamadai (Coimbatore)",
+    "state": "Tamil Nadu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Karamadai_Ranganathar_temple.jpg/320px-Karamadai_Ranganathar_temple.jpg",
+    "period": "Ancient, Hoysala/Vijayanagara era (over 1000 years old)",
+    "category": "Vishnu",
+    "designation": "",
+    "history": "Sri Ranganatha Swamy Temple in Karamadai is the oldest and most prominent Vaishnava temple in Coimbatore district, located near Mettupalayam. The presiding deity is a Swayambhu (self-manifested) stone Linga-form transformed into Ranganatha Swamy, alongside Goddess Ranganayaki. The temple is famous for the \"Bandaru Seva\" where devotees toss betel nut powder in jubilation during the annual car festival. Devotees seeking relief from eye ailments and business success flock to this holy shrine.",
+    "timings": "6:00 AM – 12:30 PM | 4:30 PM – 9:00 PM",
+    "festivals": [
+      "Masi Magam Chariot Festival",
+      "Vaikunta Ekadasi",
+      "Panguni Uthiram",
+      "Purattasi Saturdays"
+    ],
+    "significance": "The premier Vaishnava pilgrimage center of Coimbatore. Swayambhu Ranganatha idol worshipped for over a millennium. Renowned for Masi Magam Bandaru Seva.",
+    "mapsUrl": "https://maps.google.com/?q=Ranganatha+Swamy+Temple+Karamadai+Coimbatore",
+    "sourceUrl": "https://www.visittemples.com/hindu/sriranganathaswamytemplekaramadaicoimbatoredistricttamilnadu",
+    "lat": 11.2435,
+    "lng": 76.9585,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு ரங்கநாத சுவாமி திருக்கோயில், காரமடை",
+        "city": "காரமடை (கோவை)",
+        "state": "தமிழ்நாடு",
+        "category": "விஷ்ணு",
+        "designation": "",
+        "history": "கோவை மாவட்டத்தில் மேட்டுப்பாளையம் அருகே காரமடையில் அமைந்துள்ள 1000 ஆண்டுகளுக்கு முற்பட்ட தொன்மையான வைணவத் தலம். மூலவர் சுயம்புவாக காரை மரத்தடியில் தோன்றிய ஸ்ரீ ரங்கநாதர். தாயார்: ரங்கநாயகி. மாசி மகத் தேர்த்திருவிழாவின் போது பக்தர்கள் பாண்டார சேவை செய்து பாக்குத்தூள் தூவி வழிபடுவது தனிச்சிறப்பு. கண் பார்வைக் கோளாறுகள் நீங்க இத்தல தரிசனம் விசேஷம்.",
+        "timings": "காலை 6:00 – மதியம் 12:30 | மாலை 4:30 – இரவு 9:00",
+        "festivals": [
+          "மாசி மகத் தேர்த்திருவிழா",
+          "வைகுண்ட ஏகாதசி",
+          "புரட்டாசி சனிக்கிழமைகள்"
+        ],
+        "significance": "கோவை மண்டலத்தின் முதன்மை திவ்ய வைணவத் தலம். சுயம்பு ரங்கநாதர் அருள்பாலிக்கும் 1000 ஆண்டு புராதன தலம்."
+      },
+      "hi": {
+        "name": "श्री रंगनाथ स्वामी मंदिर, कारामडई",
+        "city": "कारामडई (कोयंबटूर)",
+        "state": "तमिलनाडु",
+        "category": "विष्णु",
+        "designation": "",
+        "history": "कोयंबटूर जिले के कारामडई में स्थित 1000 वर्ष से अधिक प्राचीन वैष्णव धाम। यहाँ भगवान रंगनाथ स्वयंभू रूप में प्रकट हुए थे। मासी मघम पर यहाँ का \"बंडारु सेवा\" और रथ उत्सव अत्यंत प्रसिद्ध है। नेत्र रोगों के निवारण हेतु भक्त यहाँ दर्शन करते हैं।",
+        "timings": "प्रातः 6:00 – दोपहर 12:30 | सायं 4:30 – रात्रि 9:00",
+        "festivals": [
+          "मासी मघम रथोत्सव",
+          "वैकुंठ एकादशी"
+        ],
+        "significance": "कोयंबटूर का सबसे प्रमुख प्राचीन रंगनाथ मंदिर। स्वयंभू विग्रह।"
+      }
+    }
+  },
+  {
+    "id": "kothandaramar-ramnagar-coimbatore",
+    "name": "Sri Kothandaramar Temple, Ram Nagar",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "20th Century CE (approx. 1955)",
+    "category": "Vishnu",
+    "designation": "",
+    "history": "Sri Kothandaramar Temple in Ram Nagar, Coimbatore, is revered as the \"Ayodhya of Coimbatore\". Modelled after the classical Ayodhya temple style, the sanctum enshrines Sri Rama holding His celestial bow Kothandam, along with Sita Devi, Lakshmana, and Anjaneya. Devotees participate in year-round Rama bhajans, Akhanda Nama Sankirtanam, and celebrate a grand 10-day Sri Rama Navami Mahotsavam.",
+    "timings": "6:30 AM – 11:30 AM | 5:00 PM – 8:30 PM",
+    "festivals": [
+      "Sri Rama Navami (10 days)",
+      "Hanumath Jayanthi",
+      "Vaikunta Ekadasi"
+    ],
+    "significance": "Celebrated as the Ayodhya of Coimbatore. Centre of spiritual discourse, Rama Nama Japa, and peace.",
+    "mapsUrl": "https://maps.google.com/?q=Kothandaramar+Temple+Ram+Nagar+Coimbatore",
+    "sourceUrl": "https://www.visittemples.com/hindu/srikothandaramartempleramnagarcoimbatoretamilnadu",
+    "lat": 11.0165,
+    "lng": 76.963,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு கோதண்டராமர் திருக்கோயில், ராம் நகர்",
+        "city": "கோவை (ராம் நகர்)",
+        "state": "தமிழ்நாடு",
+        "category": "விஷ்ணு",
+        "designation": "",
+        "history": "கோவையின் மையப்பகுதியான ராம் நகரில் அமைந்துள்ள புகழ்பெற்ற ராமர் கோயில். \"கோவையின் அயோத்தி\" என்று போற்றப்படும் இத்தலத்தில் ஸ்ரீ கோதண்டராமர், சீதா பிராட்டி, லட்சுமணர், ஆஞ்சநேயர் சமேதராக அருள்பாலிக்கிறார். ராம நாம பஜனை மற்றும் ராம நவமி உற்சவத்திற்கு மிகவும் பிரசித்தி பெற்றது.",
+        "timings": "காலை 6:30 – 11:30 | மாலை 5:00 – 8:30",
+        "festivals": [
+          "ஸ்ரீ ராம நவமி",
+          "வைகுண்ட ஏகாதசி",
+          "ஹனுமத் ஜெயந்தி"
+        ],
+        "significance": "கோவையின் அயோத்தி எனப் போற்றப்படும் தலம். ராம நாமம் ஜெபித்து மன அமைதி பெறும் புனிதத் தலம்."
+      },
+      "hi": {
+        "name": "श्री कोदंडरामार मंदिर, राम नगर",
+        "city": "कोयंबटूर",
+        "state": "तमिलनाडु",
+        "category": "विष्णु",
+        "designation": "",
+        "history": "कोयंबटूर के राम नगर में स्थित \"कोयंबटूर की अयोध्या\" कहा जाने वाला भव्य राम मंदिर। धनुर्धारी श्री कोदंडराम, सीता माता, लक्ष्मण जी और हनुमान जी यहाँ मनोहारी रूप में विराजित हैं।",
+        "timings": "प्रातः 6:30 – 11:30 | सायं 5:00 – 8:30",
+        "festivals": [
+          "श्री राम नवमी",
+          "वैकुंठ एकादशी"
+        ],
+        "significance": "कोयंबटूर का प्रतिष्ठित राम धाम। राम नाम संकीर्तन का प्रमुख केंद्र।"
+      }
+    }
+  },
+  {
+    "id": "panchamugha-anjaneyar-vadavalli",
+    "name": "Sri Panchamugha Anjaneyar Temple, Vadavalli",
+    "city": "Vadavalli (Coimbatore)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Contemporary",
+    "category": "Other",
+    "designation": "",
+    "history": "Sri Panchamugha Anjaneyar Temple is situated at Vadavalli at the foothills of Marudhamalai in Coimbatore. The temple enshrines a gigantic, awe-inspiring monolithic statue of Sri Panchamukha Anjaneya (Five-faced Hanuman combining the faces of Anjaneya, Narasimha, Garuda, Varaha, and Hayagriva). Devotees offer butter, betel leaf garlands, and vadas to obtain relief from Sani (Saturn) dosha, evil spirits, and critical obstacles.",
+    "timings": "6:30 AM – 12:00 PM | 4:30 PM – 8:30 PM",
+    "festivals": [
+      "Hanumath Jayanthi",
+      "Maha Shivaratri",
+      "Tamil New Year",
+      "Saturdays special pooja"
+    ],
+    "significance": "Majestic five-faced Anjaneya temple near Marudhamalai. Destroys fears, evil spirits, and malefic planetary afflictions.",
+    "mapsUrl": "https://maps.google.com/?q=Panchamukha+Anjaneyar+Temple+Vadavalli+Coimbatore",
+    "sourceUrl": "https://www.visittemples.com/hindu/sripanchamughaanjaneyartemplevadavallicoimbatoredistricttamilnadu",
+    "lat": 11.0265,
+    "lng": 76.9015,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு பஞ்சமுக ஆஞ்சநேயர் திருக்கோயில், வடவள்ளி",
+        "city": "வடவள்ளி (கோவை)",
+        "state": "தமிழ்நாடு",
+        "category": "மற்றவை",
+        "designation": "",
+        "history": "கோவை மருதமலை அடிவாரத்தில் வடவள்ளியில் அமைந்துள்ள கம்பீரமான பஞ்சமுக ஆஞ்சநேயர் கோயில். ஆஞ்சநேயர், நரசிம்மர், கருடன், வராகர், ஹயக்ரீவர் ஆகிய ஐந்து முகங்களுடன் கூடிய பிரம்மாண்ட திருவுருவம். சனி தோஷம், பயம், எதிரிகள் தொல்லை நீங்க வெற்றிலை மாலை மற்றும் வெண்ணெய் சாற்றி வழிபடும் தலம்.",
+        "timings": "காலை 6:30 – 12:00 | மாலை 4:30 – 8:30",
+        "festivals": [
+          "ஹனுமத் ஜெயந்தி",
+          "சனிக்கிழமை சிறப்பு வழிபாடு"
+        ],
+        "significance": "ஐந்து திருமுகங்களுடன் அருளும் பிரம்மாண்ட பஞ்சமுக ஆஞ்சநேயர் தலம். சகல பயங்களையும் போக்கும் தலம்."
+      },
+      "hi": {
+        "name": "श्री पंचमुख आंजनेयर मंदिर, वडवल्ली",
+        "city": "वडवल्ली (कोयंबटूर)",
+        "state": "तमिलनाडु",
+        "category": "अन्य",
+        "designation": "",
+        "history": "मरुदमलई की तलहटी में स्थित पंचमुख हनुमान जी का दिव्य मंदिर (हनुमान, नरसिंह, गरुड़, वराह, हयग्रीव मुख)। शनि दोष और भय से मुक्ति हेतु यहाँ मक्खन और पान की माला अर्पित की जाती है।",
+        "timings": "प्रातः 6:30 – 12:00 | सायं 4:30 – 8:30",
+        "festivals": [
+          "हनुमान जयंती",
+          "शनिवार विशेष दर्शन"
+        ],
+        "significance": "शक्तिशाली पंचमुख हनुमान धाम जो समस्त संकटों का नाश करता है।"
+      }
+    }
+  },
+  {
+    "id": "venkateswara-swamy-peelamedu",
+    "name": "Sri Venkateswara Swamy Temple, Peelamedu",
+    "city": "Coimbatore (Peelamedu)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "20th Century CE",
+    "category": "Vishnu",
+    "designation": "",
+    "history": "Sri Venkateswara Swamy Temple in Peelamedu, Coimbatore, is reverently known as the \"Chinna Tirupati\" of Coimbatore. Built according to Tirumala Vaikhanasa Agama traditions, the presiding deity is an exact manifestation of Lord Venkateswara (Balaji) in standing pose with Padmavathi Thayar. Devotees who cannot undertake the physical journey to Tirumala offer their vows and hair offerings (Mundan) here.",
+    "timings": "6:00 AM – 12:00 PM | 4:30 PM – 8:30 PM",
+    "festivals": [
+      "Brahmotsavam",
+      "Vaikunta Ekadasi",
+      "Purattasi Saturdays",
+      "Pavithrotsavam"
+    ],
+    "significance": "Known as the Chinna Tirupati of Coimbatore. Provides the divine spiritual experience of Tirumala Balaji darshan.",
+    "mapsUrl": "https://maps.google.com/?q=Venkateswara+Swamy+Temple+Peelamedu+Coimbatore",
+    "sourceUrl": "https://www.visittemples.com/hindu/srivenkateswaraswamytemplepeelameducoimbatoretamilnadu",
+    "lat": 11.0255,
+    "lng": 77.0125,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு வெங்கடேஸ்வர சுவாமி திருக்கோயில், பீளமேடு",
+        "city": "கோவை (பீளமேடு)",
+        "state": "தமிழ்நாடு",
+        "category": "விஷ்ணு",
+        "designation": "",
+        "history": "கோவையில் பீளமேடு பகுதியில் அமைந்துள்ள \"சின்ன திருப்பதி\" எனப் போற்றப்படும் பாலாஜி திருக்கோயில். திருப்பதி ஏழுமலையான் வடிவிலேயே பத்மாவதி தாயாருடன் அருள்பாலிக்கிறார். திருப்பதி செல்ல முடியாத பக்தர்கள் இங்கு வந்து காணிக்கை செலுத்தி வழிபடுகின்றனர்.",
+        "timings": "காலை 6:00 – 12:00 | மாலை 4:30 – 8:30",
+        "festivals": [
+          "வைகுண்ட ஏகாதசி",
+          "புரட்டாசி சனிக்கிழமைகள்",
+          "பிரம்மோற்சவம்"
+        ],
+        "significance": "கோவையின் சின்ன திருப்பதி. திருப்பதி பெருமாளின் அதே அருட்காட்சி தரும் தலம்."
+      },
+      "hi": {
+        "name": "श्री वेंकटेश्वर स्वामी मंदिर, पीलामेडु",
+        "city": "कोयंबटूर (पीलामेडु)",
+        "state": "तमिलनाडु",
+        "category": "विष्णु",
+        "designation": "",
+        "history": "कोयंबटूर के पीलामेडु में स्थित \"छोटा तिरुपति\" के रूप में विख्यात भगवान वेंकटेश्वर बालाजी का मंदिर। तिरुमला परंपरा अनुसार पूजा और अर्चना होती है।",
+        "timings": "प्रातः 6:00 – 12:00 | सायं 4:30 – 8:30",
+        "festivals": [
+          "वैकुंठ एकादशी",
+          "पुरट्टासी शनिवार"
+        ],
+        "significance": "कोयंबटूर का मिनी तिरुपति बालाजी मंदिर।"
+      }
+    }
+  },
+  {
+    "id": "lakshmi-narasimha-swamy-ukkadam",
+    "name": "Sri Lakshmi Narasimha Swamy Temple, Ukkadam",
+    "city": "Coimbatore (Ukkadam)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Ancient tradition",
+    "category": "Vishnu",
+    "designation": "",
+    "history": "Sri Lakshmi Narasimha Swamy Temple is situated near Ukkadam in Coimbatore. The presiding deity Lord Narasimha is in His benevolent Shanta Lakshmi Narasimha posture holding Mother Lakshmi on His lap. Devotees visit on Swathi nakshatra days and Pradosham to pray for debt relief, freedom from legal litigations, and eradication of enemy obstacles.",
+    "timings": "6:30 AM – 11:30 AM | 5:00 PM – 8:30 PM",
+    "festivals": [
+      "Narasimha Jayanthi",
+      "Vaikunta Ekadasi",
+      "Swathi Nakshatram monthly pooja"
+    ],
+    "significance": "Revered Lakshmi Narasimha shrine in Coimbatore. Eradicates debts, fears, legal disputes, and provides protective armor.",
+    "mapsUrl": "https://maps.google.com/?q=Lakshmi+Narasimha+Swamy+Temple+Ukkadam+Coimbatore",
+    "sourceUrl": "https://www.visittemples.com/hindu/srilakshminarasimhaswamytempleukkadamcoimbatoretamilnadu",
+    "lat": 10.9912,
+    "lng": 76.9615,
+    "translations": {
+      "ta": {
+        "name": "அருள்மிகு லட்சுமி நரசிம்ம சுவாமி திருக்கோயில், உக்கடம்",
+        "city": "கோவை (உக்கடம்)",
+        "state": "தமிழ்நாடு",
+        "category": "விஷ்ணு",
+        "designation": "",
+        "history": "கோவையில் உக்கடம் பகுதியில் அமைந்துள்ள லட்சுமி நரசிம்ம சுவாமி திருக்கோயில். மூலவர் சாந்த லட்சுமி நரசிம்மராக தாயாரை மடியில் தாங்கி அருள்பாலிக்கிறார். கடன் சுமை, எதிரிகள் பயம், வழக்குகள் தீர சுவாதி நட்சத்திர நாளில் பானகம் படைத்து வழிபடுவது விசேஷம்.",
+        "timings": "காலை 6:30 – 11:30 | மாலை 5:00 – 8:30",
+        "festivals": [
+          "நரசிம்ம ஜெயந்தி",
+          "சுவாதி நட்சத்திர வழிபாடு",
+          "வைகுண்ட ஏகாதசி"
+        ],
+        "significance": "கடன் தொல்லை மற்றும் பயம் நீக்கும் சாந்த லட்சுமி நரசிம்மர் தலம்."
+      },
+      "hi": {
+        "name": "श्री लक्ष्मी नरसिंह स्वामी मंदिर, उक्कडम",
+        "city": "कोयंबटूर (उक्कडम)",
+        "state": "तमिलनाडु",
+        "category": "विष्णु",
+        "designation": "",
+        "history": "कोयंबटूर के उक्कडम में स्थित भगवान लक्ष्मी नरसिंह का शांत रूपी मंदिर। स्वाति नक्षत्र पर यहाँ ऋण मुक्ति और संकट निवारण हेतु विशेष पूजा की जाती है।",
+        "timings": "प्रातः 6:30 – 11:30 | सायं 5:00 – 8:30",
+        "festivals": [
+          "नरसिंह जयंती",
+          "स्वाति नक्षत्र पूजा"
+        ],
+        "significance": "ऋण मुक्ति एवं शत्रु भय निवारक पावन नरसिंह तीर्थ।"
+      }
+    }
+  },
+  {
+    "id": "chinnamalai-sundararaja-senjerimalai",
+    "name": "Chinnamalai Sri Sundararaja Perumal Temple, Senjerimalai",
+    "city": "Senjerimalai (Coimbatore/Sulur)",
+    "state": "Tamil Nadu",
+    "image": "",
+    "period": "Ancient hill temple",
+    "category": "Vishnu",
+    "designation": "",
+    "history": "Chinnamalai Sri Sundararaja Perumal Temple is a picturesque hill temple located at Senjerimalai near Sulur in Coimbatore district. Presiding deity Sundararaja Perumal stands atop the scenic hillock surrounded by verdant nature. Worshippers climb the hill to pray for child boon, rainfall, and peace of mind.",
+    "timings": "7:00 AM – 12:00 PM | 4:30 PM – 7:30 PM",
+    "festivals": [
+      "Purattasi Saturdays",
+      "Vaikunta Ekadasi",
+      "Panguni Uthiram"
+    ],
+    "significance": "Scenic hill shrine of Lord Vishnu in Coimbatore rural countryside, bestowing health and agricultural prosperity.",
+    "mapsUrl": "https://maps.google.com/?q=Sundararaja+Perumal+Temple+Senjerimalai+Coimbatore",
+    "sourceUrl": "https://www.visittemples.com/hindu/chinnamalaisrisundararajaperumaltemplesenjerimalaicoimbatoredistricttamilnadu",
+    "lat": 10.892,
+    "lng": 77.161,
+    "translations": {
+      "ta": {
+        "name": "சின்னமலை அருள்மிகு சுந்தரராஜ பெருமாள் திருக்கோயில், செஞ்சேரிமலை",
+        "city": "செஞ்சேரிமலை (கோவை)",
+        "state": "தமிழ்நாடு",
+        "category": "விஷ்ணு",
+        "designation": "",
+        "history": "கோவை மாவட்டம் சூலூர் அருகே செஞ்சேரிமலையில் அமைந்துள்ள இயற்கை எழில் சூழ்ந்த மலைக் கோயில். மூலவர் சுந்தரராஜ பெருமாள். மழை வளம் மற்றும் குடும்ப நலன் வேண்டி பக்தர்கள் இம்மலை ஏறி வழிபடுகின்றனர்.",
+        "timings": "காலை 7:00 – 12:00 | மாலை 4:30 – 7:30",
+        "festivals": [
+          "புரட்டாசி சனிக்கிழமைகள்",
+          "வைகுண்ட ஏகாதசி"
+        ],
+        "significance": "செஞ்சேரிமலை மீது அருள்பாலிக்கும் சுந்தரராஜ பெருமாள் கோயில்."
+      },
+      "hi": {
+        "name": "चिन्नमलई श्री सौंदरराज पेरुमाल मंदिर, सेन्जेरीमलई",
+        "city": "सेन्जेरीमलई (कोयंबटूर)",
+        "state": "तमिलनाडु",
+        "category": "विष्णु",
+        "designation": "",
+        "history": "कोयंबटूर के पास सेन्जेरीमलई पहाड़ी पर स्थित सुंदर विष्णु मंदिर। प्राकृतिक सुंदरता और शांति का पावन स्थल।",
+        "timings": "प्रातः 7:00 – 12:00 | सायं 4:30 – 7:30",
+        "festivals": [
+          "पुरट्टासी शनिवार",
+          "वैकुंठ एकादशी"
+        ],
+        "significance": "पहाड़ी पर स्थित सुंदर सौंदरराज पेरुमाल मंदिर।"
+      }
+    }
+  }
 ];
 
 export default tamilnaduTemples;

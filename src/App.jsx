@@ -19,6 +19,8 @@ import KumbakonamTemplesSection from './components/KumbakonamTemplesSection';
 import TiruvallurTemplesSection from './components/TiruvallurTemplesSection';
 import RasiNakshatraSection from './components/RasiNakshatraSection';
 import IndiaTemplesSection from './components/IndiaTemplesSection';
+import VisitTemplesSection from './components/VisitTemplesSection';
+import PariharaTemplesSection from './components/PariharaTemplesSection';
 import TempleGrid from './components/TempleGrid';
 import AboutSection from './components/AboutSection';
 import Footer from './components/Footer';
@@ -118,6 +120,12 @@ function MainLayout() {
 
         {/* Sacred Temples Across Bharat (All-India exploration by state) */}
         <IndiaTemplesSection onSelectTemple={setSelectedTemple} />
+
+        {/* Parihara Temples */}
+        <PariharaTemplesSection onSelectTemple={setSelectedTemple} />
+
+        {/* VisitTemples.com — 1052 Hindu Temples of India */}
+        <VisitTemplesSection onSelectTemple={setSelectedTemple} />
 
         {/* Temple Collections by deity, goddess, city, and state */}
         <TempleCollectionsSection onSelectTemple={setSelectedTemple} />

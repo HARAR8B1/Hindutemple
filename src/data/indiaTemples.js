@@ -1003,6 +1003,221 @@ const indiaTemples = [
     significance: 'Most visited religious site in the world. Highest annual donations of any religious institution. Self-manifested (Swayambhu) deity. Hair offering tradition. TTD charity covers education, healthcare, and food programs.',
     mapsUrl: 'https://maps.google.com/?q=Tirumala+Venkateswara+Temple+Tirupati',
   },
+,
+{
+    "id": "harsiddhi-mata-ujjain",
+    "name": "Shri Harsiddhi Mata Temple",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Harsiddhi_Temple_Ujjain.jpg/320px-Harsiddhi_Temple_Ujjain.jpg",
+    "period": "Ancient, Vikramaditya era (approx. 2000 years old)",
+    "category": "Shakti",
+    "designation": "51 Shakti Peethas",
+    "history": "Shri Harsiddhi Mata Temple, situated on the banks of the sacred Shipra River in Jaisinghpura, Ujjain, is one of the revered 51 Shakti Peethas. According to the Shiva Purana, the elbow of Goddess Sati fell here when Lord Vishnu cleaved Her mortal remains with the Sudarshana Chakra. The presiding deity Goddess Harsiddhi was the patron deity (Kuldevi) of the legendary King Vikramaditya, who ruled Ujjain. The temple is globally celebrated for its two monumental 50-foot tall stone deepstambhas (lamp towers) bearing 1,008 oil lamps, which create an enchanting sight of blazing golden light when lit during Navaratri.",
+    "timings": "5:00 AM – 11:00 PM",
+    "festivals": [
+      "Chaitra Navaratri",
+      "Sharad Navaratri",
+      "Diwali",
+      "Maha Shivaratri"
+    ],
+    "significance": "One of the 51 Shakti Peethas (elbow of Sati). Kuldevi of King Vikramaditya. Famous for two massive 50-foot lamp towers illuminated with over a thousand oil lamps.",
+    "mapsUrl": "https://maps.google.com/?q=Harsiddhi+Mata+Temple+Ujjain+Madhya+Pradesh",
+    "sourceUrl": "https://www.visittemples.com/hindu/shriharsiddhimatatempleujjainmadhyapradesh",
+    "lat": 23.1812,
+    "lng": 75.7665,
+    "translations": {
+      "ta": {
+        "name": "ஸ்ரீ ஹர்சித்தி மாதா திருக்கோயில், உஜ்ஜைன்",
+        "city": "உஜ்ஜைன்",
+        "state": "மத்தியப் பிரதேசம்",
+        "category": "சக்தி",
+        "designation": "51 சக்தி பீடங்கள்",
+        "history": "மத்தியப் பிரதேச மாநிலம் உஜ்ஜைனில் ஷிப்ரா நதிக்கரையில் அமைந்துள்ள புகழ்பெற்ற 51 சக்தி பீடங்களில் ஒன்று. சதி தேவியின் முழங்கை விழுந்த புண்ணிய தலம். உஜ்ஜைனை ஆண்ட விக்கிரமாதித்த மன்னனின் குலதெய்வம். இக்கோயிலின் முன்புறம் 1008 தீபங்கள் ஏற்றக்கூடிய இரு பிரம்மாண்ட 50 அடி தீப ஸ்தம்பங்கள் அமைந்துள்ளன. நவராத்திரி இரவுகளில் இவை ஏற்றப்படும்போது பேரொளியுடன் காட்சி தரும்.",
+        "timings": "காலை 5:00 – இரவு 11:00",
+        "festivals": [
+          "நவராத்திரி பெருவிழா",
+          "தீபாவளி",
+          "மஹா சிவராத்திரி"
+        ],
+        "significance": "51 சக்தி பீடங்களில் ஒன்று (முழங்கை விழுந்த இடம்). விக்கிரமாதித்த மன்னனின் குலதெய்வம். 1008 தீபங்கள் ஒளிரும் பிரம்மாண்ட தீப ஸ்தம்பங்கள்."
+      },
+      "hi": {
+        "name": "श्री हरसिद्धि माता मंदिर, उज्जैन",
+        "city": "उज्जैन",
+        "state": "मध्य प्रदेश",
+        "category": "शक्ति",
+        "designation": "51 शक्तिपीठ",
+        "history": "उज्जैन में क्षिप्रा नदी के तट पर स्थित 51 पवित्र शक्तिपीठों में से एक। पौराणिक मान्यता के अनुसार यहाँ माता सती की कोहनी गिरी थी। यह न्यायप्रिय सम्राट विक्रमादित्य की कुलदेवी हैं। मंदिर प्रांगण में 1008 दीपों वाले दो विशाल 50 फीट ऊंचे दीप स्तंभ स्थित हैं, जो नवरात्रि की संध्या पर प्रज्वलित होकर अनुपम आलौकिक दृश्य प्रस्तुत करते हैं।",
+        "timings": "प्रातः 5:00 – रात्रि 11:00",
+        "festivals": [
+          "चैत्र नवरात्रि",
+          "शारदीय नवरात्रि",
+          "दीपावली"
+        ],
+        "significance": "51 शक्तिपीठों में शामिल (सती की कोहनी पीठ)। सम्राट विक्रमादित्य की आराध्य कुलदेवी। 1008 दीपों से सुसज्जित प्राचीन दीप स्तंभ।"
+      }
+    }
+  },
+  {
+    "id": "kaal-bhairav-ujjain",
+    "name": "Shri Kaal Bhairav Temple",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Kal_Bhairav_Temple_Ujjain.jpg/320px-Kal_Bhairav_Temple_Ujjain.jpg",
+    "period": "Ancient, Maratha/Scindia reconstructed",
+    "category": "Shiva",
+    "designation": "",
+    "history": "Shri Kaal Bhairav Temple is situated on Jail Road in Bhairavgarh, Ujjain, on the banks of the Shipra River. Lord Kaal Bhairav is revered as the supreme Kotwal (Guardian Protector) of the holy city of Avantika (Ujjain). The temple is world-renowned for an astonishing divine mystery: devotees offer liquor (Madira) to Lord Bhairav, and when the priest places the saucer to the lips of the deity, the liquid mysteriously disappears in seconds with no reservoir or drainage beneath! Worshipping Kaal Bhairav removes malefic planetary influences (Rahu-Ketu), black magic, and fear of death.",
+    "timings": "5:00 AM – 10:00 PM",
+    "festivals": [
+      "Kaal Bhairav Jayanti",
+      "Maha Shivaratri",
+      "Bhairav Utsav"
+    ],
+    "significance": "Supreme guardian deity (Kotwal) of Ujjain. World-famous for the miraculous phenomenon where the deity swallows liquid offerings. Destroys fears and negative energies.",
+    "mapsUrl": "https://maps.google.com/?q=Kal+Bhairav+Temple+Ujjain",
+    "sourceUrl": "https://www.visittemples.com/hindu/shrikaalbhairavtempleujjainmadhyapradesh",
+    "lat": 23.212,
+    "lng": 75.782,
+    "translations": {
+      "ta": {
+        "name": "ஸ்ரீ கால பைரவர் திருக்கோயில், உஜ்ஜைன்",
+        "city": "உஜ்ஜைன்",
+        "state": "மத்தியப் பிரதேசம்",
+        "category": "சிவன்",
+        "designation": "",
+        "history": "உஜ்ஜைன் நகரின் காவல் தெய்வமாக போற்றப்படும் கால பைரவர் திருக்கோயில். இத்தலத்தின் உலக அதிசயமான அம்சம்: இறைவனின் திருவாயில் சமர்ப்பிக்கப்படும் திரவ நைவேத்தியத்தை விக்கிரகம் கண் எதிரிலேயே உறிஞ்சி உட்கொள்ளும் அற்புத நிகழ்வு. ராகு-கேது தோஷம், செய்வினை பயம் மற்றும் மரண பயம் நீங்க பக்தர்கள் இங்கு வழிபடுகின்றனர்.",
+        "timings": "காலை 5:00 – இரவு 10:00",
+        "festivals": [
+          "பைரவர் ஜெயந்தி",
+          "மஹா சிவராத்திரி"
+        ],
+        "significance": "உஜ்ஜைன் நகரின் தலைமை காவல் தெய்வம் (கொத்வால்). விக்கிரகம் நைவேத்தியத்தை ஏற்கும் அரிய அற்புதத் தலம்."
+      },
+      "hi": {
+        "name": "श्री काल भैरव मंदिर, उज्जैन",
+        "city": "उज्जैन",
+        "state": "मध्य प्रदेश",
+        "category": "शिव",
+        "designation": "",
+        "history": "उज्जैन के भैरवगढ़ में स्थित भगवान काल भैरव का मंदिर जो अवंतिका नगरी के कोतवाल (रक्षक) कहलाते हैं। यह मंदिर विश्वभर में अपने अनूठे चमत्कार के लिए प्रसिद्ध है, जहाँ भगवान के मुख पर मदिरा का पात्र लगाने पर वह पलक झपकते ही अंतर्धान हो जाती है। काल भैरव की आराधना से भय, अकाल मृत्यु, तंत्र बाधा और राहु-केतु के दोष शांत होते हैं।",
+        "timings": "प्रातः 5:00 – रात्रि 10:00",
+        "festivals": [
+          "काल भैरव जयंती",
+          "महाशिवरात्रि"
+        ],
+        "significance": "उज्जैन के मुख्य संरक्षक कोतवाल। असाधारण चमत्कारिक तीर्थ जो अकाल मृत्यु और भय का नाश करता है।"
+      }
+    }
+  },
+  {
+    "id": "mangalnath-ujjain",
+    "name": "Shri Mangalnath Temple",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mangalnath_Temple_Ujjain.jpg/320px-Mangalnath_Temple_Ujjain.jpg",
+    "period": "Ancient, Matsya Purana era",
+    "category": "Shiva",
+    "designation": "Navagraha Mars Birthplace",
+    "history": "Shri Mangalnath Temple, built atop a hillock overlooking the Shipra River in Ujjain, is celebrated across India as the sacred birthplace of Planet Mars (Mangal Graha / Angarakan). According to the Matsya Purana, when Lord Shiva battled the demon Andhakasura, a drop of divine perspiration fell from His forehead onto the earth at this exact spot, giving birth to Mars (Bhauma / Mangal). Ancient Indian astronomers considered this point on earth as the prime meridian intersecting the Tropic of Cancer. It is the foremost shrine in India for performing Bhat Pooja (cooked rice offering) to alleviate severe Mangal Dosha (Manglik Dosha) and marital obstacles.",
+    "timings": "6:00 AM – 10:00 PM",
+    "festivals": [
+      "Angaraki Chaturthi",
+      "Maha Shivaratri",
+      "Navaratri",
+      "Tuesdays special poojas"
+    ],
+    "significance": "Astrological birthplace of Planet Mars (Mangal Graha). Premier all-India pilgrimage center for Manglik Dosha Bhat Pooja and overcoming obstacles in marriage and blood-related ailments.",
+    "mapsUrl": "https://maps.google.com/?q=Mangalnath+Temple+Ujjain",
+    "sourceUrl": "https://www.visittemples.com/hindu/shrimangalnathtempleujjainmadhyapradesh",
+    "lat": 23.2185,
+    "lng": 75.7875,
+    "translations": {
+      "ta": {
+        "name": "ஸ்ரீ மங்களநாதர் திருக்கோயில், உஜ்ஜைன்",
+        "city": "உஜ்ஜைன்",
+        "state": "மத்தியப் பிரதேசம்",
+        "category": "சிவன்",
+        "designation": "செவ்வாய் பகவான் அவதார தலம்",
+        "history": "மத்தியப் பிரதேச மாநிலம் உஜ்ஜைனில் அமைந்துள்ள மங்களநாதர் திருக்கோயில், செவ்வாய் பகவான் அவதரித்த உலகப் புகழ்பெற்ற திருத்தலமாகும். சிவபெருமானின் நெற்றி வியர்வையிலிருந்து செவ்வாய் பகவான் பூமாதேவியின் புதல்வனாக அவதரித்த இடம் இதுவென மத்ஸ்ய புராணம் கூறுகிறது. செவ்வாய் தோஷம், மாங்கல்ய தோஷம் உள்ளவர்கள் இங்கு வந்து அன்ன அபிஷேகம் (பாத் பூஜை) செய்து வழிபட்டால் திருமணத் தடைகள் நீங்கி நல்வாழ்வு பெறுவர்.",
+        "timings": "காலை 6:00 – இரவு 10:00",
+        "festivals": [
+          "அங்காரக சதுர்த்தி",
+          "மஹா சிவராத்திரி",
+          "செவ்வாய்க்கிழமைகள் சிறப்பு வழிபாடு"
+        ],
+        "significance": "செவ்வாய் பகவானின் பிறப்பிட தலம். செவ்வாய் தோஷம், மாங்கல்ய தடை நீங்க பாத் பூஜை செய்யும் முதன்மை தலம்."
+      },
+      "hi": {
+        "name": "श्री मंगलनाथ मंदिर, उज्जैन",
+        "city": "उज्जैन",
+        "state": "मध्य प्रदेश",
+        "category": "शिव",
+        "designation": "मंगल ग्रह जन्मस्थान",
+        "history": "उज्जैन में क्षिप्रा तट पर स्थित मंगलनाथ मंदिर को मत्स्य पुराण के अनुसार मंगल ग्रह की जन्मभूमि माना जाता है। अंधकासुर वध के समय भगवान शिव के मस्तक से गिरे स्वेद बिंदु से पृथ्वी पर मंगल देव का प्राकट्य हुआ। प्राचीन भारतीय खगोल विज्ञान के अनुसार यह स्थान कर्क रेखा का केंद्र बिंदु है। यहाँ की जाने वाली \"भात पूजा\" (चावल से अभिषेक) मांगलिक दोष, विवाह बाधा एवं रक्त विकारों के निवारण हेतु भारत में सर्वश्रेष्ठ मानी जाती है।",
+        "timings": "प्रातः 6:00 – रात्रि 10:00",
+        "festivals": [
+          "अंगारकी चतुर्थी",
+          "महाशिवरात्रि",
+          "मंगलवार विशेष पूजा"
+        ],
+        "significance": "मंगल ग्रह की पौराणिक जन्मस्थली। मांगलिक दोष निवारण एवं भात पूजा का सर्वोच्च राष्ट्रीय तीर्थ।"
+      }
+    }
+  },
+  {
+    "id": "sandipani-ashram-ujjain",
+    "name": "Shri Sandipani Ashram Temple",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "image": "",
+    "period": "Ancient, Dvapara Yuga heritage",
+    "category": "Vishnu",
+    "designation": "",
+    "history": "Shri Sandipani Ashram Temple, located on Mangalnath Marg in Ujjain, is the venerated hermitage where Lord Sri Krishna, His brother Balarama, and friend Sudama resided as disciples to study the 64 arts (Chausath Kalas), 14 sciences, and the four Vedas under Maharishi Sandipani. The ashram houses the ancient \"Ankapata\" (where numbers were inscribed by Krishna), the holy Gomti Kund water tank, and a rare standing Nandi statue facing Lord Shiva. It is revered as the ultimate sanctuary for students, scholars, and spiritual seekers seeking mastery in education.",
+    "timings": "7:00 AM – 7:00 PM",
+    "festivals": [
+      "Krishna Janmashtami",
+      "Guru Poornima",
+      "Gopashtami"
+    ],
+    "significance": "The ancient Gurukula of Lord Sri Krishna and Balarama. Enshrines the sacred Ankapata and Gomti Kund. Revered for education, wisdom, and student success.",
+    "mapsUrl": "https://maps.google.com/?q=Sandipani+Ashram+Ujjain",
+    "sourceUrl": "https://www.visittemples.com/hindu/shrisandipaniashramtempleujjainmadhyapradesh",
+    "lat": 23.2085,
+    "lng": 75.776,
+    "translations": {
+      "ta": {
+        "name": "ஸ்ரீ சாந்தீபனி ஆசிரமம் திருக்கோயில், உஜ்ஜைன்",
+        "city": "உஜ்ஜைன்",
+        "state": "மத்தியப் பிரதேசம்",
+        "category": "விஷ்ணு",
+        "designation": "",
+        "history": "துவாபர யுகத்தில் ஸ்ரீ கிருஷ்ணர், பலராமர் மற்றும் சுதாமா ஆகியோர் சாந்தீபனி முனிவரிடம் சீடர்களாக தங்கி 64 கலைகள், வேதங்கள் மற்றும் சாஸ்திரங்களைக் கற்றுத் தேர்ந்த புண்ணிய குருகுலம். இங்குள்ள கோமதி குண்டம் மற்றும் கிருஷ்ணர் எண்களை எழுதிய அங்கபாத தளம் மிகவும் புனிதமானது. மாணவர்கள் கல்வி ஞானம் பெற வழிபடும் உன்னத தலம்.",
+        "timings": "காலை 7:00 – மாலை 7:00",
+        "festivals": [
+          "கிருஷ்ண ஜெயந்தி",
+          "குரு பூர்ணிமா"
+        ],
+        "significance": "ஸ்ரீ கிருஷ்ண பரமாத்மா கல்வி பயின்ற குருகுல ஆசிரமம். கல்வி மற்றும் ஞானப் பேறு அருளும் ஆலயம்."
+      },
+      "hi": {
+        "name": "श्री सांदीपनि आश्रम मंदिर, उज्जैन",
+        "city": "उज्जैन",
+        "state": "मध्य प्रदेश",
+        "category": "विष्णु",
+        "designation": "",
+        "history": "द्वापर युग का वह पावन गुरुकुल जहाँ भगवान श्री कृष्ण, बलराम और सुदामा ने महर्षि सांदीपनि के चरणों में बैठकर 64 कलाओं, 14 विद्याओं और चारों वेदों का अध्ययन किया था। यहाँ पवित्र गोमती कुंड और वह शिला स्थित है जहाँ श्री कृष्ण ने अंक लिखना सीखा था (अंकपात)। विद्यार्थियों के लिए विद्या और ज्ञान प्राप्ति का यह अद्वितीय तीर्थ है।",
+        "timings": "प्रातः 7:00 – सायं 7:00",
+        "festivals": [
+          "श्री कृष्ण जन्माष्टमी",
+          "गुरु पूर्णिमा"
+        ],
+        "significance": "भगवान श्री कृष्ण और बलराम की शिक्षा स्थली। विद्या, बुद्धि और ज्ञान वृद्धि का पावन आश्रम।"
+      }
+    }
+  }
 ];
 
 export default indiaTemples;

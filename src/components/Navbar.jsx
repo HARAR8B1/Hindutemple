@@ -39,99 +39,133 @@ export default function Navbar({ onAdminClick, onNavigate }) {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 glass-panel border-b border-border shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-18">
-          {/* Logo */}
-          <button
-            onClick={() => handleNav('hero')}
-            className="flex items-center gap-2 group cursor-pointer text-left"
-            aria-label="Go to home"
+    <>
+      {/* Top Creator Credit Bar — visible on md+ screens */}
+      <div
+        className="fixed top-0 left-0 right-0 z-[60] hidden md:flex items-center justify-end px-4 sm:px-6 lg:px-8 py-1 border-b border-gold/30"
+        style={{ background: 'linear-gradient(90deg, #5c0a14, #8b1a1a, #5c0a14)' }}
+      >
+        <p className="text-[11px] tracking-wide" style={{ color: '#d4af37' }}>
+          Website created &amp; maintained by{' '}
+          <span className="font-semibold" style={{ color: '#fff8e7' }}>Hariharan Nagarajan</span>
+          {', '}Chennai &nbsp;|&nbsp; Mob:{' '}
+          <a
+            href="tel:+919500046807"
+            className="font-bold hover:underline transition-colors"
+            style={{ color: '#ffd700' }}
           >
-            <div>
-              <span className="text-xl md:text-2xl font-display font-bold text-maroon tracking-tight group-hover:text-maroon-light transition-colors block">
-                {t('brand.title')}
-              </span>
-              <span className="text-[10px] md:text-xs text-stone tracking-wide font-medium block">
-                {t('brand.subtitle')}
-              </span>
-            </div>
-          </button>
-
-          {/* Desktop Nav & Language Switcher */}
-          <div className="hidden lg:flex items-center gap-2">
-            {navLinks.map(({ label, icon: Icon, section }) => (
-              <button
-                key={section}
-                onClick={() => handleNav(section)}
-                className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium text-charcoal-light hover:text-maroon hover:bg-cream transition-all duration-200 cursor-pointer"
-                aria-label={`Navigate to ${label}`}
-              >
-                <Icon size={16} strokeWidth={1.5} />
-                {label}
-              </button>
-            ))}
-
-            {/* Language Selector Dropdown */}
-            <LanguageSelector variant="dropdown" className="ml-1" />
-
-            {/* Admin Portal Button */}
-            <button
-              onClick={onAdminClick}
-              className="flex items-center gap-1.5 ml-1 px-3.5 py-2 rounded-lg text-sm font-medium bg-gradient-maroon text-warm-white hover:opacity-90 transition-opacity duration-200 cursor-pointer shadow-sm"
-              aria-label="Open admin login"
-            >
-              <ShieldCheck size={16} strokeWidth={1.5} />
-              {t('nav.adminPortal')}
-            </button>
-          </div>
-
-          {/* Mobile Right Controls: Language Selector + Hamburger */}
-          <div className="flex items-center gap-2 lg:hidden">
-            <LanguageSelector variant="dropdown" />
-            <button
-              className="p-2 rounded-lg text-charcoal hover:bg-cream transition-colors cursor-pointer"
-              onClick={() => setIsOpen(!isOpen)}
-              aria-label={isOpen ? 'Close menu' : 'Open menu'}
-            >
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
-          </div>
-        </div>
+            +91 9500046807
+          </a>
+        </p>
       </div>
 
-      {/* Mobile Menu */}
-      {isOpen && (
-        <div className="lg:hidden border-t border-border bg-warm-white animate-fade-in shadow-xl">
-          <div className="px-4 py-3 space-y-1">
-            {navLinks.map(({ label, icon: Icon, section }) => (
-              <button
-                key={section}
-                onClick={() => handleNav(section)}
-                className="flex items-center gap-3 w-full px-4 py-3 rounded-lg text-base font-medium text-charcoal-light hover:text-maroon hover:bg-cream transition-all duration-200 cursor-pointer"
-                aria-label={`Navigate to ${label}`}
-              >
-                <Icon size={20} strokeWidth={1.5} />
-                {label}
-              </button>
-            ))}
+      {/* Main Navbar — offset below the credit bar on md+ */}
+      <nav className="fixed top-0 md:top-7 left-0 right-0 z-50 glass-panel border-b border-border shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16 md:h-18">
+            {/* Logo */}
+            <button
+              onClick={() => handleNav('hero')}
+              className="flex items-center gap-2 group cursor-pointer text-left"
+              aria-label="Go to home"
+            >
+              <div>
+                <span className="text-xl md:text-2xl font-display font-bold text-maroon tracking-tight group-hover:text-maroon-light transition-colors block">
+                  {t('brand.title')}
+                </span>
+                <span className="text-[10px] md:text-xs text-stone tracking-wide font-medium block">
+                  {t('brand.subtitle')}
+                </span>
+              </div>
+            </button>
 
-            <div className="pt-2 border-t border-border/50">
+            {/* Desktop Nav & Language Switcher */}
+            <div className="hidden lg:flex items-center gap-2">
+              {navLinks.map(({ label, icon: Icon, section }) => (
+                <button
+                  key={section}
+                  onClick={() => handleNav(section)}
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium text-charcoal-light hover:text-maroon hover:bg-cream transition-all duration-200 cursor-pointer"
+                  aria-label={`Navigate to ${label}`}
+                >
+                  <Icon size={16} strokeWidth={1.5} />
+                  {label}
+                </button>
+              ))}
+
+              {/* Language Selector Dropdown */}
+              <LanguageSelector variant="dropdown" className="ml-1" />
+
+              {/* Admin Portal Button */}
               <button
-                onClick={() => {
-                  onAdminClick();
-                  setIsOpen(false);
-                }}
-                className="flex items-center gap-3 w-full px-4 py-3 rounded-lg text-base font-medium bg-gradient-maroon text-warm-white hover:opacity-90 transition-opacity duration-200 cursor-pointer"
+                onClick={onAdminClick}
+                className="flex items-center gap-1.5 ml-1 px-3.5 py-2 rounded-lg text-sm font-medium bg-gradient-maroon text-warm-white hover:opacity-90 transition-opacity duration-200 cursor-pointer shadow-sm"
                 aria-label="Open admin login"
               >
-                <ShieldCheck size={20} strokeWidth={1.5} />
+                <ShieldCheck size={16} strokeWidth={1.5} />
                 {t('nav.adminPortal')}
               </button>
             </div>
+
+            {/* Mobile Right Controls: Language Selector + Hamburger */}
+            <div className="flex items-center gap-2 lg:hidden">
+              <LanguageSelector variant="dropdown" />
+              <button
+                className="p-2 rounded-lg text-charcoal hover:bg-cream transition-colors cursor-pointer"
+                onClick={() => setIsOpen(!isOpen)}
+                aria-label={isOpen ? 'Close menu' : 'Open menu'}
+              >
+                {isOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
+            </div>
           </div>
         </div>
-      )}
-    </nav>
+
+        {/* Mobile Menu */}
+        {isOpen && (
+          <div className="lg:hidden border-t border-border bg-warm-white animate-fade-in shadow-xl">
+            <div className="px-4 py-3 space-y-1">
+              {navLinks.map(({ label, icon: Icon, section }) => (
+                <button
+                  key={section}
+                  onClick={() => handleNav(section)}
+                  className="flex items-center gap-3 w-full px-4 py-3 rounded-lg text-base font-medium text-charcoal-light hover:text-maroon hover:bg-cream transition-all duration-200 cursor-pointer"
+                  aria-label={`Navigate to ${label}`}
+                >
+                  <Icon size={20} strokeWidth={1.5} />
+                  {label}
+                </button>
+              ))}
+
+              <div className="pt-2 border-t border-border/50">
+                <button
+                  onClick={() => {
+                    onAdminClick();
+                    setIsOpen(false);
+                  }}
+                  className="flex items-center gap-3 w-full px-4 py-3 rounded-lg text-base font-medium bg-gradient-maroon text-warm-white hover:opacity-90 transition-opacity duration-200 cursor-pointer"
+                  aria-label="Open admin login"
+                >
+                  <ShieldCheck size={20} strokeWidth={1.5} />
+                  {t('nav.adminPortal')}
+                </button>
+              </div>
+
+              {/* Mobile credit line */}
+              <div className="pt-2 border-t border-border/30 text-center">
+                <p className="text-[10px] text-stone/70 py-1">
+                  Created by{' '}
+                  <span className="font-semibold text-maroon">Hariharan Nagarajan</span>
+                  , Chennai &nbsp;|&nbsp;
+                  <a href="tel:+919500046807" className="text-maroon font-bold">
+                    +91 9500046807
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+      </nav>
+    </>
   );
 }

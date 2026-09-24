@@ -10,7 +10,7 @@ export default function Hero({ onExplore }) {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 md:pt-28"
     >
       {/* Background Image */}
       <div className="absolute inset-0 bg-charcoal overflow-hidden">
