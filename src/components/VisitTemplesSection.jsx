@@ -43,11 +43,6 @@ export default function VisitTemplesSection({ onSelectTemple }) {
   const totalPages = Math.ceil(filteredTemples.length / PAGE_SIZE);
   const pagedTemples = filteredTemples.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
-  const handleFilter = (setter) => (val) => {
-    setter(val);
-    setPage(1);
-  };
-
   return (
     <section
       id="visit-temples-section"
@@ -74,7 +69,7 @@ export default function VisitTemplesSection({ onSelectTemple }) {
               ? 'அனைத்திந்திய இந்து ஆலயங்கள்'
               : language === 'hi'
               ? 'भारत के हिन्दू मंदिर — सम्पूर्ण सूची'
-              : 'India's Hindu Temple Heritage'}
+              : "India's Hindu Temple Heritage"}
           </h2>
 
           <p className="text-stone mt-3 max-w-2xl mx-auto leading-relaxed text-sm sm:text-base">
@@ -122,7 +117,7 @@ export default function VisitTemplesSection({ onSelectTemple }) {
             return (
               <button
                 key={st}
-                onClick={handleFilter(setSelectedState)(st)}
+                onClick={() => { setSelectedState(st); setPage(1); }}
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer ${
                   selectedState === st
                     ? 'bg-gradient-maroon text-warm-white shadow-sm'
@@ -140,7 +135,7 @@ export default function VisitTemplesSection({ onSelectTemple }) {
           {availableCategories.map((cat) => (
             <button
               key={cat}
-              onClick={handleFilter(setSelectedCategory)(cat)}
+              onClick={() => { setSelectedCategory(cat); setPage(1); }}
               className={`px-3 py-1 rounded-full text-xs font-medium transition-all duration-200 cursor-pointer ${
                 selectedCategory === cat
                   ? 'bg-gold text-charcoal-dark shadow-sm'

@@ -955,8 +955,7 @@ const chennaiTemples = [
       },
     },
   },
-,
-{
+  {
     "id": "asalathamman-nungambakkam",
     "name": "Sri Asalathamman Temple, Nungambakkam",
     "city": "Chennai (Nungambakkam)",

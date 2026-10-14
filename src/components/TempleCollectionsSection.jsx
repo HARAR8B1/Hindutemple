@@ -11,7 +11,9 @@ import unescoHeritageTemples from '../data/unescoHeritageTemples';
 import TempleCard from './TempleCard';
 
 const templeCatalog = [...new Map(
-  [...temples, ...divyaDesams, ...ganeshTemples, ...muruganTemples, ...navagrahaTemples, ...unescoHeritageTemples, ...chennaiTemples, ...indiaTemples].map((temple) => [temple.id, temple])
+  [...temples, ...divyaDesams, ...ganeshTemples, ...muruganTemples, ...navagrahaTemples, ...unescoHeritageTemples, ...chennaiTemples, ...indiaTemples]
+    .filter((temple) => temple && temple.id)
+    .map((temple) => [temple.id, temple])
 ).values()];
 
 const deityGroups = [

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MapPin, Navigation, Sparkles } from 'lucide-react';
+import { Navigation, Sparkles } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import NearbyTemplesModal from './NearbyTemplesModal';
 

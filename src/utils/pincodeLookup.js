@@ -383,9 +383,68 @@ export const KNOWN_PLACES_MAP = {
   'srikalahasti': { name: 'Srikalahasti', lat: 13.7498, lng: 79.6984, pin: '517644' },
 };
 
+// ─── Google Maps URL & Coordinates Parser ───────────────────────────────────
+export function parseGoogleMapsUrl(input) {
+  if (!input || typeof input !== 'string') return null;
+  const s = input.trim();
+
+  // 1. @lat,lng (most common Google Maps URL format)
+  const atMatch = s.match(/@(-?\d+\.?\d*),(-?\d+\.?\d*)/);
+  if (atMatch) {
+    const lat = parseFloat(atMatch[1]);
+    const lng = parseFloat(atMatch[2]);
+    if (!isNaN(lat) && !isNaN(lng) && lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180) {
+      return { lat, lng };
+    }
+  }
+
+  // 2. q=lat,lng or ll=lat,lng
+  const qMatch = s.match(/[?&](?:q|ll)=(-?\d+\.?\d*),(-?\d+\.?\d*)/);
+  if (qMatch) {
+    const lat = parseFloat(qMatch[1]);
+    const lng = parseFloat(qMatch[2]);
+    if (!isNaN(lat) && !isNaN(lng) && lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180) {
+      return { lat, lng };
+    }
+  }
+
+  // 3. !3dlat!4dlng (Google Maps place/embed URL)
+  const embedMatch = s.match(/!3d(-?\d+\.?\d*)!4d(-?\d+\.?\d*)/);
+  if (embedMatch) {
+    const lat = parseFloat(embedMatch[1]);
+    const lng = parseFloat(embedMatch[2]);
+    if (!isNaN(lat) && !isNaN(lng) && lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180) {
+      return { lat, lng };
+    }
+  }
+
+  // 4. dest=lat,lng (directions URL)
+  const destMatch = s.match(/[?&]dest=(-?\d+\.?\d*),(-?\d+\.?\d*)/);
+  if (destMatch) {
+    const lat = parseFloat(destMatch[1]);
+    const lng = parseFloat(destMatch[2]);
+    if (!isNaN(lat) && !isNaN(lng) && lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180) {
+      return { lat, lng };
+    }
+  }
+
+  // 5. Plain coordinates e.g. "12.9349, 80.2137" or "12.9349,80.2137"
+  const coordMatch = s.match(/^(-?\d{1,3}\.\d+)\s*,\s*(-?\d{1,3}\.\d+)$/);
+  if (coordMatch) {
+    const lat = parseFloat(coordMatch[1]);
+    const lng = parseFloat(coordMatch[2]);
+    if (!isNaN(lat) && !isNaN(lng) && lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180) {
+      return { lat, lng };
+    }
+  }
+
+  return null;
+}
+
 /**
  * Universal Location & Temple Resolver
  * Accepts:
+ *  - Google Maps URL or raw "lat, lng" coordinates
  *  - 6-digit Indian PIN Code (e.g. 600100, 625001)
  *  - Temple Name (e.g. Garbarakshambigai, Brahmapureeswarar, Rockfort, Meenakshi)
  *  - City / Town / Locality Name (e.g. Madurai, Trichy, Kumbakonam, Pallikaranai, Thanjavur)
@@ -396,7 +455,19 @@ export async function lookupLocationOrTemple(rawQuery, templesList = []) {
   if (!q) {
     return {
       found: false,
-      error: 'Please enter a temple name, city, place, or 6-digit PIN code.',
+      error: 'Please enter a temple name, city, place, Google Maps link, or 6-digit PIN code.',
+    };
+  }
+
+  // 0. Is it a Google Maps URL or raw coordinates?
+  const mapCoords = parseGoogleMapsUrl(q);
+  if (mapCoords) {
+    return {
+      found: true,
+      name: `Location (${mapCoords.lat.toFixed(4)}, ${mapCoords.lng.toFixed(4)})`,
+      lat: mapCoords.lat,
+      lng: mapCoords.lng,
+      source: 'maps_url',
     };
   }
 
@@ -420,6 +491,7 @@ export async function lookupLocationOrTemple(rawQuery, templesList = []) {
         nameEn.includes(normQ) ||
         nameTa.includes(normQ) ||
         nameHi.includes(normQ) ||
+        city.includes(normQ) ||
         id.includes(normQ)
       );
     });

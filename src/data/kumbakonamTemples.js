@@ -503,8 +503,7 @@ const kumbakonamTemples = [
       },
     },
   },
-,
-{
+  {
     "id": "abathsagayeswarar-alangudi",
     "name": "Sri Abathsagayeswarar Temple (Guru Sthalam), Alangudi",
     "city": "Alangudi (Kumbakonam/Valangaiman)",

@@ -1003,8 +1003,7 @@ const indiaTemples = [
     significance: 'Most visited religious site in the world. Highest annual donations of any religious institution. Self-manifested (Swayambhu) deity. Hair offering tradition. TTD charity covers education, healthcare, and food programs.',
     mapsUrl: 'https://maps.google.com/?q=Tirumala+Venkateswara+Temple+Tirupati',
   },
-,
-{
+  {
     "id": "harsiddhi-mata-ujjain",
     "name": "Shri Harsiddhi Mata Temple",
     "city": "Ujjain",

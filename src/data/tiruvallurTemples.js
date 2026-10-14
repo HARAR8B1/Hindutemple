@@ -709,8 +709,7 @@ export const tiruvallurTemples = [
       hi: { name: 'वीरराघव स्वामी मंदिर, तिरुवल्लुर', city: 'तिरुवल्लुर', state: 'तमिलनाडु', category: 'विष्णु', designation: '108 दिव्यदेशम' },
     },
   },
-,
-{
+  {
     "id": "alarmatheeswarar-alamathi",
     "name": "Sri Alarmatheeswarar Temple",
     "city": "Alamathi",

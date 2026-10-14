@@ -1809,8 +1809,7 @@ const tamilnaduTemples = [
       },
     },
   },
-,
-{
+  {
     "id": "pamban-swamigal-pirappanvalasai",
     "name": "Sri Pamban Swamigal Temple, Pirappanvalasai",
     "city": "Pirappanvalasai (Ramanathapuram)",
